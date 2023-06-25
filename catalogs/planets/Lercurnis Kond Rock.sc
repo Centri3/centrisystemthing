@@ -1,19 +1,8 @@
 Planet	"Rock/Lercurnis B III"
 {
 	ParentBody     "Kond"
-	Class          "Ferria"
-	Mass            0.0067029
+	Class          "Terra"
 	Radius          1300
-	InertiaMoment   0.38464
-	Obliquity       3
-	EqAscendNode    -140.15
-	TidalLocked     true
-
-	AlbedoBond      0.3
-	AlbedoGeom      0.36
-	Brightness      1
-	BrightnessReal  1
-	Color          (1.000 0.987 0.983)
 
 	Surface
 	{

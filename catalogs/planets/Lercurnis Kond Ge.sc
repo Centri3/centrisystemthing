@@ -1,21 +1,21 @@
 Planet	"Ge/Lercurnis B IV"
 {
 	ParentBody     "Kond"
-	Class          "Ferria"
-	Mass            0.0002867
+	Class          "Terra"
+	Mass            0.00037909
 	Radius          470
 	InertiaMoment   0.3985
+	RotationPeriod  199.86
 	Obliquity       3
 	EqAscendNode    52.214
-	TidalLocked     true
 
 	AbsMagn         1.8534
-	SlopeParam      3.4766
+	SlopeParam      6.3229
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
 	Brightness      1
 	BrightnessReal  1
-	Color          (1.000 0.877 0.754)
+	Color          (0.642 0.563 0.484)
 
 	Surface
 	{
@@ -93,6 +93,7 @@ Planet	"Ge/Lercurnis B IV"
 		stripeZones     1.7653
 		stripeTwist     0.39039
 		cycloneMagn     0.69488
+		cycloneFreq     0.52812
 		cycloneDensity  0.34447
 		cycloneOctaves  0
 		BumpHeight      20
@@ -138,7 +139,7 @@ Planet	"Ge/Lercurnis B IV"
 	{
 		Model          "Lercurnis Kond Ge"
 		Height          100
-		Density         0.029212
+		Density         0.032157
 		Pressure        0.0436
 		Greenhouse      10
 		Bright          1
@@ -177,10 +178,10 @@ Planet	"Ge/Lercurnis B IV"
 		Period          0.057
 		SemiMajorAxis   0.0638184318
 		Eccentricity    0.35
-		Inclination     3
-		AscendingNode   52.2137405
-		ArgOfPericenter -79.6946565
-		MeanAnomaly     -96.1832061
+		Inclination     -8
+		AscendingNode   -79.6946565
+		ArgOfPericenter 35.7251908
+		MeanAnomaly     -222.59542
 	}
 }
 

@@ -17,17 +17,23 @@ Star    "Kond/Lercurnis B"
 
     Surface
     {
-        /*
-        tropicLatitude  0.8
-        icecapLatitude  2
-        */
 		climatePole     0.45
 		climateTropic   0
 		mareFreq        10
 		mareDensity     0.01
 		hillsMagn       0
 		hillsFreq       50
+		TempMapMaxTemp  85000
     }
+
+	Corona
+	{
+		Radius      3.9975e+05
+		Period      0.032615
+		Brightness  0.6
+		RayDensity  3.1898
+		RayCurv     6.0553
+	}
 
     Orbit
     {
