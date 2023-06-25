@@ -13,7 +13,7 @@ Planet	"Verna/Lercurnis I"
 	AlbedoGeom      0.36
 	Brightness      1
 	BrightnessReal  1
-	Color          (0.600 0.594 0.588)
+	Color          (1.000 0.990 0.980)
 
 	Life
 	{
@@ -87,7 +87,7 @@ Planet	"Verna/Lercurnis I"
 		volcanoMagn     0.71477
 		volcanoFreq     0.87026
 		volcanoDensity  0.13167
-		volcanoOctaves  3
+		volcanoOctaves  0
 		volcanoActivity 0
 		volcanoFlows    0.58546
 		volcanoRadius   0.44022
@@ -250,7 +250,7 @@ Planet	"Verna/Lercurnis I"
 		Thickness       2244.6
 		RocksMaxSize    18.5
 		RocksSpacing    10000
-		DustDrawDist    1e+06
+		DustDrawDist    20000
 		ChartRadius     24100
 		RotationPeriod  3.6678
 		Brightness      7.2519

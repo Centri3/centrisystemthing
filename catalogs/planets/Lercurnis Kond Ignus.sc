@@ -5,7 +5,7 @@ Planet	"Ignus/Lercurnis B V"
 	Mass            8.7
 	Radius          11460
 	InertiaMoment   0.3307
-	Obliquity       0
+	Obliquity       0.1
 	EqAscendNode    -68.702
 	TidalLocked     true
 
@@ -19,7 +19,7 @@ Planet	"Ignus/Lercurnis B V"
 
 	Surface
 	{
-		Preset         "ferria_arid_mercury_black.cfg"
+		Preset         "lercurnis_kond_ignus.cfg"
 		SurfStyle       0.27753
 		Randomize      (-1.145, 1.267, 1.206)
 		colorDistMagn   0.083308
@@ -112,17 +112,54 @@ Planet	"Ignus/Lercurnis B V"
 
 	Clouds
 	{
-		Height          39.992
+		Height          11.922
 		Velocity        203.4
-		BumpHeight      10.067
+		BumpHeight      0.62215
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
 		ModulateBright  1
-		mainFreq        0.94329
-		mainOctaves     10
-		Coverage        1
+		Opacity         0.39695
+		mainFreq        1.4198
+		mainOctaves     0
+		Coverage        0.64122
+		stripeZones     1
+		stripeTwist     3.5
+	}
+
+	Clouds
+	{
+		Height          11.922
+		Velocity        203.4
+		BumpHeight      0.85369
+		Hapke           0
+		SpotBright      2
+		SpotWidth       0.03
+		DayAmbient      0.07
+		ModulateBright  1
+		Opacity         0.33588
+		mainFreq        1.4198
+		mainOctaves     0
+		Coverage        0.64122
+		stripeZones     1
+		stripeTwist     3.5
+	}
+
+	Clouds
+	{
+		Height          11.922
+		Velocity        203.4
+		BumpHeight      0.45341
+		Hapke           0
+		SpotBright      2
+		SpotWidth       0.03
+		DayAmbient      0.07
+		ModulateBright  1
+		Opacity         0.35115
+		mainFreq        1.4198
+		mainOctaves     0
+		Coverage        0.64122
 		stripeZones     1
 		stripeTwist     3.5
 	}
@@ -132,12 +169,12 @@ Planet	"Ignus/Lercurnis B V"
 	Atmosphere
 	{
 		Model          "Lercurnis Kond Ignus"
-		Height          137.22
+		Height          100
 		Density         311.48
 		Pressure        622.15
 		Greenhouse      311.48
 		Bright          7
-		Opacity         0.7
+		Opacity         1
 		SkyLight        3.3333
 		Hue             0
 		Saturation      1

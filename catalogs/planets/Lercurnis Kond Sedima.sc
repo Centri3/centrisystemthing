@@ -5,31 +5,32 @@ Planet	"Sedima/Lercurnis B VI"
 	Mass            0.24129
 	Radius          4204.3
 	InertiaMoment   0.32947
-	Obliquity       2.5244
-	EqAscendNode    167.82
-	TidalLocked     true
+	RotationPeriod  749.47
+	RotationEpoch   1451545
+	Obliquity       1
+	EqAscendNode    305.04
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
 	Brightness      1
 	BrightnessReal  1
-	Color          (0.775 0.772 0.769)
+	Color          (1.000 0.996 0.992)
 
 	Surface
 	{
-		Preset         "ferria_arid_yellow_blue_plants.cfg"
+		Preset         "lercurnis_kond_sedima.cfg"
 		SurfStyle       0.92054
-		Randomize      (-0.259, -0.151, 0.107)
+		Randomize      (0.901, 0.198, -0.687)
 		colorDistMagn   0.077479
 		colorDistFreq   398.22
-		detailScale     16384
+		detailScale     128
 		drivenDarkening 0
-		seaLevel        0.16859
+		seaLevel        0.25954
 		snowLevel       2
 		tropicLatitude  0
 		icecapLatitude  2
 		icecapHeight    0.61701
-		climatePole     0.5625
+		climatePole     1
 		climateTropic   0.5625
 		climateEquator  0.5625
 		climateSteppeMin -1
@@ -42,27 +43,27 @@ Planet	"Sedima/Lercurnis B VI"
 		heightTempGrad  0.375
 		beachWidth      0.001026
 		tropicWidth     0.5
-		mainFreq        1.3007
+		mainFreq        1.5
 		venusFreq       1.034
-		venusMagn       0
+		venusMagn       0.45802
 		mareFreq        1.9571
 		mareDensity     0.16473
 		terraceProb     0.20679
 		erosion         0
-		montesMagn      0.20133
-		montesFreq      187.14
-		montesSpiky     0.92466
-		montesFraction  0.051692
+		montesMagn      0.03
+		montesFreq      150
+		montesSpiky     1
+		montesFraction  1
 		dunesMagn       0.063365
 		dunesFreq       41.389
 		dunesFraction   0.11654
-		hillsMagn       0.11889
-		hillsFreq       593.07
-		hillsFraction   0
-		hills2Fraction  0
-		riversMagn      0
-		riversFreq      3.3321
-		riversSin       5.6898
+		hillsMagn       0.1
+		hillsFreq       5
+		hillsFraction   1
+		hills2Fraction  1
+		riversMagn      10
+		riversFreq      7.5573
+		riversSin       7.3282
 		riftsMagn       65.451
 		riftsFreq       3.1667
 		riftsSin        6.7787
@@ -72,24 +73,25 @@ Planet	"Sedima/Lercurnis B VI"
 		cracksMagn      0.077234
 		cracksFreq      0.49075
 		cracksOctaves   0
-		craterMagn      0.65817
-		craterFreq      12.557
-		craterDensity   0.25749
-		craterOctaves   7
-		volcanoMagn     0.67791
-		volcanoFreq     0.76917
-		volcanoDensity  0.22001
-		volcanoOctaves  3
+		craterMagn      1
+		craterFreq      5
+		craterDensity   1
+		craterOctaves   30
+		volcanoMagn     0
+		volcanoFreq     0
+		volcanoDensity  0
+		volcanoOctaves  0
 		volcanoActivity 0
-		volcanoFlows    0.28736
-		volcanoRadius   0.65425
-		volcanoTemp     247.41
+		volcanoFlows    0
+		volcanoRadius   0
+		volcanoTemp     0
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
 		stripeZones     1
 		stripeTwist     3.5
 		cycloneMagn     0.94637
+		cycloneFreq     0.78786
 		cycloneDensity  0.38158
 		cycloneOctaves  0
 		BumpHeight      20
@@ -110,17 +112,54 @@ Planet	"Sedima/Lercurnis B VI"
 
 	Clouds
 	{
-		Height          15.841
-		Velocity        136.23
-		BumpHeight      2.9205
+		Height          20.922
+		Velocity        203.4
+		BumpHeight      0.62215
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
 		ModulateBright  1
-		mainFreq        0.73082
-		mainOctaves     10
-		Coverage        0.16035
+		Opacity         0.1374
+		mainFreq        1.4198
+		mainOctaves     0
+		Coverage        0.66412
+		stripeZones     1
+		stripeTwist     3.5
+	}
+
+	Clouds
+	{
+		Height          20.922
+		Velocity        203.4
+		BumpHeight      0.85369
+		Hapke           0
+		SpotBright      2
+		SpotWidth       0.03
+		DayAmbient      0.07
+		ModulateBright  1
+		Opacity         0.15267
+		mainFreq        1.4198
+		mainOctaves     0
+		Coverage        0.66412
+		stripeZones     1
+		stripeTwist     3.5
+	}
+
+	Clouds
+	{
+		Height          20.922
+		Velocity        203.4
+		BumpHeight      0.45341
+		Hapke           0
+		SpotBright      2
+		SpotWidth       0.03
+		DayAmbient      0.07
+		ModulateBright  1
+		Opacity         0.061069
+		mainFreq        1.4198
+		mainOctaves     0
+		Coverage        0.66412
 		stripeZones     1
 		stripeTwist     3.5
 	}
@@ -129,8 +168,8 @@ Planet	"Sedima/Lercurnis B VI"
 
 	Atmosphere
 	{
-		Model          "Lercurnis Kond Ge"
-		Height          206.53
+		Model          "Lercurnis Kond Sedima"
+		Height          100
 		Density         0.083913
 		Pressure        0.1
 		Greenhouse      25
