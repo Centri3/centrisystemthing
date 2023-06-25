@@ -120,10 +120,10 @@ Planet	"Sedima/Lercurnis B VI"
 		SpotWidth       0.03
 		DayAmbient      0.07
 		ModulateBright  1
-		Opacity         0.1374
+		Opacity         0.41221
 		mainFreq        1.4198
 		mainOctaves     0
-		Coverage        0.66412
+		Coverage        0.39695
 		stripeZones     1
 		stripeTwist     3.5
 	}
@@ -138,10 +138,10 @@ Planet	"Sedima/Lercurnis B VI"
 		SpotWidth       0.03
 		DayAmbient      0.07
 		ModulateBright  1
-		Opacity         0.15267
+		Opacity         0.35115
 		mainFreq        1.4198
 		mainOctaves     0
-		Coverage        0.66412
+		Coverage        0.39695
 		stripeZones     1
 		stripeTwist     3.5
 	}
@@ -156,10 +156,10 @@ Planet	"Sedima/Lercurnis B VI"
 		SpotWidth       0.03
 		DayAmbient      0.07
 		ModulateBright  1
-		Opacity         0.061069
+		Opacity         0.24427
 		mainFreq        1.4198
 		mainOctaves     0
-		Coverage        0.66412
+		Coverage        0.39695
 		stripeZones     1
 		stripeTwist     3.5
 	}

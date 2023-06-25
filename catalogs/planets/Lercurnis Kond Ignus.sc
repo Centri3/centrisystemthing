@@ -205,7 +205,16 @@ Planet	"Ignus/Lercurnis B V"
 
 	NoAccretionDisk true
 
-	NoCometTail     true
+	CometTail
+	{
+		MaxLength   0.011326
+		GasToDust   0
+		Particles   10000
+		GasBright   0.001
+		DustBright  0.02
+		GasColor   (0.000 0.000 0.000)
+		DustColor  (0.016 0.023 0.031)
+	}
 
 	Orbit
 	{

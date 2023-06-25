@@ -26,6 +26,12 @@ Star    "Kond/Lercurnis B"
 		TempMapMaxTemp  85000
     }
 
+    Atmosphere
+    {
+        Height      1000
+        Bright      20
+    }
+
 	Corona
 	{
 		Radius      3.9975e+05
