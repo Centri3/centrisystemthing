@@ -5,8 +5,8 @@ Planet	"Rock/Lercurnis B III"
 	Mass            0.0067029
 	Radius          1300
 	InertiaMoment   0.38464
-	Obliquity       0
-	EqAscendNode    0
+	Obliquity       3
+	EqAscendNode    -140.15
 	TidalLocked     true
 
 	AlbedoBond      0.3
@@ -125,13 +125,13 @@ Planet	"Rock/Lercurnis B III"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      4.50668648
-		SemiMajorAxisKm 3441960.92
+		Period          0.012338899
+		SemiMajorAxis   0.0230080876
 		Eccentricity    0.0763358779
 		Inclination     3
 		AscendingNode   -140.152672
 		ArgOfPericenter -167.633588
-		MeanAnomaly     52.2137405
+		MeanAnomaly     25
 	}
 }
 

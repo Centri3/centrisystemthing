@@ -1,4 +1,4 @@
-Moon	"Boulder/Lercurnis B III I"
+DwarfMoon	"Boulder/Lercurnis B III I"
 {
 	ParentBody     "Rock"
 	Class          "Asteroid"
@@ -10,11 +10,10 @@ Moon	"Boulder/Lercurnis B III I"
 	Obliquity       0
 	EqAscendNode    0
 	TidalLocked     true
-    Age             0.006
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
-	Brightness      2.25
+	Brightness      1
 	BrightnessReal  1
 	Color          (1.000 0.900 0.800)
 
@@ -25,7 +24,7 @@ Moon	"Boulder/Lercurnis B III I"
 		Randomize      (0.997, 0.731, -0.450)
 		colorDistMagn   0.9688
 		colorDistFreq   1.5519
-		detailScale     128
+		detailScale     32
 		drivenDarkening 0
 		snowLevel       2
 		tropicLatitude  0.59717
@@ -44,7 +43,7 @@ Moon	"Boulder/Lercurnis B III I"
 		heightTempGrad  0.625
 		beachWidth      0.0014265
 		tropicWidth     0.07
-		mainFreq        1.0305
+		mainFreq        0.80153
 		venusFreq       0.76336
 		venusMagn       0.49618
 		mareDensity     0
@@ -82,8 +81,8 @@ Moon	"Boulder/Lercurnis B III I"
 		RoughnessIce    0.45
 		SpecularScale   1
 		RoughnessBias   0.8
-		Gamma           0.62215
-		Hapke           0.40458
+		Gamma           1.3965
+		Hapke           0.50382
 		SpotBright      2.5
 		SpotWidth       0.05
 		DayAmbient      0.07

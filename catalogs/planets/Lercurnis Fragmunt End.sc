@@ -16,6 +16,7 @@ Planet	"End/Lercurnis A I"
 	AlbedoGeom      0.36
 	Brightness      1
 	BrightnessReal  1
+	Color          (1.000 0.772 0.567)
 
     Interior
     {
@@ -120,6 +121,8 @@ Planet	"End/Lercurnis A I"
 		Hapke           0.5
 		SpotBright      2.5
 		SpotWidth       0.05
+		SpotBrightCB    2.5
+		SpotWidthCB     0.05
 		DayAmbient      0.07
 	}
 
@@ -133,12 +136,14 @@ Planet	"End/Lercurnis A I"
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.03
+		SpotBrightCB    2
+		SpotWidthCB     0.03
 		DayAmbient      0.07
 		RingsWinter     0
 		ModulateBright  0.1
 		Opacity         0.39695
 		mainFreq        0.29771
-		mainOctaves     20
+		mainOctaves     15
 		Coverage        1
 		stripeZones     1.7653
 		stripeTwist     0.39039
@@ -152,12 +157,14 @@ Planet	"End/Lercurnis A I"
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.03
+		SpotBrightCB    2
+		SpotWidthCB     0.03
 		DayAmbient      0.07
 		RingsWinter     0.9565
 		ModulateBright  0.10358
 		Opacity         0.38168
 		mainFreq        0.29771
-		mainOctaves     20
+		mainOctaves     15
 		Coverage        1
 		stripeZones     1.7653
 		stripeTwist     0.39039
@@ -171,12 +178,14 @@ Planet	"End/Lercurnis A I"
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.03
+		SpotBrightCB    2
+		SpotWidthCB     0.03
 		DayAmbient      0.07
 		RingsWinter     0.9565
 		ModulateBright  0.1
 		Opacity         0.47328
 		mainFreq        0.29771
-		mainOctaves     20
+		mainOctaves     15
 		Coverage        1
 		stripeZones     1.7653
 		stripeTwist     0.39039
@@ -187,7 +196,7 @@ Planet	"End/Lercurnis A I"
 	Atmosphere
 	{
 		Model          "Lercurnis Fragmunt End"
-		Height          150
+		Height          200
 		Density         7.3415e-11
 		Pressure        1e-09
 		Greenhouse      0.043403
