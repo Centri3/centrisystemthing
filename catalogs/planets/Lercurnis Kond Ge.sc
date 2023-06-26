@@ -161,7 +161,16 @@ Planet	"Ge/Lercurnis B IV"
 
 	NoAccretionDisk true
 
-	NoCometTail     true
+	CometTail
+	{
+		MaxLength   0.0013369
+		GasToDust   0
+		Particles   10000
+		GasBright   0.001
+		DustBright  0.001
+		GasColor   (0.000 0.011 0.020)
+		DustColor  (0.320 0.282 0.234)
+	}
 
 	Orbit
 	{
