@@ -5,9 +5,9 @@ Planet	"Ge/Lercurnis B IV"
 	Mass            0.00037909
 	Radius          470
 	InertiaMoment   0.3985
-	RotationPeriod  199.86
-	Obliquity       3
-	EqAscendNode    52.214
+	Obliquity       -8
+	EqAscendNode    -79.695
+	TidalLocked     true
 
 	AbsMagn         1.8534
 	SlopeParam      6.3229
@@ -15,7 +15,7 @@ Planet	"Ge/Lercurnis B IV"
 	AlbedoGeom      0.36
 	Brightness      1
 	BrightnessReal  1
-	Color          (0.642 0.563 0.484)
+	Color          (1.000 0.877 0.754)
 
 	Surface
 	{
@@ -29,8 +29,8 @@ Planet	"Ge/Lercurnis B IV"
 		seaLevel        0.21374
 		snowLevel       2
 		tropicLatitude  0
-		icecapLatitude  1.542
-		icecapHeight    0.40581
+		icecapLatitude  1.5
+		icecapHeight    0
 		climatePole     1
 		climateTropic   0.5625
 		climateEquator  0.5625
@@ -161,16 +161,7 @@ Planet	"Ge/Lercurnis B IV"
 
 	NoAccretionDisk true
 
-	CometTail
-	{
-		MaxLength   0.0024964
-		GasToDust   0
-		Particles   10000
-		GasBright   0.0043775
-		DustBright  0.001
-		GasColor   (0.000 0.000 0.000)
-		DustColor  (0.320 0.291 0.246)
-	}
+	NoCometTail     true
 
 	Orbit
 	{
