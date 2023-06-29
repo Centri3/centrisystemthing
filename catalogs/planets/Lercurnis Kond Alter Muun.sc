@@ -57,7 +57,7 @@ Planet	"Alter Muun/Lercurnis B XI"
 		mareDensity     0.17538
 		terraceProb     0.50191
 		erosion         0
-		montesMagn      0.1
+		montesMagn      0.06
 		montesFreq      150
 		montesSpiky     1
 		montesFraction  1
@@ -71,8 +71,8 @@ Planet	"Alter Muun/Lercurnis B XI"
 		riversMagn      5
 		riversFreq      5
 		riversSin       6.0995
-		riftsMagn       16.794
-		riftsFreq       2.1637
+		riftsMagn       100
+		riftsFreq       7.1756
 		riftsSin        5.7626
 		canyonsMagn     0.50816
 		canyonsFreq     0.89669
@@ -133,10 +133,10 @@ Planet	"Alter Muun/Lercurnis B XI"
 		DayAmbient      0.07
 		ModulateColor  (0.000 0.000 0.000)
 		ModulateBright  1
-		Opacity         0.30534
+		Opacity         0.18321
 		mainFreq        1.0763
 		mainOctaves     0
-		Coverage        0.63359
+		Coverage        0.62595
 		stripeZones     1
 		stripeTwist     3.5
 	}
@@ -154,10 +154,10 @@ Planet	"Alter Muun/Lercurnis B XI"
 		DayAmbient      0.07
 		ModulateColor  (0.000 0.000 0.000)
 		ModulateBright  1
-		Opacity         0.30534
+		Opacity         0.16794
 		mainFreq        1.0763
 		mainOctaves     0
-		Coverage        0.63359
+		Coverage        0.62595
 		stripeZones     1
 		stripeTwist     3.5
 	}
@@ -175,10 +175,10 @@ Planet	"Alter Muun/Lercurnis B XI"
 		DayAmbient      0.07
 		ModulateColor  (0.000 0.000 0.000)
 		ModulateBright  1
-		Opacity         0.24427
+		Opacity         0.29008
 		mainFreq        1.0763
 		mainOctaves     0
-		Coverage        0.63359
+		Coverage        0.62595
 		stripeZones     1
 		stripeTwist     3.5
 	}
