@@ -100,7 +100,7 @@ Moon	"Sow/Lercurnis B VII III"
 		cycloneDensity  0.39132
 		cycloneOctaves  0
 		BumpHeight      20
-		BumpOffset      0.96289
+		BumpOffset      3.3589
 		DiffMapAlpha   "Water"
 		SpecBrightWater 0.65
 		SpecBrightIce   0.85
