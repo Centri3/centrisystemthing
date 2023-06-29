@@ -6,7 +6,7 @@ Moon	"Hec/Lercurnis B VII I"
 	Radius          3529.4
 	InertiaMoment   0.32973
 	Oblateness      0.029939
-	Obliquity       0
+	Obliquity       0.01
 	EqAscendNode    125.94
 	TidalLocked     true
 
@@ -92,7 +92,7 @@ Moon	"Hec/Lercurnis B VII I"
 		cycloneMagn     2.276
 		cycloneFreq     0.53909
 		cycloneDensity  0.38007
-		cycloneOctaves  2
+		cycloneOctaves  0
 		BumpHeight      20
 		DiffMapAlpha   "Ice"
 		SpecBrightWater 0.5

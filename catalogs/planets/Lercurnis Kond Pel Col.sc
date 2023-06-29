@@ -14,7 +14,6 @@ Moon	"Col/Lercurnis B VII II"
 	AlbedoGeom      0.86
 	Brightness      1
 	BrightnessReal  1
-	Color          (1.000 0.996 0.990)
 
 	Surface
 	{
@@ -81,7 +80,7 @@ Moon	"Col/Lercurnis B VII II"
 		craterFreq      5
 		craterDensity   1
 		craterOctaves   30
-		craterRayedFactor 0.1
+		craterRayedFactor 0.54198
 		volcanoMagn     0
 		volcanoFreq     0
 		volcanoDensity  0
@@ -93,6 +92,12 @@ Moon	"Col/Lercurnis B VII II"
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
+		stripeZones     1.0471
+		stripeTwist     0.079111
+		cycloneMagn     2.8236
+		cycloneFreq     0.57969
+		cycloneDensity  0.3923
+		cycloneOctaves  2
 		BumpHeight      20
 		SpecBrightWater 0
 		SpecBrightIce   0.03
@@ -108,7 +113,23 @@ Moon	"Col/Lercurnis B VII II"
 
 	NoOcean         true
 
-	NoClouds        true
+	Clouds
+	{
+		Height          25
+		Velocity        134.78
+		BumpHeight      2.8267
+		Hapke           0
+		SpotBright      2
+		SpotWidth       0.03
+		DayAmbient      0.07
+		ModulateBright  1
+		Opacity         0.59542
+		mainFreq        3
+		mainOctaves     0
+		Coverage        0.17557
+		stripeZones     1.0471
+		stripeTwist     0.079111
+	}
 
 	NoLava          true
 

@@ -169,19 +169,19 @@ Planet	"Pel/Lercurnis B VII"
 		OuterRadius     3.4976e+05
 		EdgeRadius      3.4976e+05
 		MeanRadius      2.0029e+05
-		Thickness       1
-		RocksMaxSize    0.01
-		RocksSpacing    2.5
-		DustDrawDist    3000
+		Thickness       7.036
+		RocksMaxSize    0.17861
+		RocksSpacing    29.218
+		DustDrawDist    2723.4
 		ChartRadius     1.3525e+05
 		RotationPeriod  6.0297
 		Brightness      1
 		FrontBright     1
 		BackBright      10
-		Density         1
-		Opacity         1
-		SelfShadow      0.99318
-		PlanetShadow    0.32824
+		Density         0.0011112
+		Opacity         0.00086882
+		SelfShadow      1
+		PlanetShadow    0.47328
 		Hapke           1
 		SpotBright      1
 		SpotWidth       0.02

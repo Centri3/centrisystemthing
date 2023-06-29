@@ -13,7 +13,6 @@ Planet	"Alter Muun/Lercurnis B XI"
 	Albedo          0.04
 	Brightness      1
 	BrightnessReal  1
-	Color          (1.000 0.999 0.997)
 
 	Life
 	{
@@ -77,9 +76,9 @@ Planet	"Alter Muun/Lercurnis B XI"
 		canyonsMagn     0.50816
 		canyonsFreq     0.89669
 		canyonsFraction 0.51545
-		cracksMagn      0.01
+		cracksMagn      0
 		cracksFreq      0.1
-		cracksOctaves   10
+		cracksOctaves   15
 		craterMagn      0.5
 		craterFreq      5
 		craterDensity   1
