@@ -10,7 +10,7 @@ DwarfMoon	"Boulder/Lercurnis B III I"
 	Obliquity       0
 	EqAscendNode    0
 	TidalLocked     true
-    Age             0.006
+    Age             0.008
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36

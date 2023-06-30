@@ -6,8 +6,8 @@ Moon	"Col/Lercurnis B VII II"
 	Radius          1840.8
 	InertiaMoment   0.35973
 	Oblateness      0.0024513
-	Obliquity       0
-	EqAscendNode    0
+	Obliquity       0.1
+	EqAscendNode    33
 	TidalLocked     true
 
 	AlbedoBond      0.8
@@ -165,12 +165,12 @@ Moon	"Col/Lercurnis B VII II"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      1.34730291
-		SemiMajorAxisKm 376916.356
-		Eccentricity    0
-		Inclination     0
-		AscendingNode   0
-		ArgOfPericenter 0
+		PeriodDays      2.38957644
+		SemiMajorAxisKm 552266.59
+		Eccentricity    0.001
+		Inclination     0.1
+		AscendingNode   33
+		ArgOfPericenter -33
 		MeanAnomaly     0
 	}
 }

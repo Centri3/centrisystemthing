@@ -382,8 +382,8 @@ Moon	"Sow/Lercurnis B VII III"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      2.69460582
-		SemiMajorAxisKm 598344.659
+		PeriodDays      4.77915288
+		SemiMajorAxisKm 876708.476
 		Eccentricity    0.001
 		Inclination     0.1
 		AscendingNode   178.625954

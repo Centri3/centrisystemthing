@@ -24,7 +24,7 @@ Planet	"Ignus/Lercurnis B V"
 		Randomize      (-1.145, 1.267, 1.206)
 		colorDistMagn   0.083308
 		colorDistFreq   1007.2
-		detailScale     3.3333e+05
+		detailScale     128
 		drivenDarkening 0
 		seaLevel        0.0076336
 		snowLevel       2

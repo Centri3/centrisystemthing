@@ -166,13 +166,13 @@ Planet	"Pel/Lercurnis B VII"
 	Rings
 	{
 		InnerRadius     1.2567e+05
-		OuterRadius     3.4976e+05
-		EdgeRadius      3.4976e+05
-		MeanRadius      2.0029e+05
+		OuterRadius     5.1193e+05
+		EdgeRadius      5.1193e+05
+		MeanRadius      2.5429e+05
 		Thickness       7.036
 		RocksMaxSize    0.17861
 		RocksSpacing    29.218
-		DustDrawDist    2723.4
+		DustDrawDist    20000
 		ChartRadius     1.3525e+05
 		RotationPeriod  6.0297
 		Brightness      1
@@ -187,11 +187,11 @@ Planet	"Pel/Lercurnis B VII"
 		SpotWidth       0.02
 		SpotBrightCB    0
 		SpotWidthCB     0.001
-		frequency       3.545
-		densityScale    2.5191
-		densityOffset   0.076336
-		densityPower    1.4982
-		colorContrast   0
+		frequency       17.861
+		densityScale    3.2824
+		densityOffset   -0.99237
+		densityPower    0.308
+		colorContrast   0.015267
 		FrontColor      (1.000 1.000 1.000)
 		BackThickColor  (0.800 0.600 0.400)
 		BackIceColor    (0.300 0.700 1.000)

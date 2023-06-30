@@ -9,6 +9,7 @@ Moon	"Hec/Lercurnis B VII I"
 	Obliquity       0.01
 	EqAscendNode    125.94
 	TidalLocked     true
+    Age             0.0077
 
 	AlbedoBond      0.15
 	AlbedoGeom      0.36
