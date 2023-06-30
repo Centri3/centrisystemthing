@@ -5,12 +5,11 @@ DwarfMoon	"Bors I/Lercurnis B VII B-I"
 	Mass            0.0001
 	Radius          321.57
 	InertiaMoment   0.3975
-	RotationPeriod  152.93
 	Obliquity       1
 	EqAscendNode    -178.63
+	TidalLocked     true
 
-	AlbedoBond      0.3
-	AlbedoGeom      0.36
+	Albedo          0.9
 	Brightness      1
 	BrightnessReal  1
 
@@ -21,13 +20,13 @@ DwarfMoon	"Bors I/Lercurnis B VII B-I"
 		Randomize      (-0.379, -0.361, -0.594)
 		colorDistMagn   0.05123
 		colorDistFreq   46.966
-		detailScale     1024
-		drivenDarkening 0
-		seaLevel        0.14182
+		detailScale     128
+		drivenDarkening 0.25191
+		seaLevel        -0.10687
 		snowLevel       2
 		tropicLatitude  0.017452
-		icecapLatitude  2
-		icecapHeight    0.45731
+		icecapLatitude  0.8
+		icecapHeight    0
 		climatePole     0.4375
 		climateTropic   0.3125
 		climateEquator  0.6875
@@ -41,49 +40,53 @@ DwarfMoon	"Bors I/Lercurnis B VII B-I"
 		heightTempGrad  0.625
 		beachWidth      0.00092255
 		tropicWidth     0.07
-		mainFreq        1.8347
-		venusFreq       1.3078
-		venusMagn       0
-		mareFreq        0
-		mareDensity     0.15989
+		mainFreq        0.68702
+		venusFreq       1.0076
+		venusMagn       0.53435
+		mareFreq        0.5
+		mareDensity     0
 		terraceProb     0.43412
 		erosion         0
-		montesMagn      0.072817
-		montesFreq      13.268
-		montesSpiky     0.81281
-		montesFraction  0.58115
+		montesMagn      0.1
+		montesFreq      25
+		montesSpiky     1
+		montesFraction  1
 		dunesMagn       0.029348
 		dunesFreq       2.4066
 		dunesFraction   0.44256
-		hillsMagn       0.14946
-		hillsFreq       29.606
-		hillsFraction   0.96
-		hills2Fraction  0
+		hillsMagn       0.3
+		hillsFreq       25
+		hillsFraction   1
+		hills2Fraction  1
 		riversMagn      57.388
 		riversFreq      3.2941
 		riversSin       7.5028
-		riftsMagn       54.008
+		riftsMagn       16.794
 		riftsFreq       1.8394
 		riftsSin        6.0988
+		eqridgeMagn     0.30534
+		eqridgeWidth    1
+		eqridgeModMagn  2.5
+		eqridgeModFreq  2.3664
 		canyonsMagn     0.46009
 		canyonsFreq     0.10119
 		canyonsFraction 0.33317
 		cracksMagn      0.057556
 		cracksFreq      0.093928
 		cracksOctaves   0
-		craterMagn      0.85372
-		craterFreq      0.66924
-		craterDensity   0.8036
-		craterOctaves   16
-		craterRayedFactor 0.15533
-		volcanoMagn     0.20398
-		volcanoFreq     0.82428
-		volcanoDensity  0.17258
-		volcanoOctaves  3
-		volcanoActivity 0.02575
-		volcanoFlows    0.3712
-		volcanoRadius   0.14741
-		volcanoTemp     179.33
+		craterMagn      0.2
+		craterFreq      5
+		craterDensity   1
+		craterOctaves   30
+		craterRayedFactor 0.48092
+		volcanoMagn     0
+		volcanoFreq     1.3588
+		volcanoDensity  0.076336
+		volcanoOctaves  5
+		volcanoActivity 2
+		volcanoFlows    1
+		volcanoRadius   0.38168
+		volcanoTemp     2106.9
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
