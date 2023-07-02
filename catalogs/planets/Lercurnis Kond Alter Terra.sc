@@ -6,9 +6,8 @@ Planet	"Alter Terra/Lercurnis B X"
 	Radius          6378.14
 	InertiaMoment   0.32973
 	Oblateness      0.00335
-	RotationPeriod  24
-	RotationEpoch   1451545
-	Obliquity       22
+	RotationPeriod  23.965536
+	Obliquity       22.5
 	EqAscendNode    150.8
 
 	AlbedoBond      0.6
