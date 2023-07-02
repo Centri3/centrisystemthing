@@ -9,6 +9,7 @@ DwarfMoon	"Bors IV/Lercurnis B VII B-IV"
 	Obliquity       1
 	EqAscendNode    -206.11
 	TidalLocked     true
+    Age             0.005
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36

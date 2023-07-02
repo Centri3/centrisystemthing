@@ -10,6 +10,7 @@ DwarfMoon	"Bors III/Lercurnis B VII B-III"
 	RotationPeriod  6.4671
 	Obliquity       6
 	EqAscendNode    -2.7481
+    Age             0.006
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36

@@ -8,6 +8,7 @@ DwarfMoon	"Bors I/Lercurnis B VII B-I"
 	Obliquity       1
 	EqAscendNode    -178.63
 	TidalLocked     true
+    Age             0.0076
 
 	Albedo          0.9
 	Brightness      1

@@ -11,6 +11,7 @@ Planet	"End/Lercurnis A I"
 	RotationEpoch   1451545
 	Obliquity       0
 	EqAscendNode    0
+    Age             4567.66
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
