@@ -50,7 +50,7 @@ Moon	"Col/Lercurnis B VII II"
 		terraceProb     0.15881
 		erosion         0
 		montesMagn      0.01
-		montesFreq      150
+		montesFreq      25
 		montesSpiky     0.99237
 		montesFraction  1
 		dunesMagn       0.036406
@@ -76,8 +76,8 @@ Moon	"Col/Lercurnis B VII II"
 		cracksMagn      0
 		cracksFreq      0
 		cracksOctaves   0
-		craterMagn      0.2
-		craterFreq      5
+		craterMagn      1
+		craterFreq      2
 		craterDensity   1
 		craterOctaves   30
 		craterRayedFactor 0.54198
@@ -97,7 +97,7 @@ Moon	"Col/Lercurnis B VII II"
 		cycloneMagn     2.8236
 		cycloneFreq     0.57969
 		cycloneDensity  0.3923
-		cycloneOctaves  2
+		cycloneOctaves  0
 		BumpHeight      20
 		SpecBrightWater 0
 		SpecBrightIce   0.03

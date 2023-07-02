@@ -15,7 +15,6 @@ Planet	"Ge/Lercurnis B IV"
 	AlbedoGeom      0.36
 	Brightness      1
 	BrightnessReal  1
-	Color          (1.000 0.877 0.754)
 
 	Surface
 	{
@@ -52,7 +51,7 @@ Planet	"Ge/Lercurnis B IV"
 		terraceProb     0
 		erosion         0
 		montesMagn      0.02
-		montesFreq      90
+		montesFreq      25
 		montesSpiky     0.25191
 		montesFraction  1
 		dunesMagn       0.03692
@@ -74,8 +73,8 @@ Planet	"Ge/Lercurnis B IV"
 		cracksMagn      0
 		cracksFreq      1
 		cracksOctaves   15
-		craterMagn      0.1
-		craterFreq      5
+		craterMagn      1
+		craterFreq      2
 		craterDensity   1
 		craterOctaves   30
 		craterRayedFactor 0
@@ -161,16 +160,7 @@ Planet	"Ge/Lercurnis B IV"
 
 	NoAccretionDisk true
 
-	CometTail
-	{
-		MaxLength   0.0013369
-		GasToDust   0
-		Particles   10000
-		GasBright   0.001
-		DustBright  0.001
-		GasColor   (0.000 0.011 0.020)
-		DustColor  (0.320 0.282 0.234)
-	}
+	NoCometTail     true
 
 	Orbit
 	{

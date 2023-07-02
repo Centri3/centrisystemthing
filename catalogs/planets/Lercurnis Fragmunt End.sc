@@ -11,26 +11,11 @@ Planet	"End/Lercurnis A I"
 	RotationEpoch   1451545
 	Obliquity       0
 	EqAscendNode    0
-    Age             4567.66
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
 	Brightness      1
 	BrightnessReal  1
-	Color          (1.000 0.772 0.567)
-
-    Interior
-    {
-        Composition
-        {
-            Hydrogen    0
-            Helium      0.001
-            Carbides    0
-            Ices        90
-            Silicates   9
-            Metals      1
-        }
-    }
 
 	Surface
 	{
@@ -67,7 +52,7 @@ Planet	"End/Lercurnis A I"
 		terraceProb     0.5118
 		erosion         0
 		montesMagn      0.1
-		montesFreq      250
+		montesFreq      25
 		montesSpiky     1
 		montesFraction  1
 		dunesMagn       0.035176
@@ -89,8 +74,8 @@ Planet	"End/Lercurnis A I"
 		cracksMagn      0
 		cracksFreq      15
 		cracksOctaves   15
-		craterMagn      0.604
-		craterFreq      5
+		craterMagn      1
+		craterFreq      2
 		craterDensity   1
 		craterOctaves   30
 		craterRayedFactor 0.036

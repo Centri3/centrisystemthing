@@ -1,6 +1,6 @@
 DwarfPlanet	"Rex/Lercurnis I LT.1"
 {
-	ParentBody     "Lercurnis system bar"
+	ParentBody     "Fragmunt-Kond bar"
 	Class          "Aquaria"
 	Mass            0.0078871
 	Radius          1560
@@ -15,7 +15,6 @@ DwarfPlanet	"Rex/Lercurnis I LT.1"
 	AlbedoGeom      0.36
 	Brightness      1
 	BrightnessReal  1
-	Color          (1.000 0.895 0.700)
 
 	Surface
 	{
@@ -51,8 +50,8 @@ DwarfPlanet	"Rex/Lercurnis I LT.1"
 		mareDensity     0.14464
 		terraceProb     0.19943
 		erosion         0
-		montesMagn      1
-		montesFreq      150
+		montesMagn      0
+		montesFreq      25
 		montesSpiky     0.44275
 		montesFraction  1
 		dunesMagn       0.036153
@@ -74,8 +73,8 @@ DwarfPlanet	"Rex/Lercurnis I LT.1"
 		cracksMagn      0
 		cracksFreq      15
 		cracksOctaves   15
-		craterMagn      0.51475
-		craterFreq      5
+		craterMagn      3
+		craterFreq      2
 		craterDensity   1
 		craterOctaves   6
 		craterRayedFactor 0

@@ -3,10 +3,59 @@ Planet	"Cles/Lercurnis B VIII"
 	ParentBody     "Kond"
 	Class          "Jupiter"
 	Mass            1167.4
+	Radius          77956
+	InertiaMoment   0.23631
+	Obliquity       0.41034
+	EqAscendNode    88.331
+	TidalLocked     true
+
+	AlbedoBond      0.3
+	AlbedoGeom      0.36
+	Brightness      1
+	BrightnessReal  1
 
 	Surface
 	{
 		Preset         "lercurnis_kond_cles.cfg"
+		SurfStyle       0.91488
+		Randomize      (0.307, -0.030, 0.795)
+		detailScale     256
+		tropicLatitude  0
+		icecapLatitude  0.9
+		mareDensity     0
+		montesFraction  0
+		dunesFraction   0
+		hillsFraction   0
+		hills2Fraction  0
+		canyonsFraction 0
+		craterDensity   0
+		craterOctaves   0
+		volcanoActivity 0
+		lavaCoverTidal  0
+		lavaCoverSun    0
+		lavaCoverYoung  0
+		stripeZones     1.145
+		stripeFluct     0.68702
+		stripeTwist     12.897
+		cycloneMagn     6.0531
+		cycloneFreq     1.1171
+		cycloneDensity  0.33523
+		cycloneOctaves  0
+		cycloneMagn2     0.37816
+		cycloneFreq2     0.88186
+		cycloneLatitude2 0.85
+		cycloneOctaves2  0
+		BumpHeight      7.1624
+		RoughnessWater  0.35
+		RoughnessIce    0.45
+		SpecularScale   1
+		RoughnessBias   0.5
+		Gamma           0.6
+		Hapke           0
+		SpotBright      0
+		SpotWidth       0.05
+		DayAmbient      0.07
+		ModulateBright  0
 	}
 
 	NoOcean         true
@@ -16,17 +65,20 @@ Planet	"Cles/Lercurnis B VIII"
 		Height          0.10156
 		Velocity        -27.019
 		BumpHeight      4.4161
+		BumpOffset      0.001
+		Gamma           0.4
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
 		RingsWinter     0
-		ModulateBright  1
+		ModulateBright  2
+		Opacity         0.1
 		mainFreq        3
 		mainOctaves     15
-		Coverage        0.13174
-		stripeZones     0.30534
-		stripeFluct     0.21374
+		Coverage        0.038168
+		stripeZones     1.145
+		stripeFluct     0.68702
 		stripeTwist     12.897
 	}
 
@@ -44,9 +96,9 @@ Planet	"Cles/Lercurnis B VIII"
 		ModulateBright  1
 		mainFreq        3
 		mainOctaves     15
-		Coverage        0.13174
-		stripeZones     0.30534
-		stripeFluct     0.21374
+		Coverage        0.038168
+		stripeZones     1.145
+		stripeFluct     0.68702
 		stripeTwist     12.897
 	}
 
@@ -54,14 +106,14 @@ Planet	"Cles/Lercurnis B VIII"
 
 	Atmosphere
 	{
-		Model          "Earth"
-		Height          915.87
+		Model          "Lercurnis Kond Cles"
+		Height          500
 		Density         10000
 		Pressure        1e+06
-		Bright          2
+		Bright          5
 		Opacity         0.2
 		SkyLight        1
-		Hue             -0.14122
+		Hue             0
 		Saturation      1
 
 		Composition
@@ -92,63 +144,30 @@ Planet	"Cles/Lercurnis B VIII"
 
 	Aurora
 	{
-		Height         96.439
+		Height         1000
 		NorthLat       90
 		NorthLon       0
-		NorthRadius    20015
-		NorthWidth     10920
+		NorthRadius    26877
+		NorthWidth     26877
 		NorthRings     3
 		NorthBright    1
 		NorthFlashFreq 68.782
-		NorthMoveSpeed 1.1719
+		NorthMoveSpeed 100
 		NorthParticles 100000
 		SouthLat       -90
-		SouthLon       0
-		SouthRadius    19154
-		SouthWidth     10660
+		SouthLon       180
+		SouthRadius    25986
+		SouthWidth     31272
 		SouthRings     3
 		SouthBright    1
 		SouthFlashFreq 67.982
 		SouthMoveSpeed 1.4904
 		SouthParticles 100000
-		TopColor    (1.000 1.000 1.000)
-		BottomColor (1.000 0.000 0.500)
+		TopColor    (1.000 0.000 0.562)
+		BottomColor (0.453 0.000 1.000)
 	}
 
-	Rings
-	{
-		InnerRadius     1.2567e+05
-		OuterRadius     7.3786e+05
-		EdgeRadius      7.3786e+05
-		MeanRadius      3.2953e+05
-		Thickness       1
-		RocksMaxSize    0.01
-		RocksSpacing    2.5
-		DustDrawDist    3000
-		ChartRadius     1.3525e+05
-		RotationPeriod  6.0297
-		Brightness      1
-		FrontBright     1
-		BackBright      10
-		Density         1
-		Opacity         1
-		SelfShadow      0.99318
-		PlanetShadow    0.32824
-		Hapke           1
-		SpotBright      1
-		SpotWidth       0.02
-		SpotBrightCB    0
-		SpotWidthCB     0.001
-		frequency       3.545
-		densityScale    2.5191
-		densityOffset   0.076336
-		densityPower    1.4982
-		colorContrast   0
-		FrontColor      (1.000 1.000 1.000)
-		BackThickColor  (0.800 0.600 0.400)
-		BackIceColor    (0.300 0.700 1.000)
-		BackDustColor   (1.000 0.980 0.880)
-	}
+	NoRings         true
 
 	NoAccretionDisk true
 
@@ -158,6 +177,12 @@ Planet	"Cles/Lercurnis B VIII"
 	{
 		RefPlane        "Equator"
 		Period          0.705375
+		SemiMajorAxis   0.34635328
+		Eccentricity    0
+		Inclination     0.410342822
+		AscendingNode   88.3305386
+		ArgOfPericenter 0
+		MeanAnomaly     0
 	}
 }
 

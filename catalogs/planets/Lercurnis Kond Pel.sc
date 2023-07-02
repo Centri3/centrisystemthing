@@ -140,7 +140,7 @@ Planet	"Pel/Lercurnis B VII"
 
 	Aurora
 	{
-		Height         96.439
+		Height         1000
 		NorthLat       90
 		NorthLon       0
 		NorthRadius    20015
@@ -159,8 +159,8 @@ Planet	"Pel/Lercurnis B VII"
 		SouthFlashFreq 67.982
 		SouthMoveSpeed 1.4904
 		SouthParticles 100000
-		TopColor    (1.000 1.000 1.000)
-		BottomColor (1.000 0.000 0.500)
+		TopColor    (1.000 0.000 0.000)
+		BottomColor (0.406 0.000 1.000)
 	}
 
 	Rings

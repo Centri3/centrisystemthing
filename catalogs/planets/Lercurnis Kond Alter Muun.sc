@@ -57,7 +57,7 @@ Planet	"Alter Muun/Lercurnis B XI"
 		terraceProb     0.50191
 		erosion         0
 		montesMagn      0.06
-		montesFreq      150
+		montesFreq      25
 		montesSpiky     1
 		montesFraction  1
 		dunesMagn       0.046608
@@ -79,7 +79,7 @@ Planet	"Alter Muun/Lercurnis B XI"
 		cracksMagn      0
 		cracksFreq      0.1
 		cracksOctaves   15
-		craterMagn      0.5
+		craterMagn      2
 		craterFreq      5
 		craterDensity   1
 		craterOctaves   15

@@ -15,7 +15,6 @@ Planet	"Ignus/Lercurnis B V"
 	AlbedoGeom      0.36
 	Brightness      1
 	BrightnessReal  1
-	Color          (1.000 0.994 0.992)
 
 	Surface
 	{
@@ -52,7 +51,7 @@ Planet	"Ignus/Lercurnis B V"
 		terraceProb     0.27532
 		erosion         0
 		montesMagn      0.02
-		montesFreq      100
+		montesFreq      25
 		montesSpiky     1
 		montesFraction  1
 		dunesMagn       0
@@ -74,8 +73,8 @@ Planet	"Ignus/Lercurnis B V"
 		cracksMagn      0.10468
 		cracksFreq      1.1177
 		cracksOctaves   0
-		craterMagn      0.5
-		craterFreq      12
+		craterMagn      3
+		craterFreq      2
 		craterDensity   1
 		craterOctaves   30
 		volcanoMagn     0
@@ -205,16 +204,7 @@ Planet	"Ignus/Lercurnis B V"
 
 	NoAccretionDisk true
 
-	CometTail
-	{
-		MaxLength   0.011326
-		GasToDust   0
-		Particles   10000
-		GasBright   0.001
-		DustBright  0.02
-		GasColor   (0.000 0.000 0.000)
-		DustColor  (0.016 0.023 0.031)
-	}
+	NoCometTail     true
 
 	Orbit
 	{

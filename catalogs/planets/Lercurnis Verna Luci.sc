@@ -14,7 +14,6 @@ Moon	"Luci/Lucernis I I"
 	AlbedoGeom      0.36
 	Brightness      1
 	BrightnessReal  1
-	Color          (0.625 0.532 0.437)
 
 	Surface
 	{
@@ -51,7 +50,7 @@ Moon	"Luci/Lucernis I I"
 		terraceProb     0.1677
 		erosion         0
 		montesMagn      0.03
-		montesFreq      183.21
+		montesFreq      25
 		montesSpiky     0.98609
 		montesFraction  1
 		dunesMagn       0.038633
@@ -77,8 +76,8 @@ Moon	"Luci/Lucernis I I"
 		cracksMagn      0.070864
 		cracksFreq      0.6913
 		cracksOctaves   0
-		craterMagn      0.1
-		craterFreq      15
+		craterMagn      1
+		craterFreq      2
 		craterDensity   1
 		craterOctaves   20
 		craterRayedFactor 0

@@ -2,7 +2,17 @@ Planet	"Rock/Lercurnis B III"
 {
 	ParentBody     "Kond"
 	Class          "Terra"
+	Mass            0.0070733
 	Radius          1300
+	InertiaMoment   0.38017
+	Obliquity       3
+	EqAscendNode    -140.15
+	TidalLocked     true
+
+	AlbedoBond      0.3
+	AlbedoGeom      0.36
+	Brightness      1
+	BrightnessReal  1
 
 	Surface
 	{
@@ -39,7 +49,7 @@ Planet	"Rock/Lercurnis B III"
 		terraceProb     0.35113
 		erosion         0
 		montesMagn      0.05
-		montesFreq      150
+		montesFreq      25
 		montesSpiky     1
 		montesFraction  1
 		dunesMagn       0.0039411
@@ -65,8 +75,8 @@ Planet	"Rock/Lercurnis B III"
 		cracksMagn      0
 		cracksFreq      15
 		cracksOctaves   15
-		craterMagn      0.1
-		craterFreq      5
+		craterMagn      1
+		craterFreq      2
 		craterDensity   1
 		craterOctaves   30
 		craterRayedFactor 0.81679
