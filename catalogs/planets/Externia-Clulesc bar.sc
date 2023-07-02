@@ -13,8 +13,8 @@ Barycenter	"Externia-Clulesc bar/Externia system bar"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PericenterDist  -1500
-		GravParam       5.80594219e-07
+		PericenterDist  1500
+		GravParam       7.74523521e-64
 		Eccentricity    2
 		Inclination     25
 		AscendingNode   -112.671756

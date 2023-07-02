@@ -246,7 +246,7 @@ Planet	"Alter Terra/Lercurnis B X"
 		RefPlane        "Equator"
 		Period          1.9045125
 		SemiMajorAxis   0.662050131
-		Eccentricity    0
+		Eccentricity    0.01
 		Inclination     0.408635667
 		AscendingNode   139.630621
 		ArgOfPericenter 0

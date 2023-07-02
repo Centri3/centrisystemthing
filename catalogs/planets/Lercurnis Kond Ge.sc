@@ -1,4 +1,4 @@
-Planet	"Ge/Lercurnis B IV"
+DwarfPlanet	"Ge/Lercurnis B IV"
 {
 	ParentBody     "Kond"
 	Class          "Terra"
