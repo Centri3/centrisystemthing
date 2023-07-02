@@ -8,7 +8,7 @@ DwarfMoon	"Bors I/Lercurnis B VII B-I"
 	Obliquity       1
 	EqAscendNode    -178.63
 	TidalLocked     true
-    Age             0.0076
+    Age             0.0023
 
 	Albedo          0.9
 	Brightness      1
@@ -75,8 +75,8 @@ DwarfMoon	"Bors I/Lercurnis B VII B-I"
 		cracksMagn      0.057556
 		cracksFreq      0.093928
 		cracksOctaves   0
-		craterMagn      0.2
-		craterFreq      5
+		craterMagn      0.4
+		craterFreq      2
 		craterDensity   1
 		craterOctaves   30
 		craterRayedFactor 0.48092

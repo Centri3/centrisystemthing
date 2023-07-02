@@ -9,7 +9,7 @@ DwarfMoon	"Bors IV/Lercurnis B VII B-IV"
 	Obliquity       1
 	EqAscendNode    -206.11
 	TidalLocked     true
-    Age             0.005
+    Age             0.0027
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
@@ -51,7 +51,7 @@ DwarfMoon	"Bors IV/Lercurnis B VII B-IV"
 		terraceProb     0.36472
 		erosion         0
 		montesMagn      0.07
-		montesFreq      150
+		montesFreq      25
 		montesSpiky     1
 		montesFraction  1
 		dunesMagn       0.026928
@@ -77,8 +77,8 @@ DwarfMoon	"Bors IV/Lercurnis B VII B-IV"
 		cracksMagn      0.061004
 		cracksFreq      0.12542
 		cracksOctaves   0
-		craterMagn      0.2
-		craterFreq      5
+		craterMagn      0.5
+		craterFreq      2
 		craterDensity   1
 		craterOctaves   30
 		craterRayedFactor 0.32824

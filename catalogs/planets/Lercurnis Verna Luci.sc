@@ -23,8 +23,8 @@ Moon	"Luci/Lucernis I I"
 		colorDistMagn   0.073861
 		colorDistFreq   233.34
 		detailScale     64
-		drivenDarkening 0.54198
-		seaLevel        0.14995
+		drivenDarkening 0.57252
+		seaLevel        0.35115
 		snowLevel       2
 		tropicLatitude  0.52459
 		icecapLatitude  2
@@ -45,8 +45,8 @@ Moon	"Luci/Lucernis I I"
 		mainFreq        1.7122
 		venusFreq       0.88453
 		venusMagn       0.64885
-		mareFreq        0.73221
-		mareDensity     0.13722
+		mareFreq        0.3
+		mareDensity     1
 		terraceProb     0.1677
 		erosion         0
 		montesMagn      0.03

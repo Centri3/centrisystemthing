@@ -8,9 +8,10 @@ DwarfMoon	"Bors III/Lercurnis B VII B-III"
 	Oblateness     (0.220, 0.330, 0.000)
 	OblatenessInfo  0.28123
 	RotationPeriod  6.4671
+	RotationEpoch   1451545
 	Obliquity       6
 	EqAscendNode    -2.7481
-    Age             0.006
+    Age             0.0025
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
@@ -78,8 +79,8 @@ DwarfMoon	"Bors III/Lercurnis B VII B-III"
 		cracksMagn      0.038535
 		cracksFreq      0.15384
 		cracksOctaves   0
-		craterMagn      0.2
-		craterFreq      5
+		craterMagn      0.5
+		craterFreq      2
 		craterDensity   1
 		craterOctaves   30
 		craterRayedFactor 0.9771

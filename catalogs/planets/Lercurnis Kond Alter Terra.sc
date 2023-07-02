@@ -7,6 +7,7 @@ Planet	"Alter Terra/Lercurnis B X"
 	InertiaMoment   0.32973
 	Oblateness      0.00335
 	RotationPeriod  23.965536
+	RotationEpoch   1451545
 	Obliquity       22.5
 	EqAscendNode    150.8
 
@@ -19,7 +20,7 @@ Planet	"Alter Terra/Lercurnis B X"
 	{
 		Class   "Organic"
 		Type    "Multicellular"
-		Biome   "Marine/Terrestrial"
+		Biome   "Subglacial/Marine/Terrestrial"
 		Panspermia true
 	}
 
