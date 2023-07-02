@@ -3,7 +3,7 @@ Planet	"Alter Terra/Lercurnis B X"
 	ParentBody     "Kond"
 	Class          "Terra"
 	Mass            1
-	Radius          6378.1
+	Radius          6378.14
 	InertiaMoment   0.32973
 	Oblateness      0.00335
 	RotationPeriod  24

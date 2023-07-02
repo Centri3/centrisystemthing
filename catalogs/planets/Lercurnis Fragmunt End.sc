@@ -17,6 +17,19 @@ Planet	"End/Lercurnis A I"
 	Brightness      1
 	BrightnessReal  1
 
+    Interior
+    {
+        Composition
+        {
+            Hydrogen    0
+            Helium      0.001
+            Carbides    0
+            Ices        90
+            Silicates   9
+            Metals      1
+        }
+    }
+
 	Surface
 	{
 		Preset         "lercurnis_fragmunt_end.cfg"
