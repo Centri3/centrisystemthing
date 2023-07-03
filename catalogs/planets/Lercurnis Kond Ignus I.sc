@@ -1,4 +1,4 @@
-Planet	"Ignus I/Lercurnis B V I"
+Moon	"Ignus I/Lercurnis B V I"
 {
 	ParentBody     "Ignus"
 	Class          "Asteroid"
@@ -115,8 +115,8 @@ Planet	"Ignus I/Lercurnis B V I"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          0.006
-		SemiMajorAxis   0.000979825753
+		PeriodDays      2.19145314
+		SemiMajorAxisKm 146579.846
 		Eccentricity    0.05
 		Inclination     172
 		AscendingNode   -140.152672

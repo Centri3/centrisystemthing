@@ -1,18 +1,18 @@
-Planet	"Minimus/Externia I"
+Moon	"Minimus/Externia I"
 {
 	ParentBody     "Externia-Clulesc bar"
 	Class          "Aquaria"
 	Mass            9.0749e-05
 	Radius          344.65
 	InertiaMoment   0.39892
-	RotationEpoch   0
-	Obliquity       -12.499
-	EqAscendNode    0.065718
+	Obliquity       0
+	EqAscendNode    0
 	TidalLocked     true
 
 	Albedo          0.8
 	Brightness      1
 	BrightnessReal  1
+	Color          (0.732 0.731 0.730)
 
 	Surface
 	{
@@ -126,8 +126,8 @@ Planet	"Minimus/Externia I"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          0.39701763
-		SemiMajorAxis   0.1
+		PeriodDays      145.007589
+		SemiMajorAxisKm 14959787.1
 		Eccentricity    0
 		Inclination     0
 		AscendingNode   0
