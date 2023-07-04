@@ -13,7 +13,6 @@ Planet	"Verna/Lercurnis I"
 	AlbedoGeom      0.36
 	Brightness      1
 	BrightnessReal  1
-	Color          (1.000 0.990 0.980)
 
 	Life
 	{
@@ -32,66 +31,64 @@ Planet	"Verna/Lercurnis I"
 		colorDistFreq   1194.1
 		detailScale     128
 		drivenDarkening 0
-		seaLevel        0.066001
-		snowLevel       1.084
-		tropicLatitude  0.70478
-		icecapLatitude  2
-		icecapHeight    0.56632
-		climatePole     0.64885
-		climateTropic   0.5625
-		climateEquator  0.5625
+		seaLevel        0.35115
+		snowLevel       0.92
+		tropicLatitude  0.63359
+		icecapLatitude  0.8
+		icecapHeight    0.21374
+		climatePole     1
+		climateTropic   0.59542
+		climateEquator  0.55725
 		climateSteppeMin -1
-		climateSteppeMax -0.20611
-		climateForestMin -1
-		climateForestMax 0.61832
-		climateGrassMin  0.61832
-		climateGrassMax  0.77099
-		humidity        0.38931
-		heightTempGrad  1
+		climateSteppeMax 1
+		climateForestMin 0.75
+		climateForestMax 0.85
+		climateGrassMin  0.85
+		climateGrassMax  0.92
+		humidity        0.29771
+		heightTempGrad  0.4
 		beachWidth      0.00094006
 		tropicWidth     0.5
-		mainFreq        1.374
+		mainFreq        1.6794
 		venusFreq       1.4504
-		venusMagn       1.5649
+		venusMagn       1.4122
 		mareFreq        3.5902
 		mareDensity     0
 		terraceProb     0.2014
 		erosion         0.16794
 		montesMagn      0.3
-		montesFreq      229.01
+		montesFreq      25
 		montesSpiky     1
 		montesFraction  1
-		dunesMagn       0.052939
-		dunesFreq       87.884
-		dunesFraction   0.10539
+		dunesFraction   0
 		hillsMagn       1
-		hillsFreq       2137.4
-		hillsFraction   0.70605
-		hills2Fraction  0.32913
-		riversMagn      10
-		riversFreq      7
+		hillsFreq       25
+		hillsFraction   1
+		hills2Fraction  1
+		riversMagn      7
+		riversFreq      6
 		riversSin       7
-		riftsMagn       12.214
-		riftsFreq       4.0201
-		riftsSin        6.7122
-		canyonsMagn     0.032672
-		canyonsFreq     238.25
-		canyonsFraction 0.98132
-		cracksMagn      0.085086
-		cracksFreq      0.84783
-		cracksOctaves   0
-		craterMagn      0.8363
-		craterFreq      24.704
+		riftsMagn       100
+		riftsFreq       7
+		riftsSin        7
+		canyonsMagn     1
+		canyonsFreq     50
+		canyonsFraction 1
+		cracksMagn      0
+		cracksFreq      0.2
+		cracksOctaves   15
+		craterMagn      3
+		craterFreq      2
 		craterDensity   1
-		craterOctaves   5
-		volcanoMagn     0.71477
-		volcanoFreq     0.87026
-		volcanoDensity  0.13167
+		craterOctaves   30
+		volcanoMagn     1
+		volcanoFreq     2
+		volcanoDensity  0
 		volcanoOctaves  0
-		volcanoActivity 0
-		volcanoFlows    0.58546
-		volcanoRadius   0.44022
-		volcanoTemp     202.89
+		volcanoActivity 2
+		volcanoFlows    1
+		volcanoRadius   1
+		volcanoTemp     3000
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
@@ -102,7 +99,7 @@ Planet	"Verna/Lercurnis I"
 		cycloneDensity  0.2772
 		cycloneOctaves  0
 		BumpHeight      14.589
-		BumpOffset      0.96289
+		BumpOffset      5.123
 		DiffMapAlpha   "Water"
 		SpecBrightWater 0.65
 		SpecBrightIce   0.85
@@ -118,7 +115,7 @@ Planet	"Verna/Lercurnis I"
 
 	Ocean
 	{
-		Depth           0.96289
+		Depth           5.123
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.05
@@ -160,10 +157,10 @@ Planet	"Verna/Lercurnis I"
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
-		RingsWinter     0.9565
+		RingsWinter     0
 		ModulateColor  (0.093 0.176 0.180)
 		ModulateBright  1
-		Opacity         0.32061
+		Opacity         0.35115
 		mainFreq        0.87023
 		mainOctaves     0
 		Coverage        0.74046
@@ -180,7 +177,7 @@ Planet	"Verna/Lercurnis I"
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
-		RingsWinter     0.9565
+		RingsWinter     0
 		ModulateColor  (0.090 0.180 0.098)
 		ModulateBright  1
 		Opacity         0.85496
