@@ -19,7 +19,6 @@ Planet	"Verna/Lercurnis I"
 		Class   "Organic"
 		Type    "Multicellular"
 		Biome   "Marine/Terrestrial"
-		Panspermia true
 	}
 
 	Surface
@@ -60,6 +59,8 @@ Planet	"Verna/Lercurnis I"
 		montesFreq      25
 		montesSpiky     1
 		montesFraction  1
+		dunesMagn       0.056542
+		dunesFreq       66.396
 		dunesFraction   0
 		hillsMagn       1
 		hillsFreq       25
