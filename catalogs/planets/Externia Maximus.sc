@@ -10,7 +10,6 @@ Moon	"Maximus/Externia II"
 	RotationEpoch   1451545
 	Obliquity       0
 	EqAscendNode    0
-    Oblateness      0
 
 	Albedo          0.8
 	Brightness      1
@@ -130,10 +129,10 @@ Moon	"Maximus/Externia II"
 		RefPlane        "Equator"
 		PeriodDays      290.015177
 		SemiMajorAxisKm 23747180.7
-		Eccentricity    0
-		Inclination     0
-		AscendingNode   0
-		ArgOfPericenter 180
+		Eccentricity    0.0458015267
+		Inclination     1
+		AscendingNode   68.7022901
+		ArgOfPericenter -101.679389
 		MeanAnomaly     0
 	}
 }

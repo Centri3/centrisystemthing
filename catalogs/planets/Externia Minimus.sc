@@ -12,7 +12,6 @@ Moon	"Minimus/Externia I"
 	Albedo          0.8
 	Brightness      1
 	BrightnessReal  1
-	Color          (0.732 0.731 0.730)
 
 	Surface
 	{
@@ -128,10 +127,10 @@ Moon	"Minimus/Externia I"
 		RefPlane        "Equator"
 		PeriodDays      145.007589
 		SemiMajorAxisKm 14959787.1
-		Eccentricity    0
-		Inclination     0
-		AscendingNode   0
-		ArgOfPericenter 180
+		Eccentricity    0.0152671756
+		Inclination     1
+		AscendingNode   -107.175573
+		ArgOfPericenter -35.7251908
 		MeanAnomaly     0
 	}
 }

@@ -225,10 +225,10 @@ Moon	"Flora/Externia III"
 		RefPlane        "Equator"
 		PeriodDays      580.030354
 		SemiMajorAxisKm 37696007
-		Eccentricity    0
-		Inclination     0
-		AscendingNode   0
-		ArgOfPericenter 0
+		Eccentricity    0.001
+		Inclination     0.003
+		AscendingNode   2.7480916
+		ArgOfPericenter 79.6946565
 		MeanAnomaly     0
 	}
 }
