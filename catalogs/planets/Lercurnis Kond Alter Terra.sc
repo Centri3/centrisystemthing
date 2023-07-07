@@ -21,7 +21,6 @@ Planet	"Alter Terra/Lercurnis B X"
 		Class   "Organic"
 		Type    "Multicellular"
 		Biome   "Subglacial/Marine/Terrestrial"
-		Panspermia true
 	}
 
 	Surface
