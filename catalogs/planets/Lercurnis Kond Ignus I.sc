@@ -1,4 +1,4 @@
-Moon	"Ignus I/Lercurnis B V I"
+DwarfMoon	"Ignus I/Lercurnis B V I"
 {
 	ParentBody     "Ignus"
 	Class          "Asteroid"

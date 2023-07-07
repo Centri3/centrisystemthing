@@ -34,7 +34,7 @@ Moon	"Flora/Externia III"
 		snowLevel       2
 		tropicLatitude  1
 		icecapLatitude  2
-		icecapHeight    0.24427
+		icecapHeight    0
 		climatePole     1
 		climateTropic   0.45038
 		climateEquator  0.58015
@@ -44,7 +44,7 @@ Moon	"Flora/Externia III"
 		climateForestMax 1
 		climateGrassMin  0.74046
 		climateGrassMax  1
-		humidity        0.33588
+		humidity        0.51145
 		heightTempGrad  0.70229
 		beachWidth      0.0013116
 		tropicWidth     0.5
@@ -55,7 +55,7 @@ Moon	"Flora/Externia III"
 		mareDensity     0.15276
 		terraceProb     0.30321
 		erosion         0.11869
-		montesMagn      0.01
+		montesMagn      0.05
 		montesFreq      25
 		montesSpiky     1
 		montesFraction  1
@@ -83,14 +83,14 @@ Moon	"Flora/Externia III"
 		craterDensity   1
 		craterOctaves   30
 		craterRayedFactor 0
-		volcanoMagn     0.31611
-		volcanoFreq     0.64132
+		volcanoMagn     1
+		volcanoFreq     2
 		volcanoDensity  0
 		volcanoOctaves  0
-		volcanoActivity 0
-		volcanoFlows    0.62386
-		volcanoRadius   0.25624
-		volcanoTemp     208.93
+		volcanoActivity 2
+		volcanoFlows    1
+		volcanoRadius   1
+		volcanoTemp     3000
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
