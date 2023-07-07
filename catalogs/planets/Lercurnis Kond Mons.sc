@@ -26,7 +26,7 @@ Planet	"Mons/Lercurnis B IX"
 	{
 		Preset         "lercurnis_kond_mons.cfg"
 		SurfStyle       0.68367
-		Randomize      (-0.748, -0.076, 1.176)
+		Randomize      (-0.748, -0.076, 1.000)
 		colorDistMagn   0.87023
 		colorDistFreq   522.74
 		detailScale     128
@@ -125,9 +125,9 @@ Planet	"Mons/Lercurnis B IX"
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
-		ModulateColor  (0.273 0.185 0.108)
-		ModulateBright  1
-		Opacity         0.53435
+		ModulateColor  (0.285 0.179 0.087)
+		ModulateBright  0.98258
+		Opacity         0.51908
 		mainFreq        0.57252
 		mainOctaves     0
 		Coverage        0.73282
@@ -144,9 +144,9 @@ Planet	"Mons/Lercurnis B IX"
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
-		ModulateColor  (0.258 0.183 0.111)
-		ModulateBright  1
-		Opacity         0.41221
+		ModulateColor  (0.266 0.171 0.080)
+		ModulateBright  0.8242
+		Opacity         0.53435
 		mainFreq        0.57252
 		mainOctaves     0
 		Coverage        0.73282
@@ -158,16 +158,16 @@ Planet	"Mons/Lercurnis B IX"
 
 	Atmosphere
 	{
-		Model          "Lercurnis Kond Ge"
-		Height          127.9
+		Model          "Lercurnis Kond Mons"
+		Height          70
 		Density         0.0068408
 		Pressure        0.005618
 		Greenhouse      3.2408
-		Bright          2.9008
+		Bright          4.5
 		Opacity         1
 		SkyLight        1.8741
-		Hue             -0.0038168
-		Saturation      0.53435
+		Hue             0
+		Saturation      1
 
 		Composition
 		{
