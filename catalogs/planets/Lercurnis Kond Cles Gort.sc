@@ -110,7 +110,7 @@ Planet	"Gort/Lercurnis B VIIIb"
 		cycloneMagn     1.7918
 		cycloneFreq     0.81653
 		cycloneDensity  0.40536
-		cycloneOctaves  2
+		cycloneOctaves  0
 		BumpHeight      10.728
 		SpecBrightWater 0
 		SpecBrightIce   0.03
@@ -128,15 +128,16 @@ Planet	"Gort/Lercurnis B VIIIb"
 
 	Clouds
 	{
-		Height          11.922
+		Height          16.943
 		Velocity        203.4
 		BumpHeight      0.62215
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
+		ModulateColor  (0.122 0.123 0.188)
 		ModulateBright  1
-		Opacity         0.39695
+		Opacity         0.10687
 		mainFreq        1.4198
 		mainOctaves     0
 		Coverage        0.64122
@@ -146,15 +147,16 @@ Planet	"Gort/Lercurnis B VIIIb"
 
 	Clouds
 	{
-		Height          11.922
+		Height          16.943
 		Velocity        203.4
 		BumpHeight      0.85369
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
+		ModulateColor  (0.083 0.108 0.141)
 		ModulateBright  1
-		Opacity         0.33588
+		Opacity         0.16794
 		mainFreq        1.4198
 		mainOctaves     0
 		Coverage        0.64122
@@ -164,15 +166,16 @@ Planet	"Gort/Lercurnis B VIIIb"
 
 	Clouds
 	{
-		Height          11.922
+		Height          16.943
 		Velocity        203.4
 		BumpHeight      0.45341
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
+		ModulateColor  (0.080 0.144 0.152)
 		ModulateBright  1
-		Opacity         0.35115
+		Opacity         0.091603
 		mainFreq        1.4198
 		mainOctaves     0
 		Coverage        0.64122
