@@ -84,13 +84,13 @@ Planet	"Mons/Lercurnis B IX"
 		craterDensity   1
 		craterOctaves   30
 		volcanoMagn     1
-		volcanoFreq     0.21374
-		volcanoDensity  0.02
-		volcanoOctaves  0
-		volcanoActivity 2
+		volcanoFreq     0.026
+		volcanoDensity  0.001
+		volcanoOctaves  1
+		volcanoActivity 0
 		volcanoFlows    0.9771
 		volcanoRadius   1
-		volcanoTemp     3000
+		volcanoTemp     0
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0

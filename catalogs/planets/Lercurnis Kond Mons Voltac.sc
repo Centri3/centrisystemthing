@@ -23,7 +23,7 @@ Moon	"Voltac/Lercurnis B IX I"
 		colorDistMagn   0.040868
 		colorDistFreq   35.681
 		detailScale     128
-		drivenDarkening 0.26718
+		drivenDarkening 0.038168
 		seaLevel        -0.31298
 		snowLevel       2
 		tropicLatitude  1
@@ -81,13 +81,13 @@ Moon	"Voltac/Lercurnis B IX I"
 		craterDensity   1
 		craterOctaves   30
 		craterRayedFactor 0
-		volcanoMagn     1
-		volcanoFreq     2
-		volcanoDensity  0
-		volcanoOctaves  0
+		volcanoMagn     0
+		volcanoFreq     0.21374
+		volcanoDensity  0.14504
+		volcanoOctaves  5
 		volcanoActivity 2
 		volcanoFlows    1
-		volcanoRadius   1
+		volcanoRadius   0.45802
 		volcanoTemp     3000
 		lavaCoverTidal  0
 		lavaCoverSun    0
