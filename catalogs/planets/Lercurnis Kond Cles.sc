@@ -1,12 +1,12 @@
-Planet	"Cles/Lercurnis B VIII"
+Planet	"Cles/Lercurnis B VIIIa"
 {
-	ParentBody     "Kond"
+	ParentBody     "Cles-Gort bar"
 	Class          "Jupiter"
 	Mass            1167.4
 	Radius          77956
 	InertiaMoment   0.23631
-	Obliquity       0.41034
-	EqAscendNode    88.331
+	Obliquity       0
+	EqAscendNode    0
 	TidalLocked     true
 
 	AlbedoBond      0.3
@@ -176,11 +176,11 @@ Planet	"Cles/Lercurnis B VIII"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          0.705375
-		SemiMajorAxis   0.34635328
-		Eccentricity    0
-		Inclination     0.410342822
-		AscendingNode   88.3305386
+		Period          0.0601782471
+		SemiMajorAxis   0.000198709486
+		Eccentricity    0.05
+		Inclination     0
+		AscendingNode   0
 		ArgOfPericenter 0
 		MeanAnomaly     0
 	}

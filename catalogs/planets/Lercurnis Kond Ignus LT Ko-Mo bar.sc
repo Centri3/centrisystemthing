@@ -1,7 +1,12 @@
 Barycenter	"Ko-Mo bar/Lercurnis B V LT.1"
 {
 	ParentBody     "Kond"
-
+	Mass            1.8778e-06
+	Radius          1824.2
+	RotationPeriod  24
+	RotationEpoch   1451545
+	Obliquity       0
+	EqAscendNode    0
 
 
 	Orbit
