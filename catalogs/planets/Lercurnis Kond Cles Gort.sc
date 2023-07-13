@@ -6,9 +6,8 @@ Planet	"Gort/Lercurnis B VIIIb"
 	Radius          12329
 	InertiaMoment   0.32755
 	Oblateness      0.014567
-	RotationEpoch   1451545
-	Obliquity       28.748
-	EqAscendNode    -6.8392
+	Obliquity       0
+	EqAscendNode    0
 	TidalLocked     true
 
 	AlbedoBond      0.3
@@ -106,6 +105,12 @@ Planet	"Gort/Lercurnis B VIIIb"
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
+		stripeZones     1
+		stripeTwist     3.5
+		cycloneMagn     1.7918
+		cycloneFreq     0.81653
+		cycloneDensity  0.40536
+		cycloneOctaves  2
 		BumpHeight      10.728
 		SpecBrightWater 0
 		SpecBrightIce   0.03
@@ -121,11 +126,82 @@ Planet	"Gort/Lercurnis B VIIIb"
 
 	NoOcean         true
 
-	NoClouds        true
+	Clouds
+	{
+		Height          11.922
+		Velocity        203.4
+		BumpHeight      0.62215
+		Hapke           0
+		SpotBright      2
+		SpotWidth       0.03
+		DayAmbient      0.07
+		ModulateBright  1
+		Opacity         0.39695
+		mainFreq        1.4198
+		mainOctaves     0
+		Coverage        0.64122
+		stripeZones     1
+		stripeTwist     3.5
+	}
+
+	Clouds
+	{
+		Height          11.922
+		Velocity        203.4
+		BumpHeight      0.85369
+		Hapke           0
+		SpotBright      2
+		SpotWidth       0.03
+		DayAmbient      0.07
+		ModulateBright  1
+		Opacity         0.33588
+		mainFreq        1.4198
+		mainOctaves     0
+		Coverage        0.64122
+		stripeZones     1
+		stripeTwist     3.5
+	}
+
+	Clouds
+	{
+		Height          11.922
+		Velocity        203.4
+		BumpHeight      0.45341
+		Hapke           0
+		SpotBright      2
+		SpotWidth       0.03
+		DayAmbient      0.07
+		ModulateBright  1
+		Opacity         0.35115
+		mainFreq        1.4198
+		mainOctaves     0
+		Coverage        0.64122
+		stripeZones     1
+		stripeTwist     3.5
+	}
 
 	NoLava          true
 
-	NoAtmosphere    true
+	Atmosphere
+	{
+		Model          "Lercurnis Kond Cles Gort"
+		Height          50
+		Density         1.1267e-09
+		Pressure        1e-09
+		Greenhouse      0.0050058
+		Bright          5
+		Opacity         1
+		SkyLight        0.16667
+		Hue             0
+		Saturation      1
+
+		Composition
+		{
+			N2        	98
+			CO2       	1
+			SO2       	1
+		}
+	}
 
 	NoAurora        true
 
