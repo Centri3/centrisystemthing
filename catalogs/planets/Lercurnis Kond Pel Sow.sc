@@ -82,13 +82,13 @@ Moon	"Sow/Lercurnis B VII III"
 		craterFreq      5
 		craterDensity   1
 		craterOctaves   30
-		volcanoMagn     0
-		volcanoFreq     0
-		volcanoDensity  0
-		volcanoOctaves  0
+		volcanoMagn     0.4
+		volcanoFreq     1.0534
+		volcanoDensity  0.19084
+		volcanoOctaves  5
 		volcanoActivity 0
 		volcanoFlows    0
-		volcanoRadius   0
+		volcanoRadius   1
 		volcanoTemp     0
 		lavaCoverTidal  0
 		lavaCoverSun    0

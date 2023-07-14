@@ -81,7 +81,7 @@ Moon	"Luci/Lucernis I I"
 		craterDensity   1
 		craterOctaves   20
 		craterRayedFactor 0
-		volcanoMagn     0.41221
+		volcanoMagn     0.51908
 		volcanoFreq     2
 		volcanoDensity  0.099237
 		volcanoOctaves  1

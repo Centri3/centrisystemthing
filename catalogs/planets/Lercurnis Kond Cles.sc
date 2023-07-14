@@ -5,8 +5,8 @@ Planet	"Cles/Lercurnis B VIII"
 	Mass            1167.4
 	Radius          77956
 	InertiaMoment   0.23631
-	Obliquity       0
-	EqAscendNode    0
+	Obliquity       0.41034
+	EqAscendNode    88.331
 	TidalLocked     true
 
 	AlbedoBond      0.3

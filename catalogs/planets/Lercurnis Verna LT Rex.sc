@@ -78,14 +78,14 @@ DwarfPlanet	"Rex/Lercurnis I LT.1"
 		craterDensity   1
 		craterOctaves   6
 		craterRayedFactor 0
-		volcanoMagn     0.26955
-		volcanoFreq     0.60553
-		volcanoDensity  0.4
-		volcanoOctaves  3
-		volcanoActivity 2
-		volcanoFlows    0.13222
-		volcanoRadius   0.22641
-		volcanoTemp     264.34
+		volcanoMagn     0.34351
+		volcanoFreq     2
+		volcanoDensity  0.23664
+		volcanoOctaves  5
+		volcanoActivity 0
+		volcanoFlows    0
+		volcanoRadius   1
+		volcanoTemp     0
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0

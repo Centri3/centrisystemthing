@@ -83,14 +83,14 @@ Moon	"Wawa/Lercurnis I III"
 		craterDensity   1
 		craterOctaves   30
 		craterRayedFactor 0.06
-		volcanoMagn     0.1752
-		volcanoFreq     0.78284
-		volcanoDensity  0.23832
-		volcanoOctaves  0
+		volcanoMagn     0.25
+		volcanoFreq     2
+		volcanoDensity  1
+		volcanoOctaves  5
 		volcanoActivity 0
-		volcanoFlows    0.18124
-		volcanoRadius   0.13989
-		volcanoTemp     275.43
+		volcanoFlows    0
+		volcanoRadius   0.31298
+		volcanoTemp     0
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0

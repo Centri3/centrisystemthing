@@ -14,7 +14,6 @@ Planet	"Sedima/Lercurnis B VI"
 	AlbedoGeom      0.36
 	Brightness      1
 	BrightnessReal  1
-	Color          (1.000 0.996 0.992)
 
 	Surface
 	{
@@ -50,8 +49,8 @@ Planet	"Sedima/Lercurnis B VI"
 		mareDensity     0.16473
 		terraceProb     0.20679
 		erosion         0
-		montesMagn      0.03
-		montesFreq      150
+		montesMagn      0.05
+		montesFreq      75
 		montesSpiky     1
 		montesFraction  1
 		dunesMagn       0.063365
@@ -77,13 +76,13 @@ Planet	"Sedima/Lercurnis B VI"
 		craterFreq      5
 		craterDensity   1
 		craterOctaves   30
-		volcanoMagn     0
-		volcanoFreq     0
-		volcanoDensity  0
-		volcanoOctaves  0
+		volcanoMagn     0.43511
+		volcanoFreq     2
+		volcanoDensity  0.061069
+		volcanoOctaves  5
 		volcanoActivity 0
 		volcanoFlows    0
-		volcanoRadius   0
+		volcanoRadius   0.33588
 		volcanoTemp     0
 		lavaCoverTidal  0
 		lavaCoverSun    0

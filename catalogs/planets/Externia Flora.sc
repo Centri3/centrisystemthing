@@ -83,14 +83,14 @@ Moon	"Flora/Externia III"
 		craterDensity   1
 		craterOctaves   30
 		craterRayedFactor 0
-		volcanoMagn     1
+		volcanoMagn     0.4
 		volcanoFreq     2
-		volcanoDensity  0
-		volcanoOctaves  0
-		volcanoActivity 2
-		volcanoFlows    1
-		volcanoRadius   1
-		volcanoTemp     3000
+		volcanoDensity  0.33588
+		volcanoOctaves  5
+		volcanoActivity 0
+		volcanoFlows    0
+		volcanoRadius   0.39695
+		volcanoTemp     0
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
@@ -101,7 +101,7 @@ Moon	"Flora/Externia III"
 		cycloneDensity  0.3065
 		cycloneOctaves  3
 		BumpHeight      6
-		BumpOffset      0.96289
+		BumpOffset      1.4199
 		DiffMapAlpha   "Water"
 		SpecBrightWater 0.74809
 		SpecBrightIce   0.1

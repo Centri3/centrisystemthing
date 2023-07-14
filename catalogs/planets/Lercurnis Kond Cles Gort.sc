@@ -1,8 +1,12 @@
-Planet	"Gort/Lercurnis B VIII todo"
+Moon	"Gort/Lercurnis B VIII todo"
 {
 	ParentBody     "Cles"
 	Class          "Terra"
+	Mass            3.1098
 	Radius          10200
+	InertiaMoment   0.33218
+	Obliquity       5
+	EqAscendNode    0
 	TidalLocked     true
 
 	AlbedoBond      0.3
@@ -18,7 +22,7 @@ Planet	"Gort/Lercurnis B VIII todo"
 		colorDistMagn   0.066438
 		colorDistFreq   1610
 		detailScale     128
-		drivenDarkening 0.26718
+		drivenDarkening 0.51145
 		seaLevel        -0.015267
 		snowLevel       2
 		tropicLatitude  0.48157
@@ -51,7 +55,7 @@ Planet	"Gort/Lercurnis B VIII todo"
 		dunesMagn       0.044626
 		dunesFreq       83.833
 		dunesFraction   0.95479
-		hillsMagn       1.6794
+		hillsMagn       2
 		hillsFreq       25
 		hillsFraction   1
 		hills2Fraction  1
@@ -76,13 +80,13 @@ Planet	"Gort/Lercurnis B VIII todo"
 		craterDensity   1
 		craterOctaves   30
 		craterRayedFactor 0.49618
-		volcanoMagn     0
-		volcanoFreq     0
-		volcanoDensity  0
-		volcanoOctaves  0
+		volcanoMagn     0.41221
+		volcanoFreq     2
+		volcanoDensity  1
+		volcanoOctaves  5
 		volcanoActivity 0
 		volcanoFlows    0
-		volcanoRadius   0
+		volcanoRadius   0.35878
 		volcanoTemp     0
 		lavaCoverTidal  0
 		lavaCoverSun    0
@@ -199,10 +203,10 @@ Planet	"Gort/Lercurnis B VIII todo"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          0.0601782471
-		SemiMajorAxis   0.0231973454
-		Eccentricity    0.05
-		Inclination     0
+		PeriodDays      21.9796348
+		SemiMajorAxisKm 3470273.48
+		Eccentricity    0.122137405
+		Inclination     5
 		AscendingNode   0
 		ArgOfPericenter 180
 		MeanAnomaly     0

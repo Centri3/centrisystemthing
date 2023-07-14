@@ -81,13 +81,13 @@ Moon	"Col/Lercurnis B VII II"
 		craterDensity   1
 		craterOctaves   30
 		craterRayedFactor 0.54198
-		volcanoMagn     0
-		volcanoFreq     0
-		volcanoDensity  0
-		volcanoOctaves  0
+		volcanoMagn     0.26718
+		volcanoFreq     0.85496
+		volcanoDensity  0.32061
+		volcanoOctaves  5
 		volcanoActivity 0
 		volcanoFlows    0
-		volcanoRadius   0
+		volcanoRadius   0.37405
 		volcanoTemp     0
 		lavaCoverTidal  0
 		lavaCoverSun    0

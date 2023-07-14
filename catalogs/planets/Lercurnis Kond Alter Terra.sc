@@ -3,7 +3,7 @@ Planet	"Alter Terra/Lercurnis B X"
 	ParentBody     "Kond"
 	Class          "Terra"
 	Mass            1
-	Radius          6378.1
+	Radius          6378.14
 	InertiaMoment   0.32973
 	Oblateness      0.00335
 	RotationPeriod  23.965536
@@ -84,13 +84,13 @@ Planet	"Alter Terra/Lercurnis B X"
 		craterFreq      5
 		craterDensity   1
 		craterOctaves   30
-		volcanoMagn     0
-		volcanoFreq     0
-		volcanoDensity  0
-		volcanoOctaves  0
+		volcanoMagn     0.41221
+		volcanoFreq     2
+		volcanoDensity  1
+		volcanoOctaves  5
 		volcanoActivity 0
 		volcanoFlows    0
-		volcanoRadius   0
+		volcanoRadius   0.10687
 		volcanoTemp     0
 		lavaCoverTidal  0
 		lavaCoverSun    0
@@ -102,7 +102,7 @@ Planet	"Alter Terra/Lercurnis B X"
 		cycloneDensity  0.27541
 		cycloneOctaves  0
 		BumpHeight      20
-		BumpOffset      2
+		BumpOffset      12.061
 		DiffMapAlpha   "Water"
 		SpecBrightWater 0.65
 		SpecBrightIce   0.85
