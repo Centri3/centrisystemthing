@@ -7,8 +7,8 @@ Planet	"Mons/Lercurnis B IX"
 	InertiaMoment   0.32861
 	RotationPeriod  116.74
 	RotationEpoch   1451545
-	Obliquity       0.40864
-	EqAscendNode    140.16
+	Obliquity       10
+	EqAscendNode    79.695
 
 	AlbedoBond      0.61714
 	AlbedoGeom      0.36

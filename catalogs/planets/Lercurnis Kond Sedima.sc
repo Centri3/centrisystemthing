@@ -83,7 +83,7 @@ Planet	"Sedima/Lercurnis B VI"
 		volcanoActivity 0
 		volcanoFlows    0
 		volcanoRadius   0.33588
-		volcanoTemp     0
+		volcanoTemp     2500
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0

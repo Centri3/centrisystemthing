@@ -81,7 +81,7 @@ Moon	"Voltac/Lercurnis B IX I"
 		craterDensity   1
 		craterOctaves   30
 		craterRayedFactor 0
-		volcanoMagn     0
+		volcanoMagn     0.38
 		volcanoFreq     0.21374
 		volcanoDensity  0.14504
 		volcanoOctaves  5
