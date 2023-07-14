@@ -1,32 +1,14 @@
-Planet	"Gort/Lercurnis B VIIIb"
+Planet	"Gort/Lercurnis B VIII todo"
 {
-	ParentBody     "Cles-Gort bar"
+	ParentBody     "Cles"
 	Class          "Terra"
-	Mass            10
-	Radius          12329
-	InertiaMoment   0.32755
-	Oblateness      0.014567
-	Obliquity       0
-	EqAscendNode    0
+	Radius          10200
 	TidalLocked     true
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
 	Brightness      1
 	BrightnessReal  1
-
-    Interior
-    {
-        Composition
-        {
-            Hydrogen    0
-            Helium      0
-            Carbides    0
-            Ices        10
-            Silicates   65
-            Metals      25
-        }
-    }
 
 	Surface
 	{
