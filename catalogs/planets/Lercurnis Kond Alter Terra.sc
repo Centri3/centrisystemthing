@@ -3,7 +3,7 @@ Planet	"Alter Terra/Lercurnis B X"
 	ParentBody     "Kond"
 	Class          "Terra"
 	Mass            1
-	Radius          6378.14
+	Radius          6378.1
 	InertiaMoment   0.32973
 	Oblateness      0.00335
 	RotationPeriod  23.965536
@@ -211,25 +211,25 @@ Planet	"Alter Terra/Lercurnis B X"
 
 	Aurora
 	{
-		Height         78.796
-		NorthLat       68.194
-		NorthLon       126.02
-		NorthRadius    1757.1
-		NorthWidth     418.14
-		NorthRings     3
+		Height         100
+		NorthLat       90
+		NorthLon       0
+		NorthRadius    3714.6
+		NorthWidth     3238.1
+		NorthRings     10
 		NorthBright    0.3
 		NorthFlashFreq 76.994
-		NorthMoveSpeed 0.72004
-		NorthParticles 50000
-		SouthLat       -53.929
-		SouthLon       -66.106
-		SouthRadius    1935.1
-		SouthWidth     568.77
-		SouthRings     2
+		NorthMoveSpeed 10
+		NorthParticles 100000
+		SouthLat       -90
+		SouthLon       0
+		SouthRadius    3714.6
+		SouthWidth     3238.1
+		SouthRings     10
 		SouthBright    0.3
-		SouthFlashFreq 65.339
-		SouthMoveSpeed 0.93577
-		SouthParticles 50000
+		SouthFlashFreq 57.991
+		SouthMoveSpeed 10
+		SouthParticles 100000
 		TopColor    (1.000 1.000 1.000)
 		BottomColor (0.000 1.000 0.000)
 	}
