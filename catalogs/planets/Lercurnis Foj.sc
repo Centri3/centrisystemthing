@@ -130,7 +130,7 @@ DwarfPlanet	"Foj/Lercurnis TFO.1"
 		Period          552.802057
 		SemiMajorAxis   62.818188
 		Eccentricity    0.580152672
-		Inclination     5
+		Inclination     15
 		AscendingNode   68.7022901
 		ArgOfPericenter 129.160305
 		MeanAnomaly     0

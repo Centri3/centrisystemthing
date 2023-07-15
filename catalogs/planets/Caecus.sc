@@ -6,7 +6,11 @@ Star	"Oblitus es/Caecus"
 	Temperature     2700
 	Age             4563.6
 
-    NoAccretionDisk true
+	NoRings         true
+
+	NoAccretionDisk true
+
+	NoCometTail     true
 
 	Orbit
 	{
