@@ -14,6 +14,14 @@ Planet	"Kou/Caecus I"
 	Brightness      1
 	BrightnessReal  1
 
+	Interior
+	{
+		Composition
+		{
+			Metals		100
+		}
+	}
+
 	Surface
 	{
 		Preset         "caecus_kou.cfg"
@@ -113,8 +121,7 @@ Planet	"Kou/Caecus I"
 	Atmosphere
 	{
 		Model          "Pluto"
-		Height          400
-		Density         7.9639e-07
+		Height          100
 		Pressure        1e-06
 		Greenhouse      0.00011447
 		Bright          0.2
