@@ -9,6 +9,7 @@ Planet	"Nemor/Atiu I"
 	EqAscendNode    173.13
 	TidalLocked     true
 
+	EndogenousHeating 1786.3
 	AbsMagn         -3.8041
 	SlopeParam      2.9569
 	Albedo          0.8
@@ -117,14 +118,12 @@ Planet	"Nemor/Atiu I"
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
-		ModulateBright  0.25835
-		Opacity         0.73282
+		ModulateBright  10
 		mainFreq        0.57252
 		mainOctaves     0
 		Coverage        0.32061
 		stripeZones     1
 		stripeTwist     3.5
-		TidalLocked     true
 	}
 
 	Clouds
@@ -136,14 +135,12 @@ Planet	"Nemor/Atiu I"
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
-		ModulateBright  0.40803
-		Opacity         0.76336
+		ModulateBright  10
 		mainFreq        0.57252
 		mainOctaves     0
 		Coverage        0.32061
 		stripeZones     1
 		stripeTwist     3.5
-		TidalLocked     true
 	}
 
 	Clouds
@@ -155,14 +152,12 @@ Planet	"Nemor/Atiu I"
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
-		ModulateBright  0.46963
-		Opacity         0.70229
+		ModulateBright  10
 		mainFreq        0.57252
 		mainOctaves     0
 		Coverage        0.32061
 		stripeZones     1
 		stripeTwist     3.5
-		TidalLocked     true
 	}
 
 	NoLava          true
@@ -172,8 +167,8 @@ Planet	"Nemor/Atiu I"
 		Model          "Atiu Nemor"
 		Height          300
 		Density         1.8864
-		Pressure        100
-		Greenhouse      1000
+		Pressure        1
+		Greenhouse      10
 		Bright          7
 		Opacity         1
 		SkyLight        3.3333
@@ -221,7 +216,16 @@ Planet	"Nemor/Atiu I"
 
 	NoAccretionDisk true
 
-	NoCometTail     true
+	CometTail
+	{
+		MaxLength   0.0048716
+		GasToDust   0
+		Particles   10000
+		GasBright   0.001
+		DustBright  0.010919
+		GasColor   (0.000 0.000 0.000)
+		DustColor  (0.017 0.032 0.035)
+	}
 
 	Orbit
 	{
