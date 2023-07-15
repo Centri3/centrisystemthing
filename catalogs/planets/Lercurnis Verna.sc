@@ -13,12 +13,14 @@ Planet	"Verna/Lercurnis I"
 	AlbedoGeom      0.36
 	Brightness      1
 	BrightnessReal  1
+	Color          (0.600 0.594 0.588)
 
 	Life
 	{
 		Class   "Organic"
 		Type    "Multicellular"
 		Biome   "Marine/Terrestrial"
+		Panspermia true
 	}
 
 	Surface

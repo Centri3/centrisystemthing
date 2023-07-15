@@ -19,6 +19,7 @@ Moon	"Sow/Lercurnis B VII III"
 		Class   "Organic"
 		Type    "Multicellular"
 		Biome   "Marine/Terrestrial"
+		Panspermia true
 	}
 
 	Surface
