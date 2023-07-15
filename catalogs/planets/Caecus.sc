@@ -5,7 +5,6 @@ Star	"Oblitus es/Caecus"
 	MassSol         0.55
 	Temperature     2700
 	Age             4563.6
-	Obliquity       0
 
 	NoRings         true
 

@@ -13,6 +13,8 @@ Star    "Fragmunt/Lercurnis A"
         RefPlane        "Equator"
         Period			20.7063094
         SemiMajorAxis   0.7
+        Inclination     0
+        AscendingNode   0
         ArgOfPericenter	0
         MeanAnomaly     0
     }

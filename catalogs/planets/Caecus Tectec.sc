@@ -1,6 +1,6 @@
 Planet	"Tectec/Caecus II"
 {
-	ParentBody     "Caecus system bar"
+	ParentBody     "Oblitus es"
 	Class          "Terra"
 	Mass            0.10747
 	Radius          3201.1

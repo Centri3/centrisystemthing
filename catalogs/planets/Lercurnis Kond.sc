@@ -46,6 +46,8 @@ Star    "Kond/Lercurnis B"
         RefPlane        "Equator"
         Period			20.7063094
         SemiMajorAxis   6.3
+        Inclination     0
+        AscendingNode   0
         ArgOfPericenter	180
         MeanAnomaly     0
     }

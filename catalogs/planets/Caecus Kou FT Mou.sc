@@ -1,6 +1,6 @@
 DwarfPlanet	"Mou/Caecus I.FT1"
 {
-	ParentBody     "Caecus system bar"
+	ParentBody     "Oblitus es"
 	Class          "Ferria"
 	Mass            0.00024604
 	Radius          336.01

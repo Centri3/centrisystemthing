@@ -1,6 +1,6 @@
 Planet	"Kou/Caecus I"
 {
-	ParentBody     "Caecus system bar"
+	ParentBody     "Oblitus es"
 	Class          "Ferria"
 	Mass            0.32
 	Radius          3446
