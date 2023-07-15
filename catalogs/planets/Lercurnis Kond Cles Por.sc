@@ -11,8 +11,7 @@ Moon	"Por/Lercurnis B VIII I"
 	TidalLocked     true
 
 	EndogenousHeating 1450.4
-	AlbedoBond      0.9
-	AlbedoGeom      0.96
+	Albedo          0.04
 	Brightness      1
 	BrightnessReal  1
 
