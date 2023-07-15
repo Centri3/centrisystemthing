@@ -125,8 +125,8 @@ Moon	"Por/Lercurnis B VIII I"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      1.02691078
-		SemiMajorAxisKm 452732.261
+		PeriodDays      0.660269765
+		SemiMajorAxisKm 337261.868
 		Eccentricity    0.03
 		Inclination     0
 		AscendingNode   0
