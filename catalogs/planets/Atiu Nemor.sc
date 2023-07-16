@@ -14,7 +14,7 @@ Planet	"Nemor/Atiu I"
 	SlopeParam      2.9569
 	Albedo          0.8
 	Brightness      1
-	BrightnessReal  0.01
+	BrightnessReal  1
 
 	Surface
 	{
