@@ -14,7 +14,7 @@ Planet	"Smol/Lercurnis B I"
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
 	Brightness      1
-	BrightnessReal  1
+	BrightnessReal  0.3
     TempMapMaxTemp  52500
 
 	Surface
@@ -127,8 +127,8 @@ Planet	"Smol/Lercurnis B I"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      1.12667162
-		SemiMajorAxisKm 1365943.23
+		Period          0.00308472474
+		SemiMajorAxis   0.00913076653
 		Eccentricity    0.05
 		Inclination     3
 		AscendingNode   120.900786
