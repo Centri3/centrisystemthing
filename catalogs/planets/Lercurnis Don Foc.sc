@@ -6,8 +6,8 @@ Moon	"Foc/Lercurnis II I"
 	Radius          1007.8
 	InertiaMoment   0.39917
 	Oblateness      0.0061099
-	Obliquity       0
-	EqAscendNode    0
+	Obliquity       4
+	EqAscendNode    41.221
 	TidalLocked     true
 
 	AlbedoBond      0.3
@@ -74,9 +74,9 @@ Moon	"Foc/Lercurnis II I"
 		riftsMagn       15
 		riftsFreq       5.3435
 		riftsSin        10
-		eqridgeMagn     1
+		eqridgeMagn     0.32824
 		eqridgeWidth    1
-		eqridgeModMagn  2.5
+		eqridgeModMagn  1.9084
 		eqridgeModFreq  10
 		canyonsMagn     0.62274
 		canyonsFreq     0.31218
@@ -111,6 +111,8 @@ Moon	"Foc/Lercurnis II I"
 		Hapke           0.77099
 		SpotBright      2.5
 		SpotWidth       0.05
+		SpotBrightCB    2.5
+		SpotWidthCB     0.05
 		DayAmbient      0.07
 	}
 
