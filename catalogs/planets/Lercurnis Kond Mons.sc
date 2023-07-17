@@ -32,7 +32,7 @@ Planet	"Mons/Lercurnis B IX"
 		detailScale     128
 		drivenDarkening 0
 		seaLevel        0.23664
-		snowLevel       0.92
+		snowLevel       1.4504
 		tropicLatitude  0.56489
 		icecapLatitude  0.73282
 		icecapHeight    0

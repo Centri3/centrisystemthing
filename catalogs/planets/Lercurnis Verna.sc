@@ -13,7 +13,6 @@ Planet	"Verna/Lercurnis I"
 	AlbedoGeom      0.36
 	Brightness      1
 	BrightnessReal  1
-	Color          (0.600 0.594 0.588)
 
 	Life
 	{
@@ -33,7 +32,7 @@ Planet	"Verna/Lercurnis I"
 		detailScale     128
 		drivenDarkening 0
 		seaLevel        0.35115
-		snowLevel       0.92
+		snowLevel       2
 		tropicLatitude  0.63359
 		icecapLatitude  0.8
 		icecapHeight    0.21374

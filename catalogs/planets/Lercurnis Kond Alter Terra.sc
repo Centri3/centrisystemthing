@@ -33,7 +33,7 @@ Planet	"Alter Terra/Lercurnis B X"
 		detailScale     128
 		drivenDarkening 0
 		seaLevel        0.60305
-		snowLevel       0.7
+		snowLevel       1.5
 		tropicLatitude  0.65335
 		icecapLatitude  0.65649
 		icecapHeight    0.25
