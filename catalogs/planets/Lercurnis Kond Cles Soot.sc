@@ -32,7 +32,7 @@ Moon	"Soot/Lercurnis B VIII III"
 		detailScale     128
 		drivenDarkening 0
 		seaLevel        -0.17557
-		snowLevel       2
+		snowLevel       1.8168
 		tropicLatitude  0
 		icecapLatitude  0.68702
 		icecapHeight    0.019269

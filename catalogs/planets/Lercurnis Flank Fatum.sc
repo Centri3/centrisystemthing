@@ -30,7 +30,7 @@ Moon	"Fatum/Lercurnis III I"
 		colorDistFreq   297.2
 		detailScale     128
 		drivenDarkening 0
-		seaLevel        0.0076271
+		seaLevel        0.007627
 		snowLevel       1.3359
 		tropicLatitude  0.2912
 		icecapLatitude  0.45802
@@ -59,9 +59,9 @@ Moon	"Fatum/Lercurnis III I"
 		montesFreq      65
 		montesSpiky     1
 		montesFraction  1
-		dunesMagn       0.047594
-		dunesFreq       13.65
-		dunesFraction   0.054219
+		dunesMagn       0
+		dunesFreq       0
+		dunesFraction   0
 		hillsMagn       10
 		hillsFreq       25
 		hillsFraction   1
@@ -101,6 +101,7 @@ Moon	"Fatum/Lercurnis III I"
 		cycloneDensity  0.39663
 		cycloneOctaves  0
 		BumpHeight      20
+		BumpOffset      0.15254
 		DiffMapAlpha   "Water"
 		SpecBrightWater 0.65
 		SpecBrightIce   0.1
@@ -142,11 +143,12 @@ Moon	"Fatum/Lercurnis III I"
 		SubsurfScatBright 1
 		SubsurfScatPower  100
 		RingsWinter     0
+		ModulateColor  (0.605 0.861 1.000)
 		ModulateBright  1
-		Opacity         0.38168
-		mainFreq        1.4656
+		Opacity         0.29008
+		mainFreq        1.3969
 		mainOctaves     0
-		Coverage        0.42748
+		Coverage        0.44275
 		stripeZones     1.7653
 		stripeTwist     0.39039
 	}
@@ -163,11 +165,12 @@ Moon	"Fatum/Lercurnis III I"
 		SubsurfScatBright 1
 		SubsurfScatPower  100
 		RingsWinter     0
+		ModulateColor  (0.461 0.545 1.000)
 		ModulateBright  1
 		Opacity         0.22901
-		mainFreq        1.4656
+		mainFreq        1.3969
 		mainOctaves     0
-		Coverage        0.42748
+		Coverage        0.44275
 		stripeZones     1.7653
 		stripeTwist     0.39039
 	}
@@ -175,7 +178,7 @@ Moon	"Fatum/Lercurnis III I"
 	Clouds
 	{
 		Height          22.446
-		Velocity        200
+		Velocity        50
 		BumpHeight      4.3969
 		Hapke           0
 		SpotBright      2
@@ -184,11 +187,12 @@ Moon	"Fatum/Lercurnis III I"
 		SubsurfScatBright 1
 		SubsurfScatPower  100
 		RingsWinter     0
+		ModulateColor  (0.480 0.927 1.000)
 		ModulateBright  1
 		Opacity         0.24427
-		mainFreq        1.4656
+		mainFreq        1.3969
 		mainOctaves     0
-		Coverage        0.42748
+		Coverage        0.44275
 		stripeZones     1.7653
 		stripeTwist     0.39039
 	}

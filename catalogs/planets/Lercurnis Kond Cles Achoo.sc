@@ -32,7 +32,7 @@ Moon	"Achoo/Lercurnis B VIII II"
 		detailScale     128
 		drivenDarkening 0
 		seaLevel        0.35115
-		snowLevel       0.9
+		snowLevel       2
 		tropicLatitude  0.68214
 		icecapLatitude  2
 		icecapHeight    0.73352
@@ -133,7 +133,6 @@ Moon	"Achoo/Lercurnis B VIII II"
 		Coverage        0.64122
 		stripeZones     1
 		stripeTwist     3.5
-        TempMapMaxTemp  67000
 	}
 
 	Clouds
@@ -153,7 +152,6 @@ Moon	"Achoo/Lercurnis B VIII II"
 		Coverage        0.64122
 		stripeZones     1
 		stripeTwist     3.5
-        TempMapMaxTemp  67000
 	}
 
 	Clouds
@@ -173,7 +171,6 @@ Moon	"Achoo/Lercurnis B VIII II"
 		Coverage        0.64122
 		stripeZones     1
 		stripeTwist     3.5
-        TempMapMaxTemp  67000
 	}
 
 	NoLava          true
