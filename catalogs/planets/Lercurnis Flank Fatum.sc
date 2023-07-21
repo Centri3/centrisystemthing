@@ -7,7 +7,7 @@ Moon	"Fatum/Lercurnis III I"
 	InertiaMoment   0.35214
 	Oblateness      0.0051473
 	Obliquity       0
-	EqAscendNode    0
+	EqAscendNode    -156.64
 	TidalLocked     true
 
 	Albedo          0.7
@@ -96,9 +96,9 @@ Moon	"Fatum/Lercurnis III I"
 		BumpHeight      20
 		BumpOffset      0.15254
 		DiffMapAlpha   "Water"
-		SpecBrightWater 0.65
+		SpecBrightWater 1
 		SpecBrightIce   0.1
-		RoughnessWater  0.35
+		RoughnessWater  0.48855
 		RoughnessIce    0.45
 		SpecularScale   1
 		RoughnessBias   0.2

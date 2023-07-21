@@ -103,9 +103,9 @@ Moon	"Flora/Externia III"
 		BumpHeight      6
 		BumpOffset      1.4199
 		DiffMapAlpha   "Water"
-		SpecBrightWater 0.74809
+		SpecBrightWater 2
 		SpecBrightIce   0.1
-		RoughnessWater  0.38168
+		RoughnessWater  0.51145
 		RoughnessIce    0.45
 		SpecularScale   1
 		RoughnessBias   0.22901

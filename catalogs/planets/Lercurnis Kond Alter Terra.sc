@@ -104,9 +104,9 @@ Planet	"Alter Terra/Lercurnis B X"
 		BumpHeight      20
 		BumpOffset      12.061
 		DiffMapAlpha   "Water"
-		SpecBrightWater 0.65
+		SpecBrightWater 1
 		SpecBrightIce   0.85
-		RoughnessWater  0.35
+		RoughnessWater  0.45802
 		RoughnessIce    0.45
 		SpecularScale   1
 		RoughnessBias   0.5
