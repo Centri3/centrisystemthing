@@ -1,16 +1,16 @@
-Moon	"Foc/Lercurnis II I"
+Moon	"Org/Lercurnis III II"
 {
-	ParentBody     "Don"
+	ParentBody     "Flank"
 	Class          "Aquaria"
-	Mass            0.0018275
-	Radius          1007.8
-	InertiaMoment   0.39917
-	Oblateness      0.0061099
-	Obliquity       4
-	EqAscendNode    41.221
+	Mass            0.002
+	Radius          932.2
+	InertiaMoment   0.39678
+	Oblateness      0.0013817
+	Obliquity       3
+	EqAscendNode    0
 	TidalLocked     true
 
-	Albedo          0.7
+	Albedo          0.72
 	Brightness      1
 	BrightnessReal  1
 
@@ -24,18 +24,18 @@ Moon	"Foc/Lercurnis II I"
 
 	Surface
 	{
-		Preset         "lercurnis_don_foc.cfg"
-		SurfStyle       0.12792
-		Randomize      (-0.898, 0.822, 0.507)
-		colorDistMagn   0.042941
-		colorDistFreq   120.14
+		Preset         "lercurnis_flank_org.cfg"
+		SurfStyle       0.76488
+		Randomize      (-0.490, -0.338, 0.705)
+		colorDistMagn   0.082667
+		colorDistFreq   106.47
 		detailScale     128
-		drivenDarkening 0.16031
-		seaLevel        -0.12977
+		drivenDarkening 0
+		seaLevel        0.15
 		snowLevel       2
-		tropicLatitude  0.37581
+		tropicLatitude  0.34085
 		icecapLatitude  2
-		icecapHeight    0
+		icecapHeight    0.008557
 		climatePole     0.9375
 		climateTropic   0.3125
 		climateEquator  0.6875
@@ -45,73 +45,72 @@ Moon	"Foc/Lercurnis II I"
 		climateForestMax -1
 		climateGrassMin  -1
 		climateGrassMax  -1
-		humidity        0.32178
+		humidity        0.15427
 		heightTempGrad  0.625
-		beachWidth      0.00078457
+		beachWidth      0.0012235
 		tropicWidth     0.07
-		mainFreq        1.9074
-		venusFreq       1.3558
-		venusMagn       1.1069
+		mainFreq        2.6336
+		venusFreq       1.2366
+		venusMagn       0.91603
 		mareFreq        0.5
 		mareDensity     1
-		terraceProb     0.16364
+		terraceProb     0.41982
 		erosion         0
 		montesMagn      0.1
 		montesFreq      25
 		montesSpiky     1
 		montesFraction  1
-		dunesMagn       0.023906
-		dunesFreq       8.3625
-		dunesFraction   0.070688
-		hillsMagn       0.7
+		dunesMagn       0
+		dunesFreq       0
+		dunesFraction   0
+		hillsMagn       1
 		hillsFreq       25
 		hillsFraction   1
 		hills2Fraction  1
 		riversMagn      0
-		riversFreq      3.657
-		riversSin       4.8852
-		riftsMagn       15
-		riftsFreq       5.3435
+		riversFreq      2.9912
+		riversSin       5.8437
+		riftsMagn       25
+		riftsFreq       2.1374
 		riftsSin        10
-		eqridgeMagn     0.099237
+		eqridgeMagn     0.045802
 		eqridgeWidth    1
-		eqridgeModMagn  1.9084
+		eqridgeModMagn  1.584
 		eqridgeModFreq  10
-		canyonsMagn     0.62274
-		canyonsFreq     0.31218
+		canyonsMagn     0
+		canyonsFreq     0.28917
 		canyonsFraction 0
 		cracksMagn      0
-		cracksFreq      0
-		cracksOctaves   0
+		cracksFreq      2
+		cracksOctaves   15
 		craterMagn      0.5
 		craterFreq      2
 		craterDensity   1
 		craterOctaves   30
 		craterRayedFactor 0
-		volcanoMagn     0.35
-		volcanoFreq     1.6183
-		volcanoDensity  0.17557
+		volcanoMagn     0.2
+		volcanoFreq     1.3435
+		volcanoDensity  0.38931
 		volcanoOctaves  5
 		volcanoActivity 0
 		volcanoFlows    0
-		volcanoRadius   1
+		volcanoRadius   0.61069
 		volcanoTemp     0
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
-		BumpHeight      35
+		BumpHeight      50
 		DiffMapAlpha   "Ice"
 		SpecBrightWater 0.03
 		SpecBrightIce   0.03
-		RoughnessWater  0.35
+		RoughnessWater  0.26718
 		RoughnessIce    0.45
 		SpecularScale   1
-		RoughnessBias   0.2
-		Hapke           0.77099
-		SpotBright      2.5
+		RoughnessBias   0.41221
+		RoughnessScale  0.9313
+		Hapke           0.5
+		SpotBright      3.5115
 		SpotWidth       0.05
-		SpotBrightCB    2.5
-		SpotWidthCB     0.05
 		DayAmbient      0.07
 	}
 
@@ -134,12 +133,12 @@ Moon	"Foc/Lercurnis II I"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      1.23101723
-		SemiMajorAxisKm 102962.38
-		Eccentricity    0.001
-		Inclination     4
-		AscendingNode   41.221374
-		ArgOfPericenter 35.7251908
+		PeriodDays      2.19164932
+		SemiMajorAxisKm 142700.342
+		Eccentricity    0.0152671756
+		Inclination     3
+		AscendingNode   129.160305
+		ArgOfPericenter 112.671756
 		MeanAnomaly     0
 	}
 }

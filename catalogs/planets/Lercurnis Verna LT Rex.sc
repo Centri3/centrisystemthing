@@ -26,7 +26,7 @@ DwarfPlanet	"Rex/Lercurnis I LT.1"
 		detailScale     128
 		drivenDarkening 0
 		seaLevel        0.58015
-		snowLevel       0.64885
+		snowLevel       1.2
 		tropicLatitude  0.021862
 		icecapLatitude  0.77863
 		icecapHeight    0
