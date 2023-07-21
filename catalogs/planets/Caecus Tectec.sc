@@ -80,14 +80,14 @@ Planet	"Tectec/Caecus II"
 		craterDensity   1
 		craterOctaves   20
 		craterRayedFactor 0
-		volcanoMagn     0.32
+		volcanoMagn     0.4
 		volcanoFreq     1.2672
 		volcanoDensity  0.12214
 		volcanoOctaves  5
-		volcanoActivity 2
-		volcanoFlows    1
+		volcanoActivity 0
+		volcanoFlows    0
 		volcanoRadius   0.52672
-		volcanoTemp     3000
+		volcanoTemp     0
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
