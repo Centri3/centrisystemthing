@@ -1,8 +1,8 @@
-Moon	"Pi/Lercurnis III VI"
+Moon	"Tro/Lercurnis III VII"
 {
 	ParentBody     "Flank"
 	Class          "Aquaria"
-	Mass            0.005
+	Mass            0.006
 
 	Albedo          0.4
 	Brightness      1
@@ -10,7 +10,7 @@ Moon	"Pi/Lercurnis III VI"
 
 	Surface
 	{
-		Preset         "lercurnis_flank_pi.cfg"
+		Preset         "lercurnis_flank_tro.cfg"
 	}
 
 	NoOcean         true
@@ -50,7 +50,7 @@ Moon	"Pi/Lercurnis III VI"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      16.508812629
+		PeriodDays      22.713728513
 	}
 }
 
