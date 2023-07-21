@@ -14,13 +14,6 @@ Moon	"Fatum/Lercurnis III I"
 	Brightness      1
 	BrightnessReal  1
 
-	Life
-	{
-		Class   "Organic"
-		Type    "Multicellular"
-		Biome   "Subglacial"
-	}
-
 	Surface
 	{
 		Preset         "lercurnis_flank_fatum.cfg"
@@ -205,7 +198,7 @@ Moon	"Fatum/Lercurnis III I"
 		Height          80
 		Density         3.9262
 		Pressure        0.37092
-		Greenhouse      30
+		Greenhouse      5
 		Bright          7
 		Opacity         1
 		SkyLight        3.3333
@@ -232,10 +225,10 @@ Moon	"Fatum/Lercurnis III I"
 		RefPlane        "Equator"
 		PeriodDays      1.09582466
 		SemiMajorAxisKm 90000
-		Eccentricity    0
+		Eccentricity    0.0002
 		Inclination     0
-		AscendingNode   0
-		ArgOfPericenter 0
+		AscendingNode   -156.641221
+		ArgOfPericenter 167.633588
 		MeanAnomaly     0
 	}
 }

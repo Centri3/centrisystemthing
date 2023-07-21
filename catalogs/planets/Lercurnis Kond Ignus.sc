@@ -31,8 +31,8 @@ Planet	"Ignus/Lercurnis B V"
 		icecapLatitude  2
 		icecapHeight    0
 		climatePole     1
-		climateTropic   0.5625
-		climateEquator  0.5625
+		climateTropic   0.55725
+		climateEquator  0.56489
 		climateSteppeMin -1
 		climateSteppeMax -1
 		climateForestMin -1
@@ -204,16 +204,7 @@ Planet	"Ignus/Lercurnis B V"
 
 	NoAccretionDisk true
 
-	CometTail
-	{
-		MaxLength   0.011326
-		GasToDust   0
-		Particles   10000
-		GasBright   0.001
-		DustBright  0.02
-		GasColor   (0.000 0.000 0.000)
-		DustColor  (0.016 0.023 0.031)
-	}
+	NoCometTail     true
 
 	Orbit
 	{

@@ -135,7 +135,7 @@ Moon	"Org/Lercurnis III II"
 		RefPlane        "Equator"
 		PeriodDays      2.19164932
 		SemiMajorAxisKm 142700.342
-		Eccentricity    0.0152671756
+		Eccentricity    0.00152671756
 		Inclination     3
 		AscendingNode   129.160305
 		ArgOfPericenter 112.671756
