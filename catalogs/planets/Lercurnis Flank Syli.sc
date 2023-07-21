@@ -1,28 +1,36 @@
-Moon	"Uneon/Lercurnis III III"
+Moon	"Syli/Lercurnis III IV"
 {
 	ParentBody     "Flank"
 	Class          "Aquaria"
-	Mass            0.0012125
-	Radius          880.05
-	InertiaMoment   0.39745
-	Obliquity       0.2
-	EqAscendNode    46.718
+	Mass            0.0016
+	Radius          904.52
+	InertiaMoment   0.39941
+	Obliquity       0
+	EqAscendNode    0
 	TidalLocked     true
 
-	Albedo          0.2
+	Albedo          0.27
 	Brightness      1
 	BrightnessReal  1
 
+	Life
+	{
+		Class   "Organic"
+		Type    "Multicellular"
+		Biome   "Subglacial"
+		Panspermia true
+	}
+
 	Surface
 	{
-		Preset         "lercurnis_flank_uneon.cfg"
-		SurfStyle       0.50418
-		Randomize      (-0.944, -0.529, 0.439)
-		colorDistMagn   0.050081
-		colorDistFreq   102.44
+		Preset         "lercurnis_flank_syli.cfg"
+		SurfStyle       0.48495
+		Randomize      (0.704, -0.381, -0.766)
+		colorDistMagn   0.047885
+		colorDistFreq   102.65
 		detailScale     128
 		drivenDarkening 0
-		seaLevel        -0.038168
+		seaLevel        -0.35878
 		snowLevel       2
 		tropicLatitude  0.2912
 		icecapLatitude  2
@@ -36,61 +44,61 @@ Moon	"Uneon/Lercurnis III III"
 		climateForestMax -1
 		climateGrassMin  -1
 		climateGrassMax  -1
-		humidity        0.40615
+		humidity        0.26816
 		heightTempGrad  0.625
-		beachWidth      0.00098257
+		beachWidth      0.0011757
 		tropicWidth     0.07
-		mainFreq        1.6426
+		mainFreq        1.8242
 		venusFreq       2
-		venusMagn       0.87786
-		mareFreq        1
+		venusMagn       0.9542
+		mareFreq        0.4
 		mareDensity     1
-		terraceProb     0.32189
+		terraceProb     0.19581
 		erosion         0
 		montesMagn      0.1
 		montesFreq      25
 		montesSpiky     1
 		montesFraction  1
-		dunesMagn       0.025555
-		dunesFreq       8.0913
-		dunesFraction   0.083932
+		dunesMagn       0.035864
+		dunesFreq       7.8582
+		dunesFraction   0.55741
 		hillsMagn       1
 		hillsFreq       25
 		hillsFraction   1
 		hills2Fraction  1
 		riversMagn      0
-		riversFreq      3.7944
-		riversSin       6.4761
-		riftsMagn       5
-		riftsFreq       1.4504
-		riftsSin        7.7863
-		eqridgeMagn     0.053435
+		riversFreq      2.7232
+		riversSin       7.6431
+		riftsMagn       15
+		riftsFreq       7
+		riftsSin        10
+		eqridgeMagn     0.1145
 		eqridgeWidth    1
-		eqridgeModMagn  1.2214
+		eqridgeModMagn  1.584
 		eqridgeModFreq  10
-		canyonsMagn     0.42031
-		canyonsFreq     0.23831
+		canyonsMagn     0.43444
+		canyonsFreq     0.37697
 		canyonsFraction 0
 		cracksMagn      0
 		cracksFreq      2
 		cracksOctaves   15
-		craterMagn      0.4
+		craterMagn      1
 		craterFreq      2
 		craterDensity   1
 		craterOctaves   30
 		craterRayedFactor 0
-		volcanoMagn     0.26
-		volcanoFreq     1.7252
-		volcanoDensity  0.19084
+		volcanoMagn     0.4
+		volcanoFreq     1.084
+		volcanoDensity  0.27481
 		volcanoOctaves  5
-		volcanoActivity 0
-		volcanoFlows    0
-		volcanoRadius   0.31298
-		volcanoTemp     0
+		volcanoActivity 2
+		volcanoFlows    1
+		volcanoRadius   0.36641
+		volcanoTemp     3000
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
-		BumpHeight      50
+		BumpHeight      25
 		DiffMapAlpha   "Ice"
 		SpecBrightWater 0.03
 		SpecBrightIce   0.03
@@ -98,7 +106,7 @@ Moon	"Uneon/Lercurnis III III"
 		RoughnessIce    0.45
 		SpecularScale   1
 		RoughnessBias   0.2
-		Hapke           0.73282
+		Hapke           0.75573
 		SpotBright      2.5
 		SpotWidth       0.05
 		DayAmbient      0.07
@@ -123,12 +131,12 @@ Moon	"Uneon/Lercurnis III III"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      5.21454433
-		SemiMajorAxisKm 254316.38
-		Eccentricity    0.0001
-		Inclination     0.2
-		AscendingNode   46.7175573
-		ArgOfPericenter -30.2290076
+		PeriodDays      7.8218165
+		SemiMajorAxisKm 333254.106
+		Eccentricity    0.005
+		Inclination     1
+		AscendingNode   -96.1832061
+		ArgOfPericenter 30.2290076
 		MeanAnomaly     0
 	}
 }
