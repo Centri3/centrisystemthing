@@ -13,5 +13,8 @@ Barycenter	"Verna-Luci bar/Lucernis I bar"
 		SemiMajorAxis   20.7411428
 		Eccentricity    0.0610687023
 		Inclination     3
+		AscendingNode   0
+		ArgOfPericenter 0
+		MeanAnomaly     50
 	}
 }

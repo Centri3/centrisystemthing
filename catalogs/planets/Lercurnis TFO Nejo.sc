@@ -31,7 +31,7 @@ DwarfPlanet	"Nejo/Lercurnis TFO.2"
 		Randomize      (-0.004, 0.979, -0.972)
 		colorDistMagn   0.044189
 		colorDistFreq   78.834
-		detailScale     128
+		detailScale     64
 		drivenDarkening 0
 		seaLevel        0.28244
 		snowLevel       2

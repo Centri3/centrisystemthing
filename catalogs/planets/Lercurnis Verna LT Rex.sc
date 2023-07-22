@@ -216,7 +216,7 @@ DwarfPlanet	"Rex/Lercurnis I LT.1"
 		Inclination     -2
 		AscendingNode   -123.664122
 		ArgOfPericenter 123.664122
-		MeanAnomaly     50
+		MeanAnomaly     100
 	}
 }
 
