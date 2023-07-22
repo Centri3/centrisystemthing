@@ -68,10 +68,10 @@ DwarfPlanet	"Foj/Lercurnis TFO.1"
 		riftsMagn       1
 		riftsFreq       10
 		riftsSin        10
-		eqridgeMagn     0.45802
+		eqridgeMagn     0.16794
 		eqridgeWidth    1
-		eqridgeModMagn  2.5
-		eqridgeModFreq  5.2672
+		eqridgeModMagn  1.6603
+		eqridgeModFreq  10
 		canyonsMagn     0
 		canyonsFreq     0.21612
 		canyonsFraction 0
@@ -133,7 +133,7 @@ DwarfPlanet	"Foj/Lercurnis TFO.1"
 		Inclination     15
 		AscendingNode   68.7022901
 		ArgOfPericenter 129.160305
-		MeanAnomaly     0
+		MeanAnomaly     -173.129771
 	}
 }
 

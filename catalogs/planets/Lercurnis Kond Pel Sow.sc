@@ -389,7 +389,7 @@ Moon	"Sow/Lercurnis B VII III"
 		Inclination     0.1
 		AscendingNode   178.625954
 		ArgOfPericenter 0
-		MeanAnomaly     0
+		MeanAnomaly     -57.7099237
 	}
 }
 

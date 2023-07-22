@@ -1,6 +1,6 @@
 Star    "Fragmunt/Lercurnis A"
 {
-    ParentBody "Lercurnis system bar"
+    ParentBody "Fragmunt-Kond bar"
     Class      "DQ8.1"
     MassSol     0.72
     Radius      9700

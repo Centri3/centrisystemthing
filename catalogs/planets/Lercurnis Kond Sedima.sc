@@ -201,7 +201,7 @@ Planet	"Sedima/Lercurnis B VI"
 		Inclination     1
 		AscendingNode   305.038168
 		ArgOfPericenter -255.572519
-		MeanAnomaly     0
+		MeanAnomaly     129.160305
 	}
 }
 

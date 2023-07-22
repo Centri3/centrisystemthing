@@ -209,7 +209,7 @@ Moon	"Gort/Lercurnis B VIII todo"
 		Inclination     5
 		AscendingNode   0
 		ArgOfPericenter 180
-		MeanAnomaly     0
+		MeanAnomaly     15
 	}
 }
 

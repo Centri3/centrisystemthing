@@ -16,7 +16,6 @@ DwarfMoon	"Boulder/Lercurnis B III I"
 	AlbedoGeom      0.36
 	Brightness      1
 	BrightnessReal  1
-	Color          (1.000 0.900 0.800)
 
 	Surface
 	{
@@ -115,7 +114,7 @@ DwarfMoon	"Boulder/Lercurnis B III I"
 		Inclination     0
 		AscendingNode   0
 		ArgOfPericenter 0
-		MeanAnomaly     0
+		MeanAnomaly     -10
 	}
 }
 

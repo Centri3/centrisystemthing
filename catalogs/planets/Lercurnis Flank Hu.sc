@@ -6,7 +6,7 @@ Moon	"Hu/Lercurnis III V"
 	Radius          826.08
 	InertiaMoment   0.39821
 	Obliquity       0.1
-	EqAscendNode    0
+	EqAscendNode    -30
 	TidalLocked     true
 
 	Albedo          0.27
@@ -129,7 +129,7 @@ Moon	"Hu/Lercurnis III V"
 		Inclination     0.1
 		AscendingNode   -30
 		ArgOfPericenter 100
-		MeanAnomaly     0
+		MeanAnomaly     294.045802
 	}
 }
 

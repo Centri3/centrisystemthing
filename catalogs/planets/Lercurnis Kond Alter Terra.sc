@@ -15,6 +15,7 @@ Planet	"Alter Terra/Lercurnis B X"
 	AlbedoGeom      0.66
 	Brightness      1
 	BrightnessReal  1
+	Color          (0.426 0.422 0.416)
 
 	Life
 	{
@@ -249,7 +250,7 @@ Planet	"Alter Terra/Lercurnis B X"
 		Inclination     0.408635667
 		AscendingNode   139.630621
 		ArgOfPericenter 0
-		MeanAnomaly     0
+		MeanAnomaly     25
 	}
 }
 

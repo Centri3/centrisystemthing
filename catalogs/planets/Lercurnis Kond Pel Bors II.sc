@@ -13,6 +13,7 @@ DwarfMoon	"Bors II/Lercurnis B VII B-II"
 	Albedo          0.9
 	Brightness      1
 	BrightnessReal  1
+	Color          (0.683 0.679 0.677)
 
 	Surface
 	{
@@ -129,7 +130,7 @@ DwarfMoon	"Bors II/Lercurnis B VII B-II"
 		Inclination     -2
 		AscendingNode   8.24427481
 		ArgOfPericenter 173.129771
-		MeanAnomaly     107.175573
+		MeanAnomaly     134.656489
 	}
 }
 

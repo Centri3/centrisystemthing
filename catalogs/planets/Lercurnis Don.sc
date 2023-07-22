@@ -1,6 +1,6 @@
 Planet	"Don/Lercurnis II"
 {
-	ParentBody     "Lercurnis system bar"
+	ParentBody     "Fragmunt-Kond bar"
 	Class          "Jupiter"
 	Mass            9.554
 	Radius          18358
@@ -178,7 +178,7 @@ Planet	"Don/Lercurnis II"
 		Inclination     -2
 		AscendingNode   -13.740458
 		ArgOfPericenter -173.129771
-		MeanAnomaly     0
+		MeanAnomaly     -211.603053
 	}
 }
 

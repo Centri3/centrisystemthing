@@ -129,7 +129,7 @@ Moon	"Uneon/Lercurnis III III"
 		Inclination     0.2
 		AscendingNode   46.7175573
 		ArgOfPericenter -30.2290076
-		MeanAnomaly     0
+		MeanAnomaly     -134.656489
 	}
 }
 

@@ -208,7 +208,7 @@ Planet	"Mons/Lercurnis B IX"
 		Inclination     0.408636783
 		AscendingNode   140.160231
 		ArgOfPericenter 0
-		MeanAnomaly     0
+		MeanAnomaly     96.1832061
 	}
 }
 

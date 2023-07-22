@@ -140,7 +140,7 @@ Moon	"Foc/Lercurnis II I"
 		Inclination     4
 		AscendingNode   41.221374
 		ArgOfPericenter 35.7251908
-		MeanAnomaly     0
+		MeanAnomaly     101.679389
 	}
 }
 

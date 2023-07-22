@@ -129,7 +129,7 @@ DwarfMoon	"Bors I/Lercurnis B VII B-I"
 		Inclination     1
 		AscendingNode   -178.625954
 		ArgOfPericenter 228.091603
-		MeanAnomaly     0
+		MeanAnomaly     24.7328244
 	}
 }
 

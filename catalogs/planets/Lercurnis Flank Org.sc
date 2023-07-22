@@ -7,7 +7,7 @@ Moon	"Org/Lercurnis III II"
 	InertiaMoment   0.39678
 	Oblateness      0.0013817
 	Obliquity       3
-	EqAscendNode    0
+	EqAscendNode    129.16
 	TidalLocked     true
 
 	Albedo          0.72
@@ -139,7 +139,7 @@ Moon	"Org/Lercurnis III II"
 		Inclination     3
 		AscendingNode   129.160305
 		ArgOfPericenter 112.671756
-		MeanAnomaly     0
+		MeanAnomaly     -178.625954
 	}
 }
 

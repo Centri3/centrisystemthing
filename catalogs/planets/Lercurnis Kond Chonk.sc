@@ -169,7 +169,7 @@ Planet	"Chonk/Lercurnis B II"
 		Inclination     1
 		AscendingNode   84.49172
 		ArgOfPericenter -145.648855
-		MeanAnomaly     0
+		MeanAnomaly     1
 	}
 }
 

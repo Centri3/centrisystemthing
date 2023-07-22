@@ -1,7 +1,7 @@
 // hypothetical blue dwarf star
 Star    "Kond/Lercurnis B"
 {
-    ParentBody "Lercurnis system bar"
+    ParentBody "Fragmunt-Kond bar"
     Class      "A9VI"
     MassSol     0.08
     RadSol      0.11

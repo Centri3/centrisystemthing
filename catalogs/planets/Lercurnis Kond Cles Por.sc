@@ -131,7 +131,7 @@ Moon	"Por/Lercurnis B VIII I"
 		Inclination     0
 		AscendingNode   0
 		ArgOfPericenter 0
-		MeanAnomaly     0
+		MeanAnomaly     5
 	}
 }
 

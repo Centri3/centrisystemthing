@@ -1,6 +1,6 @@
 Barycenter	"Verna-Luci bar/Lucernis I bar"
 {
-	ParentBody     "Lercurnis system bar"
+	ParentBody     "Fragmunt-Kond bar"
 	Mass            4.8292
 	Radius          1.4046e+08
 	Obliquity       45

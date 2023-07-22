@@ -215,7 +215,7 @@ Moon	"Soot/Lercurnis B VIII III"
 		Inclination     1
 		AscendingNode   -107.175573
 		ArgOfPericenter -222.59542
-		MeanAnomaly     0
+		MeanAnomaly     112.671756
 	}
 }
 

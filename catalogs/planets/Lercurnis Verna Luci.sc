@@ -131,7 +131,7 @@ Moon	"Luci/Lucernis I I"
 		Inclination     0
 		AscendingNode   0
 		ArgOfPericenter 180
-		MeanAnomaly     0
+		MeanAnomaly     -30
 	}
 }
 

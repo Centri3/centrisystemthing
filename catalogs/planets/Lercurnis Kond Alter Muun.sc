@@ -13,6 +13,7 @@ Planet	"Alter Muun/Lercurnis B XI"
 	Albedo          0.04
 	Brightness      1
 	BrightnessReal  1
+	Color          (0.788 0.787 0.786)
 
 	Life
 	{
@@ -222,7 +223,7 @@ Planet	"Alter Muun/Lercurnis B XI"
 		Inclination     2.86854307
 		AscendingNode   42.2325496
 		ArgOfPericenter -2.7480916
-		MeanAnomaly     0
+		MeanAnomaly     50
 	}
 }
 

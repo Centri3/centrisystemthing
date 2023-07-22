@@ -288,7 +288,7 @@ Planet	"Verna/Lercurnis I"
 		Inclination     0
 		AscendingNode   0
 		ArgOfPericenter 0
-		MeanAnomaly     0
+		MeanAnomaly     -30
 	}
 }
 

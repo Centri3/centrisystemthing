@@ -17,6 +17,7 @@ Planet	"End/Lercurnis A I"
 	AlbedoGeom      0.36
 	Brightness      1
 	BrightnessReal  1
+	Color          (0.640 0.494 0.363)
 
     Interior
     {
@@ -235,7 +236,7 @@ Planet	"End/Lercurnis A I"
 		Inclination     0
 		AscendingNode   -63.2061069
 		ArgOfPericenter 2.7480916
-		MeanAnomaly     0
+		MeanAnomaly     211.603053
 	}
 }
 

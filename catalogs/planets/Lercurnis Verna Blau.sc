@@ -45,6 +45,7 @@ DwarfMoon	"Blau/Lercurnis I II"
 		mainFreq        5
 		venusFreq       1.4046
 		venusMagn       0.65
+		mareDensity     0
 		terraceProb     0.30937
 		erosion         0
 		montesMagn      10
@@ -111,7 +112,7 @@ DwarfMoon	"Blau/Lercurnis I II"
 		Inclination     0
 		AscendingNode   151.145038
 		ArgOfPericenter 167.633588
-		MeanAnomaly     -125.73688
+		MeanAnomaly     -90.6870229
 	}
 }
 

@@ -171,7 +171,7 @@ Moon	"Col/Lercurnis B VII II"
 		Inclination     0.1
 		AscendingNode   33
 		ArgOfPericenter -33
-		MeanAnomaly     0
+		MeanAnomaly     19.2366412
 	}
 }
 

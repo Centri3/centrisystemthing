@@ -229,7 +229,7 @@ Moon	"Fatum/Lercurnis III I"
 		Inclination     0
 		AscendingNode   -156.641221
 		ArgOfPericenter 167.633588
-		MeanAnomaly     0
+		MeanAnomaly     151.145038
 	}
 }
 

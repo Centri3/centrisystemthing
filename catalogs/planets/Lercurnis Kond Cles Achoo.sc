@@ -238,7 +238,7 @@ Moon	"Achoo/Lercurnis B VIII II"
 		Inclination     0.1
 		AscendingNode   68.7022901
 		ArgOfPericenter -272.061069
-		MeanAnomaly     0
+		MeanAnomaly     -5
 	}
 }
 

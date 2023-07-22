@@ -1,6 +1,6 @@
 Planet	"Flank/Lercurnis III"
 {
-	ParentBody     "Lercurnis system bar"
+	ParentBody     "Fragmunt-Kond bar"
 	Class          "Neptune"
 	Mass            8.0239
 	Radius          17528
@@ -181,7 +181,7 @@ Planet	"Flank/Lercurnis III"
 		Inclination     2
 		AscendingNode   129.160305
 		ArgOfPericenter -90.6870229
-		MeanAnomaly     0
+		MeanAnomaly     68.7022901
 	}
 }
 
