@@ -80,8 +80,8 @@ Moon	"Org/Lercurnis III II"
 		canyonsMagn     0
 		canyonsFreq     0.28917
 		canyonsFraction 0
-		cracksMagn      0
-		cracksFreq      2
+		cracksMagn      0.05
+		cracksFreq      0.2
 		cracksOctaves   15
 		craterMagn      0.5
 		craterFreq      2

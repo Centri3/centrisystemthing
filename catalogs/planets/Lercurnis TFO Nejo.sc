@@ -82,8 +82,8 @@ DwarfPlanet	"Nejo/Lercurnis TFO.2"
 		canyonsMagn     0.50138
 		canyonsFreq     0.25021
 		canyonsFraction 0
-		cracksMagn      0
-		cracksFreq      2
+		cracksMagn      0.03
+		cracksFreq      0.2
 		cracksOctaves   15
 		craterMagn      0.3
 		craterFreq      2

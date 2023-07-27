@@ -60,14 +60,14 @@ Moon	"Foc/Lercurnis II I"
 		montesFreq      25
 		montesSpiky     1
 		montesFraction  1
-		dunesMagn       0.023906
-		dunesFreq       8.3625
-		dunesFraction   0.070688
+		dunesMagn       0
+		dunesFreq       0
+		dunesFraction   0
 		hillsMagn       0.7
 		hillsFreq       25
 		hillsFraction   1
 		hills2Fraction  1
-		riversMagn      0
+		riversMagn      45.038
 		riversFreq      3.657
 		riversSin       4.8852
 		riftsMagn       15
@@ -77,12 +77,12 @@ Moon	"Foc/Lercurnis II I"
 		eqridgeWidth    1
 		eqridgeModMagn  1.9084
 		eqridgeModFreq  10
-		canyonsMagn     0.62274
-		canyonsFreq     0.31218
+		canyonsMagn     0
+		canyonsFreq     0
 		canyonsFraction 0
-		cracksMagn      0
-		cracksFreq      0
-		cracksOctaves   0
+		cracksMagn      0.1
+		cracksFreq      0.2
+		cracksOctaves   15
 		craterMagn      0.5
 		craterFreq      2
 		craterDensity   1

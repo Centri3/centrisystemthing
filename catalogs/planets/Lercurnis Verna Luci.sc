@@ -23,11 +23,11 @@ Moon	"Luci/Lucernis I I"
 		colorDistMagn   0.073861
 		colorDistFreq   233.34
 		detailScale     64
-		drivenDarkening 0.57252
+		drivenDarkening 0.5725
 		seaLevel        0.35115
 		snowLevel       2
 		tropicLatitude  0.52459
-		icecapLatitude  2
+		icecapLatitude  1.0992
 		icecapHeight    0
 		climatePole     0.9375
 		climateTropic   0.3125
@@ -45,37 +45,37 @@ Moon	"Luci/Lucernis I I"
 		mainFreq        1.7122
 		venusFreq       0.88453
 		venusMagn       0.64885
-		mareFreq        0.3
+		mareFreq        0.001
 		mareDensity     1
 		terraceProb     0.1677
 		erosion         0
-		montesMagn      0.03
+		montesMagn      0.1
 		montesFreq      25
-		montesSpiky     0.98609
+		montesSpiky     1
 		montesFraction  1
-		dunesMagn       0.038633
-		dunesFreq       11.788
-		dunesFraction   0.074036
-		hillsMagn       0.5
-		hillsFreq       50
+		dunesMagn       7.1756
+		dunesFreq       92366
+		dunesFraction   1
+		hillsMagn       2
+		hillsFreq       25
 		hillsFraction   1
 		hills2Fraction  1
 		riversMagn      61.436
 		riversFreq      3.7237
-		riversSin       6.7079
-		riftsMagn       60.444
-		riftsFreq       3.317
-		riftsSin        6.4887
+		riversSin       10
+		riftsMagn       15
+		riftsFreq       10
+		riftsSin        10
 		eqridgeMagn     0.36501
 		eqridgeWidth    0.022814
 		eqridgeModMagn  2.5
 		eqridgeModFreq  10
-		canyonsMagn     0.5221
-		canyonsFreq     0.61076
+		canyonsMagn     0
+		canyonsFreq     0
 		canyonsFraction 0.87017
-		cracksMagn      0.070864
-		cracksFreq      0.6913
-		cracksOctaves   0
+		cracksMagn      0.03
+		cracksFreq      0.2
+		cracksOctaves   15
 		craterMagn      1
 		craterFreq      2
 		craterDensity   1

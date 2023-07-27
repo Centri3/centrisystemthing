@@ -75,8 +75,8 @@ DwarfPlanet	"Foj/Lercurnis TFO.1"
 		canyonsMagn     0
 		canyonsFreq     0.21612
 		canyonsFraction 0
-		cracksMagn      0
-		cracksFreq      3
+		cracksMagn      0.03
+		cracksFreq      0.2
 		cracksOctaves   15
 		craterMagn      1
 		craterFreq      2

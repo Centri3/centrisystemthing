@@ -45,14 +45,14 @@ DwarfPlanet	"Rex/Lercurnis I LT.1"
 		tropicWidth     0.07
 		mainFreq        2.6718
 		venusFreq       0.82985
-		venusMagn       0.22901
+		venusMagn       0.30534
 		mareFreq        1.0018
 		mareDensity     0.14464
 		terraceProb     0.19943
 		erosion         0
-		montesMagn      0
+		montesMagn      0.03
 		montesFreq      25
-		montesSpiky     0.44275
+		montesSpiky     1
 		montesFraction  1
 		dunesMagn       0.036153
 		dunesFreq       0
@@ -64,14 +64,14 @@ DwarfPlanet	"Rex/Lercurnis I LT.1"
 		riversMagn      12.977
 		riversFreq      2.9008
 		riversSin       6.4885
-		riftsMagn       0
-		riftsFreq       3.057
-		riftsSin        4.1445
+		riftsMagn       15
+		riftsFreq       10
+		riftsSin        10
 		canyonsMagn     0.53222
 		canyonsFreq     0.74168
 		canyonsFraction 0
-		cracksMagn      0
-		cracksFreq      15
+		cracksMagn      0.03
+		cracksFreq      2
 		cracksOctaves   15
 		craterMagn      3
 		craterFreq      2
@@ -178,7 +178,7 @@ DwarfPlanet	"Rex/Lercurnis I LT.1"
 		Pressure        0.65108
 		Greenhouse      76.336
 		Bright          10
-		Opacity         0.53435
+		Opacity         1
 		SkyLight        3.3333
 		Hue             0
 		Saturation      1

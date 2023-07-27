@@ -79,8 +79,8 @@ Moon	"Syli/Lercurnis III IV"
 		canyonsMagn     0.43444
 		canyonsFreq     0.37697
 		canyonsFraction 0
-		cracksMagn      0
-		cracksFreq      2
+		cracksMagn      0.03
+		cracksFreq      0.2
 		cracksOctaves   15
 		craterMagn      1
 		craterFreq      2

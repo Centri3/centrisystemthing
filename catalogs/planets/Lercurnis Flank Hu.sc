@@ -71,8 +71,8 @@ Moon	"Hu/Lercurnis III V"
 		canyonsMagn     0.31619
 		canyonsFreq     0.3244
 		canyonsFraction 0
-		cracksMagn      0
-		cracksFreq      2
+		cracksMagn      0.03
+		cracksFreq      0.2
 		cracksOctaves   15
 		craterMagn      0.5
 		craterFreq      2

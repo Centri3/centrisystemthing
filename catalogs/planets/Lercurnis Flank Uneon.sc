@@ -64,28 +64,28 @@ Moon	"Uneon/Lercurnis III III"
 		riftsMagn       5
 		riftsFreq       1.4504
 		riftsSin        7.7863
-		eqridgeMagn     0.053435
+		eqridgeMagn     0.030534
 		eqridgeWidth    1
-		eqridgeModMagn  1.2214
+		eqridgeModMagn  1.8511
 		eqridgeModFreq  10
 		canyonsMagn     0.42031
 		canyonsFreq     0.23831
 		canyonsFraction 0
-		cracksMagn      0
-		cracksFreq      2
+		cracksMagn      0.05
+		cracksFreq      0.2
 		cracksOctaves   15
 		craterMagn      0.4
 		craterFreq      2
 		craterDensity   1
 		craterOctaves   30
 		craterRayedFactor 0
-		volcanoMagn     0.26
+		volcanoMagn     0.23664
 		volcanoFreq     1.7252
 		volcanoDensity  0.19084
 		volcanoOctaves  5
 		volcanoActivity 0
 		volcanoFlows    0
-		volcanoRadius   0.31298
+		volcanoRadius   0.38931
 		volcanoTemp     0
 		lavaCoverTidal  0
 		lavaCoverSun    0

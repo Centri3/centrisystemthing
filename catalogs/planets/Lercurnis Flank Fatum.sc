@@ -68,8 +68,8 @@ Moon	"Fatum/Lercurnis III I"
 		canyonsMagn     0.02212
 		canyonsFreq     72.707
 		canyonsFraction 0.66563
-		cracksMagn      0
-		cracksFreq      2
+		cracksMagn      0.1
+		cracksFreq      0.2
 		cracksOctaves   15
 		craterMagn      1
 		craterFreq      2

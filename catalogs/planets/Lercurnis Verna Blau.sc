@@ -42,9 +42,9 @@ DwarfMoon	"Blau/Lercurnis I II"
 		heightTempGrad  0.625
 		beachWidth      0.0011854
 		tropicWidth     0.07
-		mainFreq        5
-		venusFreq       1.4046
-		venusMagn       0.65
+		mainFreq        3.7786
+		venusFreq       1.8473
+		venusMagn       0.57252
 		mareDensity     0
 		terraceProb     0.30937
 		erosion         0
@@ -57,10 +57,10 @@ DwarfMoon	"Blau/Lercurnis I II"
 		hillsFreq       10
 		hillsFraction   1
 		hills2Fraction  1
-		eqridgeMagn     0.58779
+		eqridgeMagn     0.1
 		eqridgeWidth    1
-		eqridgeModMagn  2.5
-		eqridgeModFreq  1.6031
+		eqridgeModMagn  1.6985
+		eqridgeModFreq  5.8015
 		canyonsFraction 0
 		craterMagn      0.03
 		craterFreq      2
