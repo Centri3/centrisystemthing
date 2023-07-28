@@ -13,6 +13,7 @@ Planet	"Tectec/Caecus II"
 	AlbedoGeom      0.36
 	Brightness      1
 	BrightnessReal  1
+	Color          (0.672 0.669 0.665)
 
 	Surface
 	{
@@ -152,8 +153,8 @@ Planet	"Tectec/Caecus II"
 		Eccentricity    0.05
 		Inclination     1.15370897
 		AscendingNode   3.10347862
-		ArgOfPericenter 0
-		MeanAnomaly     0
+		ArgOfPericenter 167.633588
+		MeanAnomaly     96.1832061
 	}
 }
 

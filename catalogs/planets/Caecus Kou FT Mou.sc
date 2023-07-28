@@ -13,6 +13,7 @@ DwarfPlanet	"Mou/Caecus I.FT1"
 	AlbedoGeom      0.36
 	Brightness      1
 	BrightnessReal  1
+	Color          (0.755 0.686 0.652)
 
 	Interior
 	{
@@ -137,7 +138,7 @@ DwarfPlanet	"Mou/Caecus I.FT1"
 		Inclination     0.7480916
 		AscendingNode   -35.7251908
 		ArgOfPericenter -57.7099237
-		MeanAnomaly     -60
+		MeanAnomaly     -30
 	}
 }
 

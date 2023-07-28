@@ -13,6 +13,7 @@ Planet	"Kou/Caecus I"
 	AlbedoGeom      0.36
 	Brightness      1
 	BrightnessReal  1
+	Color          (0.643 0.551 0.378)
 
 	Interior
 	{
@@ -122,6 +123,7 @@ Planet	"Kou/Caecus I"
 	{
 		Model          "Pluto"
 		Height          100
+		Density         7.3252e-06
 		Pressure        1e-06
 		Greenhouse      0.00011447
 		Bright          0.2
@@ -156,7 +158,7 @@ Planet	"Kou/Caecus I"
 		Inclination     0.1
 		AscendingNode   -35.7251908
 		ArgOfPericenter -57.7099237
-		MeanAnomaly     0
+		MeanAnomaly     30
 	}
 }
-
+s
