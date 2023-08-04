@@ -51,7 +51,7 @@ Moon	"Org/Lercurnis III II"
 		tropicWidth     0.07
 		mainFreq        2.6336
 		venusFreq       1.2366
-		venusMagn       0.91603
+		venusMagn       0.99237
 		mareFreq        0.5
 		mareDensity     1
 		terraceProb     0.41982
@@ -70,8 +70,8 @@ Moon	"Org/Lercurnis III II"
 		riversMagn      0
 		riversFreq      2.9912
 		riversSin       5.8437
-		riftsMagn       25
-		riftsFreq       2.1374
+		riftsMagn       12
+		riftsFreq       0.1
 		riftsSin        10
 		eqridgeMagn     0.045802
 		eqridgeWidth    1
@@ -99,7 +99,7 @@ Moon	"Org/Lercurnis III II"
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
-		BumpHeight      50
+		BumpHeight      35
 		DiffMapAlpha   "Ice"
 		SpecBrightWater 0.03
 		SpecBrightIce   0.03

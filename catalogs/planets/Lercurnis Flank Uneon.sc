@@ -64,15 +64,15 @@ Moon	"Uneon/Lercurnis III III"
 		riftsMagn       5
 		riftsFreq       1.4504
 		riftsSin        7.7863
-		eqridgeMagn     0.030534
+		eqridgeMagn     0.1
 		eqridgeWidth    1
-		eqridgeModMagn  1.8511
+		eqridgeModMagn  1.5458
 		eqridgeModFreq  10
-		canyonsMagn     0.42031
-		canyonsFreq     0.23831
+		canyonsMagn     0
+		canyonsFreq     0
 		canyonsFraction 0
-		cracksMagn      0.05
-		cracksFreq      0.2
+		cracksMagn      0
+		cracksFreq      15
 		cracksOctaves   15
 		craterMagn      0.4
 		craterFreq      2

@@ -6,8 +6,8 @@ Moon	"Ner/Caecus III II"
 	Radius          1469.8
 	InertiaMoment   0.3808
 	Oblateness      0.0019569
-	Obliquity       0.0001
-	EqAscendNode    63.206
+	Obliquity       0.1
+	EqAscendNode    123.66
 	TidalLocked     true
 
 	AlbedoBond      0.3

@@ -29,7 +29,7 @@ Moon	"Syli/Lercurnis III IV"
 		colorDistMagn   0.047885
 		colorDistFreq   102.65
 		detailScale     128
-		drivenDarkening 0
+		drivenDarkening 0.099237
 		seaLevel        -0.35878
 		snowLevel       2
 		tropicLatitude  0.2912
@@ -76,8 +76,8 @@ Moon	"Syli/Lercurnis III IV"
 		eqridgeWidth    1
 		eqridgeModMagn  1.584
 		eqridgeModFreq  10
-		canyonsMagn     0.43444
-		canyonsFreq     0.37697
+		canyonsMagn     0
+		canyonsFreq     0
 		canyonsFraction 0
 		cracksMagn      0.03
 		cracksFreq      0.2

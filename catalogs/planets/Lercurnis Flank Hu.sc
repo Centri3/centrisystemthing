@@ -61,7 +61,7 @@ Moon	"Hu/Lercurnis III V"
 		riversMagn      0
 		riversFreq      3.2745
 		riversSin       8.2497
-		riftsMagn       15
+		riftsMagn       7
 		riftsFreq       7
 		riftsSin        10
 		eqridgeMagn     0.038168
