@@ -2,15 +2,16 @@ DwarfPlanet	"Rex/Lercurnis I LT.1"
 {
 	ParentBody     "Fragmunt-Kond bar"
 	Class          "Aquaria"
-	Mass            0.0078871
-	Radius          1560
-	InertiaMoment   0.37992
-	Oblateness      0.0020808
-	RotationPeriod  178.01
+	Mass            0.00789
+	Radius          1.56e+03
+	InertiaMoment   0.38
+	Oblateness      0.00208
+	RotationPeriod  178
 	RotationEpoch   1451545
-	Obliquity       68.702
-	EqAscendNode    11.425
+	Obliquity       68.7
+	EqAscendNode    11.4
 
+	EndogenousHeating 0.00292
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
 	Brightness      1
@@ -19,56 +20,56 @@ DwarfPlanet	"Rex/Lercurnis I LT.1"
 	Surface
 	{
 		Preset         "lercurnis_verna_lt_rex.cfg"
-		SurfStyle       0.71697
+		SurfStyle       0.717
 		Randomize      (-0.772, 0.778, -0.436)
-		colorDistMagn   0.079919
-		colorDistFreq   272.9
+		colorDistMagn   0.0799
+		colorDistFreq   273
 		detailScale     128
 		drivenDarkening 0
-		seaLevel        0.58015
+		seaLevel        0.58
 		snowLevel       1.2
-		tropicLatitude  0.021862
-		icecapLatitude  0.77863
+		tropicLatitude  0.0219
+		icecapLatitude  0.779
 		icecapHeight    0
 		climatePole     1
-		climateTropic   0.3125
-		climateEquator  0.6875
+		climateTropic   0.313
+		climateEquator  0.688
 		climateSteppeMin -1
 		climateSteppeMax -1
 		climateForestMin -1
 		climateForestMax -1
 		climateGrassMin  -1
 		climateGrassMax  -1
-		humidity        0.47085
+		humidity        0.471
 		heightTempGrad  0.625
-		beachWidth      0.0014041
+		beachWidth      0.0014
 		tropicWidth     0.07
-		mainFreq        2.6718
-		venusFreq       0.82985
-		venusMagn       0.30534
-		mareFreq        1.0018
-		mareDensity     0.14464
-		terraceProb     0.19943
+		mainFreq        2.67
+		venusFreq       0.83
+		venusMagn       0.305
+		mareFreq        1
+		mareDensity     0.145
+		terraceProb     0.199
 		erosion         0
 		montesMagn      0.03
 		montesFreq      25
 		montesSpiky     1
 		montesFraction  1
-		dunesMagn       0.036153
+		dunesMagn       0.0362
 		dunesFreq       0
-		dunesFraction   0.59445
+		dunesFraction   0.594
 		hillsMagn       0.05
 		hillsFreq       500
 		hillsFraction   1
 		hills2Fraction  1
-		riversMagn      12.977
-		riversFreq      2.9008
-		riversSin       6.4885
+		riversMagn      13
+		riversFreq      2.9
+		riversSin       6.49
 		riftsMagn       15
 		riftsFreq       10
 		riftsSin        10
-		canyonsMagn     0.53222
-		canyonsFreq     0.74168
+		canyonsMagn     0.532
+		canyonsFreq     0.742
 		canyonsFraction 0
 		cracksMagn      0.03
 		cracksFreq      2
@@ -78,9 +79,9 @@ DwarfPlanet	"Rex/Lercurnis I LT.1"
 		craterDensity   1
 		craterOctaves   6
 		craterRayedFactor 0
-		volcanoMagn     0.34351
+		volcanoMagn     0.344
 		volcanoFreq     2
-		volcanoDensity  0.23664
+		volcanoDensity  0.237
 		volcanoOctaves  5
 		volcanoActivity 0
 		volcanoFlows    0
@@ -89,22 +90,22 @@ DwarfPlanet	"Rex/Lercurnis I LT.1"
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
-		stripeZones     1.7653
-		stripeTwist     0.39039
-		cycloneMagn     0.84837
-		cycloneFreq     0.92786
-		cycloneDensity  0.36495
+		stripeZones     1.77
+		stripeTwist     0.39
+		cycloneMagn     0.848
+		cycloneFreq     0.928
+		cycloneDensity  0.365
 		cycloneOctaves  0
 		BumpHeight      20.2
 		DiffMapAlpha   "Ice"
 		SpecBrightWater 0.03
 		SpecBrightIce   0.1
-		RoughnessWater  0.39877
-		RoughnessIce    0.23371
+		RoughnessWater  0.399
+		RoughnessIce    0.234
 		SpecularScale   1
 		RoughnessBias   0.2
 		Hapke           0.7
-		SpotBright      1.5193
+		SpotBright      1.52
 		SpotWidth       0.05
 		DayAmbient      0.07
 	}
@@ -113,59 +114,59 @@ DwarfPlanet	"Rex/Lercurnis I LT.1"
 
 	Clouds
 	{
-		Height          11.112
+		Height          11.1
 		Velocity        45
-		BumpHeight      0.85369
+		BumpHeight      0.854
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
 		RingsWinter     0
 		ModulateBright  1
-		Opacity         0.73282
-		mainFreq        0.84733
+		Opacity         0.733
+		mainFreq        0.847
 		mainOctaves     0
-		Coverage        0.51908
-		stripeZones     1.7653
-		stripeTwist     0.39039
+		Coverage        0.519
+		stripeZones     1.77
+		stripeTwist     0.39
 	}
 
 	Clouds
 	{
-		Height          11.112
+		Height          11.1
 		Velocity        30
-		BumpHeight      1.1714
+		BumpHeight      1.17
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
-		RingsWinter     0.9565
+		RingsWinter     0.956
 		ModulateBright  1
-		Opacity         0.65649
-		mainFreq        0.84733
+		Opacity         0.656
+		mainFreq        0.847
 		mainOctaves     0
-		Coverage        0.51908
-		stripeZones     1.7653
-		stripeTwist     0.39039
+		Coverage        0.519
+		stripeZones     1.77
+		stripeTwist     0.39
 	}
 
 	Clouds
 	{
-		Height          11.112
+		Height          11.1
 		Velocity        15
-		BumpHeight      0.76824
+		BumpHeight      0.768
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
-		RingsWinter     0.9565
+		RingsWinter     0.956
 		ModulateBright  1
-		Opacity         0.65649
-		mainFreq        0.84733
+		Opacity         0.656
+		mainFreq        0.847
 		mainOctaves     0
-		Coverage        0.51908
-		stripeZones     1.7653
-		stripeTwist     0.39039
+		Coverage        0.519
+		stripeZones     1.77
+		stripeTwist     0.39
 	}
 
 	NoLava          true
@@ -173,30 +174,35 @@ DwarfPlanet	"Rex/Lercurnis I LT.1"
 	Atmosphere
 	{
 		Model          "Lercurnis Verna LT Rex"
-		Height          209.22
-		Density         2.4802
-		Pressure        0.65108
-		Greenhouse      76.336
+		Height          209
+		Density         2.48
+		Pressure        0.651
+		Greenhouse      76.3
 		Bright          10
 		Opacity         1
-		SkyLight        3.3333
+		SkyLight        3.33
 		Hue             0
 		Saturation      1
 
 		Composition
 		{
-			N2        	99.707
-			C2H6      	0.12076
-			CH4       	0.10269
-			C2H4      	0.051999
+			N2        	99.7
+			C2H6      	0.121
+			CH4       	0.103
+			C2H4      	0.052
 			CO        	0.0163
-			C2H2      	0.00041774
-			Ar        	0.00023371
-			O2        	0.00022787
-			CO2       	0.00019913
-			Ne        	0.00013737
-			NH3       	2.5344e-05
+			C2H2      	0.000418
+			Ar        	0.000234
+			O2        	0.000228
+			CO2       	0.000199
+			Ne        	0.000137
+			NH3       	2.53e-05
 		}
+	}
+
+	Climate
+	{
+		GlobalWindSpeed  7.39
 	}
 
 	NoAurora        true

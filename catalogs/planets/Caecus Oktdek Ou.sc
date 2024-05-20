@@ -3,75 +3,85 @@ Moon	"Ou/Caecus III I"
 	ParentBody     "Oktdek"
 	Class          "Terra"
 	Mass            0.015
-	Radius          1722.5
-	InertiaMoment   0.3709
-	Oblateness      0.0016189
+	Radius          1.72e+03
+	InertiaMoment   0.371
+	Oblateness      0.00162
 	Obliquity       0.0001
-	EqAscendNode    63.206
+	EqAscendNode    63.2
 	TidalLocked     true
 
+	EndogenousHeating 19
 	AlbedoBond      0.07
 	AlbedoGeom      0.36
 	Brightness      1
 	BrightnessReal  1
 
+	Interior
+	{
+		Composition
+		{
+			Silicates	80
+			Metals		20
+		}
+	}
+
 	Surface
 	{
 		Preset         "caecus_oktdek_ou.cfg"
-		SurfStyle       0.91721
+		SurfStyle       0.917
 		Randomize      (-0.719, 0.653, -0.356)
-		colorDistMagn   0.040368
-		colorDistFreq   198.6
+		colorDistMagn   0.0404
+		colorDistFreq   199
 		detailScale     128
 		drivenDarkening 0
-		seaLevel        0.099237
+		seaLevel        0.0992
 		snowLevel       2
-		tropicLatitude  0.029892
+		tropicLatitude  0.0299
 		icecapLatitude  2
-		icecapHeight    0.021209
-		climatePole     0.9375
-		climateTropic   0.3125
-		climateEquator  0.6875
+		icecapHeight    0.0212
+		climatePole     0.938
+		climateTropic   0.313
+		climateEquator  0.688
 		climateSteppeMin -1
 		climateSteppeMax -1
 		climateForestMin -1
 		climateForestMax -1
 		climateGrassMin  -1
 		climateGrassMax  -1
-		humidity        0.23672
+		humidity        0.237
 		heightTempGrad  0.625
-		beachWidth      0.00070135
+		beachWidth      0.000701
 		tropicWidth     0.07
-		mainFreq        1.6652
+		mainFreq        1.67
 		venusFreq       2
-		venusMagn       1.5649
+		venusMagn       1.56
 		mareFreq        0.3
-		mareDensity     0.18321
-		terraceProb     0.32775
+		mareDensity     0.183
+		terraceProb     0.328
 		erosion         0
 		montesMagn      0.1
 		montesFreq      25
 		montesSpiky     1
 		montesFraction  1
-		dunesMagn       0.036991
-		dunesFreq       18.829
-		dunesFraction   0.036239
+		dunesMagn       0.037
+		dunesFreq       18.8
+		dunesFraction   0.0362
 		hillsMagn       1.5
 		hillsFreq       25
 		hillsFraction   1
 		hills2Fraction  1
-		riversMagn      55.943
-		riversFreq      4.2278
-		riversSin       5.7703
+		riversMagn      55.9
+		riversFreq      4.23
+		riversSin       5.77
 		riftsMagn       15
 		riftsFreq       10
 		riftsSin        10
-		eqridgeMagn     0.068702
+		eqridgeMagn     0.0687
 		eqridgeWidth    1
-		eqridgeModMagn  1.4122
+		eqridgeModMagn  1.41
 		eqridgeModFreq  10
-		canyonsMagn     0.43841
-		canyonsFreq     0.65514
+		canyonsMagn     0.438
+		canyonsFreq     0.655
 		canyonsFraction 0
 		cracksMagn      0.03
 		cracksFreq      0.2
@@ -82,12 +92,12 @@ Moon	"Ou/Caecus III I"
 		craterOctaves   30
 		craterRayedFactor 0
 		volcanoMagn     0.35
-		volcanoFreq     1.145
-		volcanoDensity  0.16794
+		volcanoFreq     1.14
+		volcanoDensity  0.168
 		volcanoOctaves  5
 		volcanoActivity 0
 		volcanoFlows    0
-		volcanoRadius   0.44275
+		volcanoRadius   0.443
 		volcanoTemp     0
 		lavaCoverTidal  0
 		lavaCoverSun    0
@@ -112,6 +122,11 @@ Moon	"Ou/Caecus III I"
 	NoLava          true
 
 	NoAtmosphere    true
+
+	Climate
+	{
+		GlobalWindSpeed  0
+	}
 
 	NoAurora        true
 

@@ -2,15 +2,16 @@ Moon	"Flora/Externia III"
 {
 	ParentBody     "Externia-Clulesc bar"
 	Class          "Aquaria"
-	Mass            0.016487
-	Radius          2005.9
-	InertiaMoment   0.36937
-	RotationPeriod  4496.4
+	Mass            0.0165
+	Radius          2.01e+03
+	InertiaMoment   0.369
+	RotationPeriod  4.5e+03
 	RotationEpoch   0
 	Obliquity       -5
-	EqAscendNode    8.2443
+	EqAscendNode    8.24
 
-	Albedo          0.66
+	EndogenousHeating 0
+	Albedo          0.82
 	Brightness      1
 	BrightnessReal  1
 
@@ -24,37 +25,37 @@ Moon	"Flora/Externia III"
 	Surface
 	{
 		Preset         "externia_flora.cfg"
-		SurfStyle       0.37445
+		SurfStyle       0.374
 		Randomize      (-0.180, 0.723, -0.929)
-		colorDistMagn   0.06611
-		colorDistFreq   228.6
+		colorDistMagn   0.0661
+		colorDistFreq   229
 		detailScale     128
 		drivenDarkening 0
-		seaLevel        0.23665
+		seaLevel        0.237
 		snowLevel       2
 		tropicLatitude  1
 		icecapLatitude  2
 		icecapHeight    0
 		climatePole     1
-		climateTropic   0.45038
-		climateEquator  0.58015
-		climateSteppeMin 0.75573
+		climateTropic   0.45
+		climateEquator  0.58
+		climateSteppeMin 0.756
 		climateSteppeMax 1
-		climateForestMin 0.83206
+		climateForestMin 0.832
 		climateForestMax 1
-		climateGrassMin  0.74046
+		climateGrassMin  0.74
 		climateGrassMax  1
-		humidity        0.51145
-		heightTempGrad  0.70229
-		beachWidth      0.0013116
+		humidity        0.511
+		heightTempGrad  0.702
+		beachWidth      0.00131
 		tropicWidth     0.5
-		mainFreq        1.0305
-		venusFreq       0.076336
-		venusMagn       1.4351
-		mareFreq        0.60068
-		mareDensity     0.15276
-		terraceProb     0.30321
-		erosion         0.11869
+		mainFreq        1.03
+		venusFreq       0.0763
+		venusMagn       1.44
+		mareFreq        0.601
+		mareDensity     0.153
+		terraceProb     0.303
+		erosion         0.119
 		montesMagn      0.05
 		montesFreq      25
 		montesSpiky     1
@@ -85,40 +86,40 @@ Moon	"Flora/Externia III"
 		craterRayedFactor 0
 		volcanoMagn     0.4
 		volcanoFreq     2
-		volcanoDensity  0.33588
+		volcanoDensity  0.336
 		volcanoOctaves  5
 		volcanoActivity 0
 		volcanoFlows    0
-		volcanoRadius   0.39695
+		volcanoRadius   0.397
 		volcanoTemp     0
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
-		stripeZones     1.7653
-		stripeTwist     0.39039
-		cycloneMagn     2.1041
-		cycloneFreq     0.84078
-		cycloneDensity  0.3065
+		stripeZones     1.77
+		stripeTwist     0.39
+		cycloneMagn     2.1
+		cycloneFreq     0.841
+		cycloneDensity  0.306
 		cycloneOctaves  3
 		BumpHeight      6
-		BumpOffset      1.4199
+		BumpOffset      1.42
 		DiffMapAlpha   "Water"
 		SpecBrightWater 2
 		SpecBrightIce   0.1
-		RoughnessWater  0.51145
+		RoughnessWater  0.511
 		RoughnessIce    0.45
 		SpecularScale   1
-		RoughnessBias   0.22901
-		RoughnessScale  1.1908
+		RoughnessBias   0.229
+		RoughnessScale  1.19
 		Hapke           0.5
-		SpotBright      1.3332
+		SpotBright      1.33
 		SpotWidth       0.05
 		DayAmbient      0.07
 	}
 
 	Ocean
 	{
-		Depth           1.4199
+		Depth           1.42
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.05
@@ -133,9 +134,9 @@ Moon	"Flora/Externia III"
 
 	Clouds
 	{
-		Height          3.6079
+		Height          3.61
 		Velocity        100
-		BumpHeight      0.40803
+		BumpHeight      0.408
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.03
@@ -143,52 +144,52 @@ Moon	"Flora/Externia III"
 		RingsWinter     0
 		ModulateColor  (0.801 0.921 1.000)
 		ModulateBright  1
-		Opacity         0.42748
+		Opacity         0.427
 		mainFreq        3
 		mainOctaves     0
-		Coverage        0.74046
-		stripeZones     1.7653
-		stripeTwist     0.39039
+		Coverage        0.74
+		stripeZones     1.77
+		stripeTwist     0.39
 	}
 
 	Clouds
 	{
-		Height          3.6079
+		Height          3.61
 		Velocity        110
-		BumpHeight      0.50384
+		BumpHeight      0.504
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
-		RingsWinter     0.9565
+		RingsWinter     0.956
 		ModulateColor  (0.910 0.688 1.000)
 		ModulateBright  1
-		Opacity         0.10687
+		Opacity         0.107
 		mainFreq        3
 		mainOctaves     0
-		Coverage        0.74046
-		stripeZones     1.7653
-		stripeTwist     0.39039
+		Coverage        0.74
+		stripeZones     1.77
+		stripeTwist     0.39
 	}
 
 	Clouds
 	{
-		Height          3.6079
+		Height          3.61
 		Velocity        120
-		BumpHeight      0.40803
+		BumpHeight      0.408
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
-		RingsWinter     0.9565
+		RingsWinter     0.956
 		ModulateColor  (1.000 0.844 0.844)
 		ModulateBright  1
-		Opacity         0.15267
+		Opacity         0.153
 		mainFreq        3
 		mainOctaves     0
-		Coverage        0.74046
-		stripeZones     1.7653
-		stripeTwist     0.39039
+		Coverage        0.74
+		stripeZones     1.77
+		stripeTwist     0.39
 	}
 
 	NoLava          true
@@ -197,12 +198,12 @@ Moon	"Flora/Externia III"
 	{
 		Model          "Externia Flora"
 		Height          20
-		Density         7.3052
+		Density         7.31
 		Pressure        35
 		Greenhouse      0.001
 		Bright          5
 		Opacity         1
-		SkyLight        3.3333
+		SkyLight        3.33
 		Hue             0
 		Saturation      1
 
@@ -210,6 +211,11 @@ Moon	"Flora/Externia III"
 		{
 			He        	100
 		}
+	}
+
+	Climate
+	{
+		GlobalWindSpeed  5.15
 	}
 
 	NoAurora        true

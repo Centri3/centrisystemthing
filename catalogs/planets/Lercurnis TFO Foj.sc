@@ -2,53 +2,55 @@ DwarfPlanet	"Foj/Lercurnis TFO.1"
 {
 	ParentBody     "Fragmunt-Kond bar"
 	Class          "Aquaria"
-	Mass            0.0077413
-	Radius          1633.1
-	InertiaMoment   0.3803
-	Oblateness      0.01374
-	OblatenessInfo  0.0021792
-	RotationPeriod  413.86
+	Mass            0.00774
+	Radius          1.63e+03
+	InertiaMoment   0.38
+	Oblateness      0.0137
+	OblatenessInfo  0.00218
+	RotationPeriod  414
 	RotationEpoch   1451545
-	Obliquity       -15.182
-	EqAscendNode    64.696
+	Obliquity       -15.2
+	EqAscendNode    64.7
 
+	EndogenousHeating 0.000701
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
 	Brightness      1
 	BrightnessReal  1
+	Color          (0.711 0.709 0.708)
 
 	Surface
 	{
 		Preset         "lercurnis_tfo_foj.cfg"
-		SurfStyle       0.62853
+		SurfStyle       0.629
 		Randomize      (0.326, 0.752, 0.568)
-		colorDistMagn   0.041772
-		colorDistFreq   77.544
+		colorDistMagn   0.0418
+		colorDistFreq   77.5
 		detailScale     128
 		drivenDarkening 0
-		seaLevel        -0.10687
+		seaLevel        -0.107
 		snowLevel       2
-		tropicLatitude  0.14904
+		tropicLatitude  0.149
 		icecapLatitude  2
-		icecapHeight    0.021066
-		climatePole     0.9375
-		climateTropic   0.3125
-		climateEquator  0.6875
+		icecapHeight    0.0211
+		climatePole     0.938
+		climateTropic   0.313
+		climateEquator  0.688
 		climateSteppeMin -1
 		climateSteppeMax -1
 		climateForestMin -1
 		climateForestMax -1
 		climateGrassMin  -1
 		climateGrassMax  -1
-		humidity        0.3606
+		humidity        0.361
 		heightTempGrad  0.625
-		beachWidth      0.0011489
+		beachWidth      0.00115
 		tropicWidth     0.07
-		mainFreq        1.1069
-		venusFreq       1.1211
-		venusMagn       0.26718
+		mainFreq        1.11
+		venusFreq       1.12
+		venusMagn       0.267
 		mareFreq        5
-		mareDensity     0.10687
+		mareDensity     0.107
 		terraceProb     0
 		erosion         0
 		montesMagn      0.03
@@ -63,17 +65,17 @@ DwarfPlanet	"Foj/Lercurnis TFO.1"
 		hillsFraction   1
 		hills2Fraction  1
 		riversMagn      0
-		riversFreq      3.0664
-		riversSin       6.7505
+		riversFreq      3.07
+		riversSin       6.75
 		riftsMagn       1
 		riftsFreq       10
 		riftsSin        10
-		eqridgeMagn     0.16794
+		eqridgeMagn     0.168
 		eqridgeWidth    1
-		eqridgeModMagn  1.6603
+		eqridgeModMagn  1.66
 		eqridgeModFreq  10
 		canyonsMagn     0
-		canyonsFreq     0.21612
+		canyonsFreq     0.216
 		canyonsFraction 0
 		cracksMagn      0.03
 		cracksFreq      1
@@ -84,8 +86,8 @@ DwarfPlanet	"Foj/Lercurnis TFO.1"
 		craterOctaves   30
 		craterRayedFactor 0
 		volcanoMagn     0.33
-		volcanoFreq     0.68702
-		volcanoDensity  0.20611
+		volcanoFreq     0.687
+		volcanoDensity  0.206
 		volcanoOctaves  5
 		volcanoActivity 0
 		volcanoFlows    0
@@ -115,6 +117,11 @@ DwarfPlanet	"Foj/Lercurnis TFO.1"
 	NoLava          true
 
 	NoAtmosphere    true
+
+	Climate
+	{
+		GlobalWindSpeed  0
+	}
 
 	NoAurora        true
 

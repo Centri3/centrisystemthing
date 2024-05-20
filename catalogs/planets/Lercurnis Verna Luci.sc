@@ -2,77 +2,79 @@ Moon	"Luci/Lucernis I I"
 {
 	ParentBody     "Verna-Luci bar"
 	Class          "Carbonia"
-	Mass            0.011916
-	Radius          1629.4
-	InertiaMoment   0.3729
+	Mass            0.0119
+	Radius          1.63e+03
+	InertiaMoment   0.373
 	RotationOffset  -90
 	Obliquity       0
 	EqAscendNode    0
 	TidalLocked     true
 
+	EndogenousHeating 12.3
 	AlbedoBond      0.07
 	AlbedoGeom      0.36
 	Brightness      1
 	BrightnessReal  1
+	Color          (0.625 0.532 0.437)
 
 	Surface
 	{
 		Preset         "lercurnis_verna_luci.cfg"
-		SurfStyle       0.9796
+		SurfStyle       0.98
 		Randomize      (0.822, 0.796, -0.431)
-		colorDistMagn   0.073861
-		colorDistFreq   233.34
+		colorDistMagn   0.0739
+		colorDistFreq   233
 		detailScale     64
-		drivenDarkening 0.5725
-		seaLevel        0.35115
+		drivenDarkening 0.572
+		seaLevel        0.351
 		snowLevel       2
-		tropicLatitude  0.52459
-		icecapLatitude  1.0992
+		tropicLatitude  0.525
+		icecapLatitude  1.1
 		icecapHeight    0
-		climatePole     0.9375
-		climateTropic   0.3125
-		climateEquator  0.6875
+		climatePole     0.938
+		climateTropic   0.313
+		climateEquator  0.688
 		climateSteppeMin -1
 		climateSteppeMax -1
 		climateForestMin -1
 		climateForestMax -1
 		climateGrassMin  -1
 		climateGrassMax  -1
-		humidity        0.1047
+		humidity        0.105
 		heightTempGrad  0.625
-		beachWidth      0.0008729
+		beachWidth      0.000873
 		tropicWidth     0.07
-		mainFreq        1.7122
-		venusFreq       0.88453
-		venusMagn       0.64885
+		mainFreq        1.71
+		venusFreq       0.885
+		venusMagn       0.649
 		mareFreq        0.001
 		mareDensity     1
-		terraceProb     0.1677
+		terraceProb     0.168
 		erosion         0
 		montesMagn      0.1
 		montesFreq      25
 		montesSpiky     1
 		montesFraction  1
-		dunesMagn       7.1756
-		dunesFreq       92366
+		dunesMagn       7.18
+		dunesFreq       9.24e+04
 		dunesFraction   1
 		hillsMagn       2
 		hillsFreq       25
 		hillsFraction   1
 		hills2Fraction  1
-		riversMagn      61.436
-		riversFreq      3.7237
+		riversMagn      61.4
+		riversFreq      3.72
 		riversSin       10
 		riftsMagn       15
 		riftsFreq       10
 		riftsSin        10
-		eqridgeMagn     0.36501
-		eqridgeWidth    0.022814
+		eqridgeMagn     0.365
+		eqridgeWidth    0.0228
 		eqridgeModMagn  2.5
 		eqridgeModFreq  10
 		canyonsMagn     0
 		canyonsFreq     0
-		canyonsFraction 0.87017
+		canyonsFraction 0.87
 		cracksMagn      0.03
 		cracksFreq      0.2
 		cracksOctaves   15
@@ -81,29 +83,29 @@ Moon	"Luci/Lucernis I I"
 		craterDensity   1
 		craterOctaves   20
 		craterRayedFactor 0
-		volcanoMagn     0.51908
+		volcanoMagn     0.519
 		volcanoFreq     2
-		volcanoDensity  0.099237
+		volcanoDensity  0.0992
 		volcanoOctaves  1
 		volcanoActivity 2
 		volcanoFlows    1
-		volcanoRadius   0.45038
-		volcanoTemp     870.23
+		volcanoRadius   0.45
+		volcanoTemp     870
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
 		BumpHeight      20
 		SpecBrightWater 0
 		SpecBrightIce   0.03
-		RoughnessWater  0.39877
-		RoughnessIce    0.23371
+		RoughnessWater  0.399
+		RoughnessIce    0.234
 		SpecularScale   1
 		RoughnessBias   0.8
 		Hapke           1
 		SpotBright      2.5
 		SpotWidth       0.05
 		DayAmbient      0.07
-		TempMapMaxTemp  65536
+		TempMapMaxTemp  6.55e+04
 	}
 
 	NoOcean         true
@@ -113,6 +115,11 @@ Moon	"Luci/Lucernis I I"
 	NoLava          true
 
 	NoAtmosphere    true
+
+	Climate
+	{
+		GlobalWindSpeed  0
+	}
 
 	NoAurora        true
 
