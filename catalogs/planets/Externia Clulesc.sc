@@ -10,6 +10,7 @@ Planet	"Clulesc/Externia b"
 	EqAscendNode    0
 	TidalLocked     true
 
+	EndogenousHeating 0
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
 	Brightness      1

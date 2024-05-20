@@ -223,8 +223,8 @@ Moon	"Aflor/Externia III"
 		Height         1
 		NorthLat       90
 		NorthLon       0
-		NorthRadius    2.03e+03
-		NorthWidth     2.03e+03
+		NorthRadius    2.02e+03
+		NorthWidth     2.02e+03
 		NorthRings     10
 		NorthBright    0.03
 		NorthFlashFreq 1.98
@@ -232,8 +232,8 @@ Moon	"Aflor/Externia III"
 		NorthParticles 12000
 		SouthLat       -90
 		SouthLon       180
-		SouthRadius    2.03e+03
-		SouthWidth     2.03e+03
+		SouthRadius    2e+03
+		SouthWidth     2.01e+03
 		SouthRings     10
 		SouthBright    0.03
 		SouthFlashFreq 1
