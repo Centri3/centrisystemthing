@@ -13,10 +13,10 @@ DwarfPlanet	"Nejo/Lercurnis TFO.2"
 	EqAscendNode    2.74
 
 	EndogenousHeating 6
-	Albedo          0.4
+	Albedo          0.6
 	Brightness      1
 	BrightnessReal  1
-	Color          (0.485 0.476 0.467)
+	Color          (1.000 0.981 0.963)
 
 	Life
 	{

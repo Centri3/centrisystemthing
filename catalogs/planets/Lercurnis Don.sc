@@ -2,13 +2,13 @@ Planet	"Don/Lercurnis II"
 {
 	ParentBody     "Fragmunt-Kond bar"
 	Class          "Jupiter"
-	Mass            9.554
-	Radius          18358
-	InertiaMoment   0.23877
-	RotationPeriod  67.534
+	Mass            9.55
+	Radius          1.84e+04
+	InertiaMoment   0.239
+	RotationPeriod  67.5
 	RotationEpoch   1451545
-	Obliquity       156.64
-	EqAscendNode    -61.926
+	Obliquity       157
+	EqAscendNode    -61.9
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
@@ -18,10 +18,10 @@ Planet	"Don/Lercurnis II"
 	Surface
 	{
 		Preset         "lercurnis_don.cfg"
-		SurfStyle       0.062622
-		Randomize      (-0.840, 0.838, 0.490)
+		SurfStyle       0.0626
+		Randomize      (0.382, 0.076, 0.809)
 		detailScale     256
-		tropicLatitude  0.36636
+		tropicLatitude  0.366
 		icecapLatitude  1
 		mareDensity     0
 		montesFraction  0
@@ -35,14 +35,14 @@ Planet	"Don/Lercurnis II"
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
-		stripeZones     1.2214
-		stripeFluct     0.44275
+		stripeZones     2.98
+		stripeFluct     0.977
 		stripeTwist     2
-		cycloneMagn     2.6878
-		cycloneFreq     0.79721
-		cycloneDensity  0.34988
+		cycloneMagn     2.69
+		cycloneFreq     0.797
+		cycloneDensity  0.35
 		cycloneOctaves  0
-		BumpHeight      18.644
+		BumpHeight      18.6
 		RoughnessWater  0.35
 		RoughnessIce    0.45
 		SpecularScale   1
@@ -51,7 +51,7 @@ Planet	"Don/Lercurnis II"
 		SpotBright      0
 		SpotWidth       0.05
 		DayAmbient      0.07
-		RingsWinter     0.99893
+		RingsWinter     0.999
 		ModulateBright  0
 	}
 
@@ -59,42 +59,43 @@ Planet	"Don/Lercurnis II"
 
 	Clouds
 	{
-		Height          0.099609
-		Velocity        -1878.9
-		BumpHeight      5.6139
-		Gamma           0.66746
-		Hapke           0.48855
+		Height          0.0996
+		Velocity        -1.88e+03
+		BumpHeight      5.61
+		Gamma           0.667
+		Hapke           0.489
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
 		RingsWinter     1
-		ModulateBright  1.3
-		Opacity         0.42748
-		mainFreq        3
+		ModulateBright  1
+		Opacity         0.718
+		mainFreq        2.4
 		mainOctaves     15
-		Coverage        0.29008
-		stripeZones     1.2214
-		stripeFluct     0.44275
+		Coverage        0.29
+		stripeZones     2.98
+		stripeFluct     0.977
 		stripeTwist     2
 	}
 
 	Clouds
 	{
-		Height          0.099609
-		Velocity        1782.1
-		BumpHeight      5.6138
-		Gamma           0.66746
-		Hapke           0.38168
+		Height          0.0996
+		Velocity        1.78e+03
+		BumpHeight      5.61
+		Gamma           0.667
+		Hapke           0.382
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
-		RingsWinter     0.99893
-		ModulateBright  1.3
-		mainFreq        3
+		SubsurfScatBright 1
+		RingsWinter     0.999
+		ModulateBright  10
+		mainFreq        2.4
 		mainOctaves     15
-		Coverage        0.29008
-		stripeZones     1.2214
-		stripeFluct     0.44275
+		Coverage        0.29
+		stripeZones     2.98
+		stripeFluct     0.977
 		stripeTwist     2
 	}
 
@@ -104,8 +105,8 @@ Planet	"Don/Lercurnis II"
 	{
 		Model          "Lercurnis Don"
 		Height          450
-		Density         2718.3
-		Pressure        83798
+		Density         2.72e+03
+		Pressure        8.38e+04
 		Bright          3
 		Opacity         1
 		SkyLight        1
@@ -114,28 +115,33 @@ Planet	"Don/Lercurnis II"
 
 		Composition
 		{
-			H2        	92.683
-			He        	6.9463
-			CH4       	0.30155
-			N2        	0.031152
-			NH3       	0.023767
-			O2        	0.0071862
-			C2H2      	0.0030806
-			C2H4      	0.0012716
-			Ne        	0.0010692
-			Ar        	0.00077022
-			C2H6      	0.00049477
-			C3H8      	0.0003275
-			C8H18     	0.00026035
-			H2O       	2.6514e-06
-			H2S       	1.5778e-06
-			CO2       	1.5164e-06
-			Kr        	4.1168e-07
-			Xe        	3.3455e-08
-			SO2       	8.6419e-09
-			CO        	3.3732e-10
-			Cl2       	2.6386e-10
+			H2        	92.7
+			He        	6.95
+			CH4       	0.302
+			N2        	0.0312
+			NH3       	0.0238
+			O2        	0.00719
+			C2H2      	0.00308
+			C2H4      	0.00127
+			Ne        	0.00107
+			Ar        	0.00077
+			C2H6      	0.000495
+			C3H8      	0.000327
+			C8H18     	0.00026
+			H2O       	2.65e-06
+			H2S       	1.58e-06
+			CO2       	1.52e-06
+			Kr        	4.12e-07
+			Xe        	3.35e-08
+			SO2       	8.64e-09
+			CO        	3.37e-10
+			Cl2       	2.64e-10
 		}
+	}
+
+	Climate
+	{
+		GlobalWindSpeed  13.8
 	}
 
 	Aurora
@@ -143,21 +149,21 @@ Planet	"Don/Lercurnis II"
 		Height         400
 		NorthLat       90
 		NorthLon       0
-		NorthRadius    10788
-		NorthWidth     1639.2
+		NorthRadius    1.08e+04
+		NorthWidth     1.64e+03
 		NorthRings     4
 		NorthBright    1
-		NorthFlashFreq 70.546
-		NorthMoveSpeed 1.1709
+		NorthFlashFreq 70.5
+		NorthMoveSpeed 1.17
 		NorthParticles 100000
 		SouthLat       -90
 		SouthLon       0
-		SouthRadius    10788
-		SouthWidth     1639.2
+		SouthRadius    1.08e+04
+		SouthWidth     1.64e+03
 		SouthRings     4
 		SouthBright    1
-		SouthFlashFreq 59.25
-		SouthMoveSpeed 1.3855
+		SouthFlashFreq 59.3
+		SouthMoveSpeed 1.39
 		SouthParticles 100000
 		TopColor    (1.000 1.000 1.000)
 		BottomColor (1.000 0.000 0.500)

@@ -2,11 +2,11 @@ Planet	"Cles/Lercurnis B VIII"
 {
 	ParentBody     "Kond"
 	Class          "Jupiter"
-	Mass            1167.4
-	Radius          77956
-	InertiaMoment   0.23631
-	Obliquity       0.41034
-	EqAscendNode    88.331
+	Mass            1.17e+03
+	Radius          7.8e+04
+	InertiaMoment   0.236
+	Obliquity       0.41
+	EqAscendNode    88.3
 	TidalLocked     true
 
 	AlbedoBond      0.3
@@ -17,8 +17,8 @@ Planet	"Cles/Lercurnis B VIII"
 	Surface
 	{
 		Preset         "lercurnis_kond_cles.cfg"
-		SurfStyle       0.91488
-		Randomize      (0.307, -0.030, 0.795)
+		SurfStyle       0.915
+		Randomize      (-1.053, 1.176, 0.795)
 		detailScale     256
 		tropicLatitude  0
 		icecapLatitude  0.9
@@ -34,18 +34,18 @@ Planet	"Cles/Lercurnis B VIII"
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
-		stripeZones     1.145
-		stripeFluct     0.68702
-		stripeTwist     12.897
-		cycloneMagn     6.0531
-		cycloneFreq     1.1171
-		cycloneDensity  0.33523
-		cycloneOctaves  0
-		cycloneMagn2     0.37816
-		cycloneFreq2     0.88186
+		stripeZones     5.5
+		stripeFluct     1.02
+		stripeTwist     12.9
+		cycloneMagn     0
+		cycloneFreq     0.275
+		cycloneDensity  0.137
+		cycloneOctaves  10
+		cycloneMagn2     0.378
+		cycloneFreq2     0.882
 		cycloneLatitude2 0.85
 		cycloneOctaves2  0
-		BumpHeight      7.1624
+		BumpHeight      7.16
 		RoughnessWater  0.35
 		RoughnessIce    0.45
 		SpecularScale   1
@@ -62,44 +62,45 @@ Planet	"Cles/Lercurnis B VIII"
 
 	Clouds
 	{
-		Height          0.10156
-		Velocity        -27.019
-		BumpHeight      4.4161
+		Height          0.102
+		Velocity        -27
+		BumpHeight      4.42
 		BumpOffset      0.001
 		Gamma           0.4
-		Hapke           0
-		SpotBright      2
-		SpotWidth       0.03
-		DayAmbient      0.07
-		RingsWinter     0
-		ModulateBright  2
-		Opacity         0.1
-		mainFreq        3
-		mainOctaves     15
-		Coverage        0.038168
-		stripeZones     1.145
-		stripeFluct     0.68702
-		stripeTwist     12.897
-	}
-
-	Clouds
-	{
-		Height          0.10156
-		Velocity        -365.89
-		BumpHeight      4.4162
-		Gamma           0.4
-		Hapke           0
+		Hapke           0.473
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
 		RingsWinter     0
 		ModulateBright  1
+		Opacity         0.275
 		mainFreq        3
 		mainOctaves     15
-		Coverage        0.038168
-		stripeZones     1.145
-		stripeFluct     0.68702
-		stripeTwist     12.897
+		Coverage        0.0382
+		stripeZones     5.5
+		stripeFluct     1.02
+		stripeTwist     12.9
+	}
+
+	Clouds
+	{
+		Height          0.102
+		Velocity        -366
+		BumpHeight      4.42
+		Gamma           0.4
+		Hapke           0.573
+		SpotBright      2
+		SpotWidth       0.03
+		DayAmbient      0.07
+		RingsWinter     0
+		ModulateBright  1
+		Opacity         0.748
+		mainFreq        3
+		mainOctaves     15
+		Coverage        0.0382
+		stripeZones     5.5
+		stripeFluct     1.02
+		stripeTwist     12.9
 	}
 
 	NoLava          true
@@ -108,7 +109,7 @@ Planet	"Cles/Lercurnis B VIII"
 	{
 		Model          "Lercurnis Kond Cles"
 		Height          500
-		Density         10000
+		Density         1e+04
 		Pressure        1e+06
 		Bright          5
 		Opacity         0.2
@@ -118,50 +119,55 @@ Planet	"Cles/Lercurnis B VIII"
 
 		Composition
 		{
-			H2        	91.851
-			He        	7.7756
-			CH4       	0.29476
-			N2        	0.035874
-			NH3       	0.027693
-			O2        	0.0074259
-			C2H2      	0.0030776
-			C2H4      	0.0014153
-			Ne        	0.001125
-			Ar        	0.00084191
-			C2H6      	0.00058834
-			C8H18     	0.00034848
-			C3H8      	0.00032808
-			H2O       	3.8317e-06
-			H2S       	1.9014e-06
-			CO2       	1.5355e-06
-			Kr        	3.9323e-07
-			Xe        	4.8065e-08
-			SO2       	1.1265e-08
-			CO        	3.6731e-10
-			Cl2       	3.3009e-10
+			H2        	91.9
+			He        	7.78
+			CH4       	0.295
+			N2        	0.0359
+			NH3       	0.0277
+			O2        	0.00743
+			C2H2      	0.00308
+			C2H4      	0.00142
+			Ne        	0.00112
+			Ar        	0.000842
+			C2H6      	0.000588
+			C8H18     	0.000348
+			C3H8      	0.000328
+			H2O       	3.83e-06
+			H2S       	1.9e-06
+			CO2       	1.54e-06
+			Kr        	3.93e-07
+			Xe        	4.81e-08
+			SO2       	1.13e-08
+			CO        	3.67e-10
+			Cl2       	3.3e-10
 		}
+	}
+
+	Climate
+	{
+		GlobalWindSpeed  10
 	}
 
 	Aurora
 	{
-		Height         1000
+		Height         1e+03
 		NorthLat       90
 		NorthLon       0
-		NorthRadius    26877
-		NorthWidth     26877
+		NorthRadius    2.69e+04
+		NorthWidth     2.69e+04
 		NorthRings     3
 		NorthBright    1
-		NorthFlashFreq 68.782
+		NorthFlashFreq 68.8
 		NorthMoveSpeed 100
 		NorthParticles 100000
 		SouthLat       -90
 		SouthLon       180
-		SouthRadius    25986
-		SouthWidth     31272
+		SouthRadius    2.6e+04
+		SouthWidth     3.13e+04
 		SouthRings     3
 		SouthBright    1
-		SouthFlashFreq 67.982
-		SouthMoveSpeed 1.4904
+		SouthFlashFreq 68
+		SouthMoveSpeed 1.49
 		SouthParticles 100000
 		TopColor    (1.000 0.000 0.562)
 		BottomColor (0.453 0.000 1.000)

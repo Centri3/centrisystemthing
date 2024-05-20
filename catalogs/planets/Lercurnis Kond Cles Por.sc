@@ -2,15 +2,15 @@ Moon	"Por/Lercurnis B VIII I"
 {
 	ParentBody     "Cles"
 	Class          "Carbonia"
-	Mass            0.00012468
-	Radius          351.03
-	InertiaMoment   0.3993
-	Oblateness      0.0054418
+	Mass            0.000125
+	Radius          351
+	InertiaMoment   0.399
+	Oblateness      0.00544
 	Obliquity       0
 	EqAscendNode    0
 	TidalLocked     true
 
-	EndogenousHeating 1450.4
+	EndogenousHeating 1.45e+03
 	Albedo          0.04
 	Brightness      1
 	BrightnessReal  1
@@ -18,63 +18,63 @@ Moon	"Por/Lercurnis B VIII I"
 	Surface
 	{
 		Preset         "lercurnis_kond_cles_por.cfg"
-		SurfStyle       0.50021
+		SurfStyle       0.5
 		Randomize      (0.419, 0.213, 0.457)
-		colorDistMagn   0.054588
-		colorDistFreq   40.593
+		colorDistMagn   0.0546
+		colorDistFreq   40.6
 		detailScale     128
-		drivenDarkening 0.41985
-		seaLevel        0.10631
+		drivenDarkening 0.42
+		seaLevel        0.106
 		snowLevel       2
 		tropicLatitude  0
 		icecapLatitude  2
-		icecapHeight    0.59366
-		climatePole     0.9375
-		climateTropic   0.3125
-		climateEquator  0.6875
+		icecapHeight    0.594
+		climatePole     0.938
+		climateTropic   0.313
+		climateEquator  0.688
 		climateSteppeMin -1
 		climateSteppeMax -1
 		climateForestMin -1
 		climateForestMax -1
 		climateGrassMin  -1
 		climateGrassMax  -1
-		humidity        0.21511
+		humidity        0.215
 		heightTempGrad  0.625
-		beachWidth      0.0012036
+		beachWidth      0.0012
 		tropicWidth     0.07
-		mainFreq        0.76336
-		venusFreq       0.76336
-		venusMagn       0.87786
+		mainFreq        0.763
+		venusFreq       0.763
+		venusMagn       0.878
 		mareFreq        5
-		mareDensity     0.061069
-		terraceProb     0.47463
+		mareDensity     0.0611
+		terraceProb     0.475
 		erosion         0
 		montesMagn      0.2
 		montesFreq      25
 		montesSpiky     1
 		montesFraction  1
-		dunesMagn       0.058241
-		dunesFreq       3.3463
-		dunesFraction   0.10338
+		dunesMagn       0.0582
+		dunesFreq       3.35
+		dunesFraction   0.103
 		hillsMagn       1
 		hillsFreq       25
 		hillsFraction   1
 		hills2Fraction  1
-		riversMagn      15.267
-		riversFreq      3.1587
+		riversMagn      15.3
+		riversFreq      3.16
 		riversSin       10
 		riftsMagn       100
 		riftsFreq       10
 		riftsSin        10
-		eqridgeMagn     0.22901
+		eqridgeMagn     0.229
 		eqridgeWidth    1
 		eqridgeModMagn  2.5
 		eqridgeModFreq  10
-		canyonsMagn     0.51387
-		canyonsFreq     0.13759
-		canyonsFraction 0.027174
-		cracksMagn      0.037422
-		cracksFreq      0.11273
+		canyonsMagn     0.514
+		canyonsFreq     0.138
+		canyonsFraction 0.0272
+		cracksMagn      0.0374
+		cracksFreq      0.113
 		cracksOctaves   0
 		craterMagn      1
 		craterFreq      2
@@ -82,17 +82,17 @@ Moon	"Por/Lercurnis B VIII I"
 		craterOctaves   30
 		craterRayedFactor 0
 		volcanoMagn     0
-		volcanoFreq     0.9313
-		volcanoDensity  0.47328
+		volcanoFreq     0.931
+		volcanoDensity  0.473
 		volcanoOctaves  5
 		volcanoActivity 2
 		volcanoFlows    1
 		volcanoRadius   1
-		volcanoTemp     1900.8
+		volcanoTemp     1.9e+03
 		lavaCoverTidal  1
 		lavaCoverSun    0
 		lavaCoverYoung  0
-		BumpHeight      16.358
+		BumpHeight      16.4
 		SpecBrightWater 0
 		SpecBrightIce   0.03
 		RoughnessWater  0.35
@@ -103,7 +103,7 @@ Moon	"Por/Lercurnis B VIII I"
 		SpotBright      2.5
 		SpotWidth       0.05
 		DayAmbient      0.07
-		TempMapMaxTemp  76824
+		TempMapMaxTemp  7.68e+04
 	}
 
 	NoOcean         true
@@ -113,6 +113,11 @@ Moon	"Por/Lercurnis B VIII I"
 	NoLava          true
 
 	NoAtmosphere    true
+
+	Climate
+	{
+		GlobalWindSpeed  0
+	}
 
 	NoAurora        true
 

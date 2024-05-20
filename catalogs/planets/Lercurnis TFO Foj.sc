@@ -13,11 +13,10 @@ DwarfPlanet	"Foj/Lercurnis TFO.1"
 	EqAscendNode    64.7
 
 	EndogenousHeating 0.000701
-	AlbedoBond      0.3
-	AlbedoGeom      0.36
+	Albedo          0.7
 	Brightness      1
 	BrightnessReal  1
-	Color          (0.711 0.709 0.708)
+	Color          (1.000 0.997 0.996)
 
 	Surface
 	{

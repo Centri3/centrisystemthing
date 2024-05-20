@@ -31,7 +31,7 @@ Moon	"Flora/Externia III"
 		colorDistFreq   229
 		detailScale     128
 		drivenDarkening 0
-		seaLevel        0.237
+		seaLevel        0.191
 		snowLevel       2
 		tropicLatitude  1
 		icecapLatitude  2
@@ -45,13 +45,13 @@ Moon	"Flora/Externia III"
 		climateForestMax 1
 		climateGrassMin  0.74
 		climateGrassMax  1
-		humidity        0.511
+		humidity        0.664
 		heightTempGrad  0.702
 		beachWidth      0.00131
 		tropicWidth     0.5
-		mainFreq        1.03
-		venusFreq       0.0763
-		venusMagn       1.44
+		mainFreq        1.07
+		venusFreq       0.336
+		venusMagn       0.649
 		mareFreq        0.601
 		mareDensity     0.153
 		terraceProb     0.303
@@ -68,7 +68,7 @@ Moon	"Flora/Externia III"
 		hillsFraction   1
 		hills2Fraction  1
 		riversMagn      5
-		riversFreq      7
+		riversFreq      5
 		riversSin       7
 		riftsMagn       100
 		riftsFreq       7
@@ -119,7 +119,7 @@ Moon	"Flora/Externia III"
 
 	Ocean
 	{
-		Depth           1.42
+		Depth           1.14
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.05
@@ -144,7 +144,7 @@ Moon	"Flora/Externia III"
 		RingsWinter     0
 		ModulateColor  (0.801 0.921 1.000)
 		ModulateBright  1
-		Opacity         0.427
+		Opacity         0.534
 		mainFreq        3
 		mainOctaves     0
 		Coverage        0.74
@@ -164,7 +164,7 @@ Moon	"Flora/Externia III"
 		RingsWinter     0.956
 		ModulateColor  (0.910 0.688 1.000)
 		ModulateBright  1
-		Opacity         0.107
+		Opacity         0.29
 		mainFreq        3
 		mainOctaves     0
 		Coverage        0.74
@@ -184,7 +184,7 @@ Moon	"Flora/Externia III"
 		RingsWinter     0.956
 		ModulateColor  (1.000 0.844 0.844)
 		ModulateBright  1
-		Opacity         0.153
+		Opacity         0.489
 		mainFreq        3
 		mainOctaves     0
 		Coverage        0.74

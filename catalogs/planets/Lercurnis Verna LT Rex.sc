@@ -12,10 +12,10 @@ DwarfPlanet	"Rex/Lercurnis I LT.1"
 	EqAscendNode    11.4
 
 	EndogenousHeating 0.00292
-	AlbedoBond      0.3
-	AlbedoGeom      0.36
+	Albedo          0.86
 	Brightness      1
 	BrightnessReal  1
+	Color          (0.587 0.545 0.477)
 
 	Surface
 	{
@@ -177,7 +177,7 @@ DwarfPlanet	"Rex/Lercurnis I LT.1"
 		Height          209
 		Density         2.48
 		Pressure        0.651
-		Greenhouse      76.3
+		Greenhouse      96.3
 		Bright          10
 		Opacity         1
 		SkyLight        3.33
