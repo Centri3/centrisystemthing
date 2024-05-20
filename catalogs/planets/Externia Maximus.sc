@@ -5,7 +5,8 @@ Moon	"Maximus/Externia II"
 	Mass            0.000789
 	Radius          748
 	InertiaMoment   0.399
-	Oblateness      0.00102
+	Oblateness     (0.027, 0.103, 0.000)
+	OblatenessInfo  0.00102
 	RotationPeriod  3.41e+03
 	RotationEpoch   1451545
 	Obliquity       0
@@ -15,7 +16,6 @@ Moon	"Maximus/Externia II"
 	Albedo          0.7
 	Brightness      1
 	BrightnessReal  1
-	Color          (0.775 0.751 0.714)
 
 	Surface
 	{
@@ -24,12 +24,12 @@ Moon	"Maximus/Externia II"
 		Randomize      (-1.084, 0.015, -0.321)
 		colorDistMagn   0.0552
 		colorDistFreq   50.9
-		detailScale     1
-		drivenDarkening 0.145
-		seaLevel        0.374
+		detailScale     128
+		drivenDarkening 0.603
+		seaLevel        0.0305
 		snowLevel       2
 		tropicLatitude  0.527
-		icecapLatitude  2
+		icecapLatitude  1
 		icecapHeight    0
 		climatePole     1
 		climateTropic   0.313
@@ -44,11 +44,11 @@ Moon	"Maximus/Externia II"
 		heightTempGrad  0.625
 		beachWidth      0.001
 		tropicWidth     0.07
-		mainFreq        1.91
-		venusFreq       1.39
-		venusMagn       0
-		mareFreq        0.8
-		mareDensity     1
+		mainFreq        2.94
+		venusFreq       1.47
+		venusMagn       3.74
+		mareFreq        0.0495
+		mareDensity     0
 		terraceProb     0
 		erosion         0
 		montesMagn      0.1
@@ -58,7 +58,7 @@ Moon	"Maximus/Externia II"
 		dunesMagn       0.0342
 		dunesFreq       3.77
 		dunesFraction   0.588
-		hillsMagn       0.1
+		hillsMagn       3
 		hillsFreq       25
 		hillsFraction   1
 		hills2Fraction  1
@@ -68,28 +68,28 @@ Moon	"Maximus/Externia II"
 		riftsMagn       0
 		riftsFreq       7
 		riftsSin        7
-		eqridgeMagn     0.466
+		eqridgeMagn     1
 		eqridgeWidth    1
 		eqridgeModMagn  2.5
 		eqridgeModFreq  2.44
-		canyonsMagn     0.763
+		canyonsMagn     0
 		canyonsFreq     0
 		canyonsFraction 0
 		cracksMagn      0.04
 		cracksFreq      0.6
-		cracksOctaves   15
-		craterMagn      2
+		cracksOctaves   14
+		craterMagn      0.6
 		craterFreq      2
 		craterDensity   1
 		craterOctaves   30
-		craterRayedFactor 0
-		volcanoMagn     1
+		craterRayedFactor 0.305
+		volcanoMagn     0.32
 		volcanoFreq     2
-		volcanoDensity  0
+		volcanoDensity  1
 		volcanoOctaves  5
 		volcanoActivity 2
 		volcanoFlows    1
-		volcanoRadius   1
+		volcanoRadius   0.305
 		volcanoTemp     3e+03
 		lavaCoverTidal  0
 		lavaCoverSun    0

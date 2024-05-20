@@ -2,16 +2,16 @@ Planet	"Chonk/Lercurnis B II"
 {
 	ParentBody     "Kond"
 	Class          "Neptune"
-	Mass            0.24822
-	Radius          7650
-	InertiaMoment   0.23577
-	Oblateness      0.0032628
+	Mass            0.248
+	Radius          7.65e+03
+	InertiaMoment   0.236
+	Oblateness      0.00326
 	Obliquity       1
-	EqAscendNode    84.492
+	EqAscendNode    84.5
 	TidalLocked     true
 
-	AbsMagn         -4.2044
-	SlopeParam      5.0526
+	AbsMagn         -4.2
+	SlopeParam      5.05
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
 	Brightness      1.5
@@ -20,8 +20,8 @@ Planet	"Chonk/Lercurnis B II"
 	Surface
 	{
 		Preset         "lercurnis_kond_chonk.cfg"
-		SurfStyle       0.3624
-		Randomize      (-0.792, 0.152, -0.306)
+		SurfStyle       0.362
+		Randomize      (0.718, 0.152, -0.306)
 		detailScale     256
 		tropicLatitude  0
 		icecapLatitude  0.9
@@ -34,16 +34,16 @@ Planet	"Chonk/Lercurnis B II"
 		craterDensity   0
 		craterOctaves   0
 		volcanoActivity 0
-		volcanoTemp     1786.3
+		volcanoTemp     1.79e+03
 		lavaCoverTidal  0
-		lavaCoverSun    0.33399
+		lavaCoverSun    0.334
 		lavaCoverYoung  0
-		stripeZones     1.145
-		stripeFluct     0.44275
+		stripeZones     5.65
+		stripeFluct     1.39
 		stripeTwist     5
-		cycloneMagn     2.6179
-		cycloneFreq     0.58514
-		cycloneDensity  0.40224
+		cycloneMagn     2.62
+		cycloneFreq     0.585
+		cycloneDensity  0.402
 		cycloneOctaves  0
 		BumpHeight      20
 		RoughnessWater  0.35
@@ -61,39 +61,39 @@ Planet	"Chonk/Lercurnis B II"
 
 	Clouds
 	{
-		Height          0.1001
-		Velocity        2557.6
-		BumpHeight      1.9072
-		Gamma           0.8242
+		Height          0.1
+		Velocity        2.56e+03
+		BumpHeight      1.91
+		Gamma           0.824
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
 		ModulateBright  1
-		mainFreq        1.626
+		mainFreq        2.54
 		mainOctaves     15
-		Coverage        0.50276
-		stripeZones     1.145
-		stripeFluct     0.44275
+		Coverage        0.503
+		stripeZones     5.65
+		stripeFluct     1.39
 		stripeTwist     5
 	}
 
 	Clouds
 	{
-		Height          0.1001
-		Velocity        1205.2
-		BumpHeight      1.3872
+		Height          0.1
+		Velocity        1.21e+03
+		BumpHeight      1.39
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
 		ModulateBright  1
 		Opacity         0.7
-		mainFreq        1.626
+		mainFreq        2.54
 		mainOctaves     15
-		Coverage        0.50276
-		stripeZones     1.145
-		stripeFluct     0.44275
+		Coverage        0.503
+		stripeZones     5.65
+		stripeFluct     1.39
 		stripeTwist     5
 	}
 
@@ -103,8 +103,8 @@ Planet	"Chonk/Lercurnis B II"
 	{
 		Model          "Lercurnis Kond Chonk"
 		Height          400
-		Density         522.02
-		Pressure        1874.9
+		Density         522
+		Pressure        1.87e+03
 		Bright          3
 		Opacity         1
 		SkyLight        1
@@ -120,25 +120,30 @@ Planet	"Chonk/Lercurnis B II"
 		}
 	}
 
+	Climate
+	{
+		GlobalWindSpeed  20.9
+	}
+
 	Aurora
 	{
-		Height         107.66
+		Height         108
 		NorthLat       60
 		NorthLon       0
-		NorthRadius    5231.7
-		NorthWidth     1440.1
+		NorthRadius    5.23e+03
+		NorthWidth     1.44e+03
 		NorthRings     4
-		NorthBright    0.43672
-		NorthFlashFreq 7.8186
+		NorthBright    0.437
+		NorthFlashFreq 7.82
 		NorthMoveSpeed 100
 		NorthParticles 100000
 		SouthLat       -60
 		SouthLon       180
-		SouthRadius    5158
-		SouthWidth     1535
+		SouthRadius    5.16e+03
+		SouthWidth     1.54e+03
 		SouthRings     4
-		SouthBright    0.43672
-		SouthFlashFreq 4.6145
+		SouthBright    0.437
+		SouthFlashFreq 4.61
 		SouthMoveSpeed 100
 		SouthParticles 100000
 		TopColor    (1.000 1.000 1.000)

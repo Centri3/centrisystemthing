@@ -227,22 +227,22 @@ Planet	"Verna/Lercurnis I"
 		NorthLat       90
 		NorthLon       0
 		NorthRadius    9.54e+03
-		NorthWidth     9.01e+03
+		NorthWidth     1.02e+04
 		NorthRings     10
-		NorthBright    0.3
-		NorthFlashFreq 74.4
-		NorthMoveSpeed 0.786
-		NorthParticles 1000
+		NorthBright    1
+		NorthFlashFreq 8.24
+		NorthMoveSpeed 6.44
+		NorthParticles 3000
 		SouthLat       -90
 		SouthLon       180
-		SouthRadius    8.89e+03
-		SouthWidth     -nan(ind)
+		SouthRadius    1.02e+04
+		SouthWidth     1.02e+04
 		SouthRings     10
 		SouthBright    0.3
-		SouthFlashFreq 65.5
-		SouthMoveSpeed 0.772
+		SouthFlashFreq 1
+		SouthMoveSpeed 3.19
 		SouthParticles 1000
-		TopColor    (0.000 0.812 1.000)
+		TopColor    (1.000 0.000 0.586)
 		BottomColor (0.000 0.367 1.000)
 	}
 
@@ -255,7 +255,7 @@ Planet	"Verna/Lercurnis I"
 		Thickness       2.24e+03
 		RocksMaxSize    0.0884
 		RocksSpacing    1e+04
-		DustDrawDist    1e+06
+		DustDrawDist    2e+04
 		ChartRadius     2.41e+04
 		RotationPeriod  3.67
 		Brightness      7.25

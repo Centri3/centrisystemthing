@@ -1,4 +1,4 @@
-Moon	"Flora/Externia III"
+Moon	"Aflor/Externia III"
 {
 	ParentBody     "Externia-Clulesc bar"
 	Class          "Aquaria"
@@ -31,7 +31,7 @@ Moon	"Flora/Externia III"
 		colorDistFreq   229
 		detailScale     128
 		drivenDarkening 0
-		seaLevel        0.191
+		seaLevel        0.213
 		snowLevel       2
 		tropicLatitude  1
 		icecapLatitude  2
@@ -119,7 +119,7 @@ Moon	"Flora/Externia III"
 
 	Ocean
 	{
-		Depth           1.14
+		Depth           1.28
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.05
@@ -218,7 +218,30 @@ Moon	"Flora/Externia III"
 		GlobalWindSpeed  5.15
 	}
 
-	NoAurora        true
+	Aurora
+	{
+		Height         1
+		NorthLat       90
+		NorthLon       0
+		NorthRadius    2.03e+03
+		NorthWidth     2.03e+03
+		NorthRings     10
+		NorthBright    0.03
+		NorthFlashFreq 1.98
+		NorthMoveSpeed 100
+		NorthParticles 12000
+		SouthLat       -90
+		SouthLon       180
+		SouthRadius    2.03e+03
+		SouthWidth     2.03e+03
+		SouthRings     10
+		SouthBright    0.03
+		SouthFlashFreq 1
+		SouthMoveSpeed 1.69
+		SouthParticles 3000
+		TopColor    (0.000 0.930 1.000)
+		BottomColor (1.000 0.000 0.000)
+	}
 
 	NoRings         true
 

@@ -15,7 +15,6 @@ DwarfMoon	"Blau/Lercurnis I II"
 	AlbedoGeom      0.36
 	Brightness      2.25
 	BrightnessReal  1
-	Color          (0.666 0.561 0.440)
 
 	Surface
 	{
@@ -95,14 +94,48 @@ DwarfMoon	"Blau/Lercurnis I II"
 
 	NoLava          true
 
-	NoAtmosphere    true
+	Atmosphere
+	{
+		Model          "None"
+		Height          55
+		Density         0
+		Pressure        0
+		Bright          0.5
+		Opacity         0
+		SkyLight        0.167
+		Hue             0
+		Saturation      1
+	}
 
 	Climate
 	{
 		GlobalWindSpeed  0
 	}
 
-	NoAurora        true
+	Aurora
+	{
+		Height         1
+		NorthLat       90
+		NorthLon       0
+		NorthRadius    270
+		NorthWidth     270
+		NorthRings     10
+		NorthBright    0.01
+		NorthFlashFreq 8.24
+		NorthMoveSpeed 6.44
+		NorthParticles 29000
+		SouthLat       -90
+		SouthLon       180
+		SouthRadius    270
+		SouthWidth     270
+		SouthRings     10
+		SouthBright    0.03
+		SouthFlashFreq 1
+		SouthMoveSpeed 3.19
+		SouthParticles 100000
+		TopColor    (0.992 1.000 0.000)
+		BottomColor (0.000 0.367 1.000)
+	}
 
 	NoRings         true
 

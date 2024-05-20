@@ -1,38 +1,36 @@
-Moon	"Tro/Lercurnis III VII"
+Moon	"Jjh/Lercurnis III VIII"
 {
 	ParentBody     "Flank"
 	Class          "Aquaria"
 	Mass            0.006
 	Radius          1.42e+03
 	InertiaMoment   0.385
-	Obliquity       1
-	EqAscendNode    35.7
+	Obliquity       3
+	EqAscendNode    -74.2
 	TidalLocked     true
 
 	EndogenousHeating 0
-	AbsMagn         -0.275
-	SlopeParam      5.77
 	Albedo          0.28
 	Brightness      1
 	BrightnessReal  1
 
 	Surface
 	{
-		Preset         "lercurnis_flank_tro.cfg"
+		Preset         "lercurnis_flank_jjh.cfg"
 		SurfStyle       0.684
 		Randomize      (-0.775, -0.598, 0.250)
 		colorDistMagn   0.054
 		colorDistFreq   190
-		detailScale     128
+		detailScale     64
 		drivenDarkening 0
-		seaLevel        0.237
+		seaLevel        0.328
 		snowLevel       2
 		tropicLatitude  0.291
-		icecapLatitude  1
-		icecapHeight    0.173
-		climatePole     0.938
-		climateTropic   0.313
-		climateEquator  0.688
+		icecapLatitude  0.82
+		icecapHeight    0
+		climatePole     1
+		climateTropic   1
+		climateEquator  1
 		climateSteppeMin -1
 		climateSteppeMax -1
 		climateForestMin -1
@@ -46,56 +44,56 @@ Moon	"Tro/Lercurnis III VII"
 		mainFreq        1.67
 		venusFreq       0.336
 		venusMagn       0.763
-		mareFreq        1
-		mareDensity     0.0916
-		terraceProb     0.333
-		erosion         0
-		montesMagn      0.2
+		mareFreq        0.001
+		mareDensity     0
+		terraceProb     0.0992
+		erosion         0.359
+		montesMagn      0.1
 		montesFreq      25
 		montesSpiky     1
 		montesFraction  1
-		dunesMagn       0.0488
-		dunesFreq       14.2
-		dunesFraction   0.0234
-		hillsMagn       1.5
+		dunesMagn       3
+		dunesFreq       0.3
+		dunesFraction   1
+		hillsMagn       3
 		hillsFreq       25
 		hillsFraction   1
 		hills2Fraction  1
-		riversMagn      0
-		riversFreq      4.11
-		riversSin       5.05
-		riftsMagn       10.7
+		riversMagn      4
+		riversFreq      3
+		riversSin       7
+		riftsMagn       1
 		riftsFreq       7
 		riftsSin        7
-		canyonsMagn     0
-		canyonsFreq     0.467
-		canyonsFraction 0
+		canyonsMagn     0.1
+		canyonsFreq     125
+		canyonsFraction 1
 		cracksMagn      0.1
 		cracksFreq      0.8
-		cracksOctaves   15
-		craterMagn      0.6
+		cracksOctaves   0
+		craterMagn      2
 		craterFreq      2
 		craterDensity   1
 		craterOctaves   30
 		craterRayedFactor 0
-		volcanoMagn     0.206
-		volcanoFreq     1.68
-		volcanoDensity  0.282
+		volcanoMagn     0.33
+		volcanoFreq     1.57
+		volcanoDensity  0.351
 		volcanoOctaves  5
 		volcanoActivity 0
-		volcanoFlows    0.242
-		volcanoRadius   0.527
-		volcanoTemp     244
+		volcanoFlows    0
+		volcanoRadius   0.511
+		volcanoTemp     0
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
-		stripeZones     1.77
+		stripeZones     0
 		stripeTwist     0.39
-		cycloneMagn     2.05
-		cycloneFreq     0.626
-		cycloneDensity  0.394
+		cycloneMagn     2.88
+		cycloneFreq     0.953
+		cycloneDensity  0.247
 		cycloneOctaves  0
-		BumpHeight      20
+		BumpHeight      25
 		DiffMapAlpha   "Ice"
 		SpecBrightWater 0.03
 		SpecBrightIce   0.03
@@ -106,8 +104,6 @@ Moon	"Tro/Lercurnis III VII"
 		Hapke           0.5
 		SpotBright      2.5
 		SpotWidth       0.05
-		SpotBrightCB    2.5
-		SpotWidthCB     0.05
 		DayAmbient      0.07
 	}
 
@@ -115,7 +111,7 @@ Moon	"Tro/Lercurnis III VII"
 
 	Clouds
 	{
-		Height          22.4
+		Height          16.9
 		Velocity        30
 		BumpHeight      2.4
 		Hapke           0
@@ -125,19 +121,19 @@ Moon	"Tro/Lercurnis III VII"
 		SubsurfScatBright 1
 		SubsurfScatPower  100
 		RingsWinter     0
-		ModulateColor  (0.605 0.861 1.000)
-		ModulateBright  3
-		Opacity         0.29
-		mainFreq        0.618
+		ModulateColor  (0.000 0.000 0.000)
+		ModulateBright  0.1
+		Opacity         0.214
+		mainFreq        0.527
 		mainOctaves     0
-		Coverage        0.206
-		stripeZones     1.77
+		Coverage        0.809
+		stripeZones     0
 		stripeTwist     0.39
 	}
 
 	Clouds
 	{
-		Height          22.4
+		Height          16.9
 		Velocity        40
 		BumpHeight      3.4
 		Hapke           0
@@ -147,19 +143,19 @@ Moon	"Tro/Lercurnis III VII"
 		SubsurfScatBright 1
 		SubsurfScatPower  100
 		RingsWinter     0
-		ModulateColor  (1.000 0.840 0.461)
-		ModulateBright  3
-		Opacity         0.229
-		mainFreq        0.618
+		ModulateColor  (0.000 0.000 0.000)
+		ModulateBright  0.1
+		Opacity         0.0916
+		mainFreq        0.527
 		mainOctaves     0
-		Coverage        0.206
-		stripeZones     1.77
+		Coverage        0.809
+		stripeZones     0
 		stripeTwist     0.39
 	}
 
 	Clouds
 	{
-		Height          22.4
+		Height          16.9
 		Velocity        50
 		BumpHeight      4.4
 		Hapke           0
@@ -169,13 +165,13 @@ Moon	"Tro/Lercurnis III VII"
 		SubsurfScatBright 1
 		SubsurfScatPower  100
 		RingsWinter     0
-		ModulateColor  (1.000 0.000 0.352)
-		ModulateBright  3
-		Opacity         0.244
-		mainFreq        0.618
+		ModulateColor  (0.000 0.000 0.000)
+		ModulateBright  0.1
+		Opacity         0.137
+		mainFreq        0.527
 		mainOctaves     0
-		Coverage        0.206
-		stripeZones     1.77
+		Coverage        0.809
+		stripeZones     0
 		stripeTwist     0.39
 	}
 
@@ -183,31 +179,29 @@ Moon	"Tro/Lercurnis III VII"
 
 	Atmosphere
 	{
-		Model          "Thin"
-		Height          15
+		Model          "Lercurnis Flank Jjh"
+		Height          85
 		Density         3.93
-		Pressure        1e-07
+		Pressure        0.03
 		Greenhouse      0.000144
-		Bright          7
+		Bright          5
 		Opacity         1
 		SkyLight        3.33
-		Hue             0.347
-		Saturation      2
+		Hue             0
+		Saturation      1
 
 		Composition
 		{
-			Ar        	20
-			CO        	20
-			N2        	20
-			He        	20
-			Ne        	20
-			H2        	0.001
+			CH4       	90
+			N2        	10
+			He        	0.0001
+			CO        	9e-05
 		}
 	}
 
 	Climate
 	{
-		GlobalWindSpeed  0.189
+		GlobalWindSpeed  0
 	}
 
 	Aurora
@@ -215,8 +209,8 @@ Moon	"Tro/Lercurnis III VII"
 		Height         1
 		NorthLat       90
 		NorthLon       0
-		NorthRadius    1.43e+03
-		NorthWidth     1.43e+03
+		NorthRadius    1.5e+03
+		NorthWidth     1.5e+03
 		NorthRings     10
 		NorthBright    0.4
 		NorthFlashFreq 8.24
@@ -224,15 +218,15 @@ Moon	"Tro/Lercurnis III VII"
 		NorthParticles 16000
 		SouthLat       -90
 		SouthLon       180
-		SouthRadius    1.43e+03
-		SouthWidth     1.43e+03
+		SouthRadius    1.5e+03
+		SouthWidth     1.5e+03
 		SouthRings     10
 		SouthBright    0.1
 		SouthFlashFreq 1
 		SouthMoveSpeed 3.19
 		SouthParticles 6000
-		TopColor    (1.000 0.000 0.000)
-		BottomColor (1.000 0.281 0.000)
+		TopColor    (0.242 1.000 0.000)
+		BottomColor (0.078 0.000 1.000)
 	}
 
 	NoRings         true
@@ -244,13 +238,13 @@ Moon	"Tro/Lercurnis III VII"
 	Orbit
 	{
 		RefPlane        "Equator"
-		PeriodDays      22.7137285
-		SemiMajorAxisKm 678325.889
-		Eccentricity    0.004
-		Inclination     1
-		AscendingNode   35.7251908
-		ArgOfPericenter 200.610687
-		MeanAnomaly     -189.618321
+		PeriodDays      60.3379952
+		SemiMajorAxisKm 1301088.06
+		Eccentricity    0.0763358779
+		Inclination     3
+		AscendingNode   -74.1984733
+		ArgOfPericenter -68.7022901
+		MeanAnomaly     -244.580153
 	}
 }
 

@@ -5,6 +5,8 @@ Moon	"Minimus/Externia I"
 	Mass            9.07e-05
 	Radius          345
 	InertiaMoment   0.399
+	Oblateness     (0.131, 0.261, 0.000)
+	OblatenessInfo  0
 	Obliquity       1
 	EqAscendNode    -107
 	TidalLocked     true
@@ -13,7 +15,6 @@ Moon	"Minimus/Externia I"
 	Albedo          0.8
 	Brightness      1
 	BrightnessReal  1
-	Color          (0.732 0.731 0.730)
 
 	Surface
 	{
@@ -22,12 +23,12 @@ Moon	"Minimus/Externia I"
 		Randomize      (0.901, 1.237, 1.176)
 		colorDistMagn   0.0552
 		colorDistFreq   50.9
-		detailScale     1
+		detailScale     128
 		drivenDarkening 0.145
-		seaLevel        0.351
+		seaLevel        -0.084
 		snowLevel       2
 		tropicLatitude  0.527
-		icecapLatitude  2
+		icecapLatitude  1
 		icecapHeight    0
 		climatePole     1
 		climateTropic   0.313
@@ -46,17 +47,17 @@ Moon	"Minimus/Externia I"
 		venusFreq       1.39
 		venusMagn       0
 		mareFreq        0.8
-		mareDensity     1
+		mareDensity     0.351
 		terraceProb     0
 		erosion         0
-		montesMagn      0.1
+		montesMagn      0.03
 		montesFreq      25
 		montesSpiky     1
 		montesFraction  1
 		dunesMagn       0.0342
 		dunesFreq       3.77
 		dunesFraction   0.588
-		hillsMagn       0.1
+		hillsMagn       1
 		hillsFreq       25
 		hillsFraction   1
 		hills2Fraction  1
@@ -66,11 +67,11 @@ Moon	"Minimus/Externia I"
 		riftsMagn       0
 		riftsFreq       7
 		riftsSin        7
-		eqridgeMagn     0.252
+		eqridgeMagn     0.26
 		eqridgeWidth    1
 		eqridgeModMagn  2.5
-		eqridgeModFreq  1.68
-		canyonsMagn     0.763
+		eqridgeModFreq  4.43
+		canyonsMagn     0
 		canyonsFreq     0
 		canyonsFraction 0
 		cracksMagn      0.04
@@ -80,7 +81,7 @@ Moon	"Minimus/Externia I"
 		craterFreq      2
 		craterDensity   1
 		craterOctaves   30
-		craterRayedFactor 0
+		craterRayedFactor 0.336
 		volcanoMagn     0.195
 		volcanoFreq     0.672
 		volcanoDensity  0
@@ -92,7 +93,7 @@ Moon	"Minimus/Externia I"
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
-		BumpHeight      20
+		BumpHeight      18.2
 		DiffMapAlpha   "Ice"
 		SpecBrightWater 2
 		SpecBrightIce   0.03

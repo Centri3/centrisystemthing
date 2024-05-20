@@ -15,7 +15,6 @@ Moon	"Luci/Lucernis I I"
 	AlbedoGeom      0.36
 	Brightness      1
 	BrightnessReal  1
-	Color          (0.625 0.532 0.437)
 
 	Surface
 	{
@@ -114,14 +113,53 @@ Moon	"Luci/Lucernis I I"
 
 	NoLava          true
 
-	NoAtmosphere    true
+	Atmosphere
+	{
+		Model          "None"
+		Height          137
+		Pressure        1e-09
+		Bright          0.5
+		Opacity         0
+		SkyLight        0.167
+		Hue             0
+		Saturation      1
+
+		Composition
+		{
+			N2			99
+			CO			1
+		}
+	}
 
 	Climate
 	{
 		GlobalWindSpeed  0
 	}
 
-	NoAurora        true
+	Aurora
+	{
+		Height         1
+		NorthLat       90
+		NorthLon       0
+		NorthRadius    1.76e+03
+		NorthWidth     1.76e+03
+		NorthRings     10
+		NorthBright    0.3
+		NorthFlashFreq 8.24
+		NorthMoveSpeed 6.44
+		NorthParticles 16000
+		SouthLat       -90
+		SouthLon       180
+		SouthRadius    1.76e+03
+		SouthWidth     1.76e+03
+		SouthRings     10
+		SouthBright    0.1
+		SouthFlashFreq 1
+		SouthMoveSpeed 3.19
+		SouthParticles 6000
+		TopColor    (1.000 0.000 0.492)
+		BottomColor (0.000 0.578 1.000)
+	}
 
 	NoRings         true
 

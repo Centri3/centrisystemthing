@@ -205,7 +205,30 @@ DwarfPlanet	"Rex/Lercurnis I LT.1"
 		GlobalWindSpeed  7.39
 	}
 
-	NoAurora        true
+	Aurora
+	{
+		Height         1
+		NorthLat       90
+		NorthLon       0
+		NorthRadius    9.54e+03
+		NorthWidth     1.03e+04
+		NorthRings     10
+		NorthBright    0.3
+		NorthFlashFreq 8.24
+		NorthMoveSpeed 6.44
+		NorthParticles 3000
+		SouthLat       -90
+		SouthLon       180
+		SouthRadius    1.02e+04
+		SouthWidth     1e+04
+		SouthRings     10
+		SouthBright    0.3
+		SouthFlashFreq 1
+		SouthMoveSpeed 3.19
+		SouthParticles 1000
+		TopColor    (1.000 0.000 0.586)
+		BottomColor (0.000 0.367 1.000)
+	}
 
 	NoRings         true
 
