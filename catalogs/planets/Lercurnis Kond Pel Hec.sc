@@ -2,14 +2,15 @@ Moon	"Hec/Lercurnis B VII I"
 {
 	ParentBody     "Pel"
 	Class          "Terra"
-	Mass            0.16535
-	Radius          3529.4
-	InertiaMoment   0.32973
-	Oblateness      0.029939
+	Mass            0.165
+	Radius          3.53e+03
+	InertiaMoment   0.33
+	Oblateness      0.0299
 	Obliquity       0.01
-	EqAscendNode    125.94
+	EqAscendNode    126
 	TidalLocked     true
-    Age             0.0077
+
+	Age				0.0077
 
 	AlbedoBond      0.15
 	AlbedoGeom      0.36
@@ -19,44 +20,44 @@ Moon	"Hec/Lercurnis B VII I"
 	Surface
 	{
 		Preset         "lercurnis_kond_pel_hec.cfg"
-		SurfStyle       0.65499
+		SurfStyle       0.655
 		Randomize      (0.027, 0.509, -0.517)
-		colorDistMagn   0.092971
-		colorDistFreq   338.96
+		colorDistMagn   0.093
+		colorDistFreq   339
 		detailScale     128
 		drivenDarkening 0
-		seaLevel        0.23664
+		seaLevel        0.237
 		snowLevel       2
 		tropicLatitude  0
 		icecapLatitude  2
-		icecapHeight    0.48702
+		icecapHeight    0.487
 		climatePole     1
-		climateTropic   0.5625
-		climateEquator  0.5625
+		climateTropic   0.563
+		climateEquator  0.563
 		climateSteppeMin -1
 		climateSteppeMax -1
 		climateForestMin -1
 		climateForestMax -1
 		climateGrassMin  -1
 		climateGrassMax  -1
-		humidity        0.10502
+		humidity        0.105
 		heightTempGrad  0.375
-		beachWidth      0.0010188
+		beachWidth      0.00102
 		tropicWidth     0.5
-		mainFreq        1.145
-		venusFreq       0.51908
-		venusMagn       0.34351
+		mainFreq        1.14
+		venusFreq       0.519
+		venusMagn       0.344
 		mareFreq        1
 		mareDensity     1
-		terraceProb     0.22295
+		terraceProb     0.223
 		erosion         0
 		montesMagn      0.05
 		montesFreq      150
 		montesSpiky     1
 		montesFraction  1
-		dunesMagn       0.064465
-		dunesFreq       36.273
-		dunesFraction   0.22346
+		dunesMagn       0.0645
+		dunesFreq       36.3
+		dunesFraction   0.223
 		hillsMagn       0.1
 		hillsFreq       25
 		hillsFraction   1
@@ -64,16 +65,16 @@ Moon	"Hec/Lercurnis B VII I"
 		riversMagn      25
 		riversFreq      10
 		riversSin       7
-		riftsMagn       57.718
-		riftsFreq       3.5492
-		riftsSin        5.7077
-		canyonsMagn     0.060954
-		canyonsFreq     76.404
+		riftsMagn       57.7
+		riftsFreq       3.55
+		riftsSin        5.71
+		canyonsMagn     0.061
+		canyonsFreq     76.4
 		canyonsFraction 0
 		cracksMagn      0
 		cracksFreq      0
 		cracksOctaves   0
-		craterMagn      0.58715
+		craterMagn      0.587
 		craterFreq      5
 		craterDensity   1
 		craterOctaves   29
@@ -84,15 +85,15 @@ Moon	"Hec/Lercurnis B VII I"
 		volcanoActivity 2
 		volcanoFlows    1
 		volcanoRadius   1
-		volcanoTemp     2519.1
-		lavaCoverTidal  0.70992
+		volcanoTemp     2.52e+03
+		lavaCoverTidal  0.71
 		lavaCoverSun    0
 		lavaCoverYoung  0
-		stripeZones     1.0471
-		stripeTwist     0.079111
-		cycloneMagn     2.276
-		cycloneFreq     0.53909
-		cycloneDensity  0.38007
+		stripeZones     1.05
+		stripeTwist     0.0791
+		cycloneMagn     2.28
+		cycloneFreq     0.539
+		cycloneDensity  0.38
 		cycloneOctaves  0
 		BumpHeight      20
 		DiffMapAlpha   "Ice"
@@ -103,7 +104,7 @@ Moon	"Hec/Lercurnis B VII I"
 		SpecularScale   1
 		RoughnessBias   0.5
 		Hapke           0.5
-		SpotBright      1.2028
+		SpotBright      1.2
 		SpotWidth       0.05
 		DayAmbient      0.07
 	}
@@ -113,60 +114,57 @@ Moon	"Hec/Lercurnis B VII I"
 	Clouds
 	{
 		Height          45
-		Velocity        134.78
-		BumpHeight      2.8267
+		Velocity        135
+		BumpHeight      2.83
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
 		ModulateColor  (1.000 0.810 0.684)
 		ModulateBright  0.3
-		Opacity         0.36641
-		mainFreq        0.74916
+		Opacity         0.366
+		mainFreq        0.749
 		mainOctaves     0
-		Coverage        0.59542
-		stripeZones     1.0471
-		stripeTwist     0.079111
-        TempMapMaxTemp  60000
+		Coverage        0.595
+		stripeZones     1.05
+		stripeTwist     0.0791
 	}
 
 	Clouds
 	{
 		Height          45
-		Velocity        134.78
-		BumpHeight      2.8267
+		Velocity        135
+		BumpHeight      2.83
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
 		ModulateColor  (1.000 0.701 0.555)
 		ModulateBright  0.4
-		Opacity         0.45802
-		mainFreq        0.74916
+		Opacity         0.458
+		mainFreq        0.749
 		mainOctaves     0
-		Coverage        0.59542
-		stripeZones     1.0471
-		stripeTwist     0.079111
-        TempMapMaxTemp  60000
+		Coverage        0.595
+		stripeZones     1.05
+		stripeTwist     0.0791
 	}
 
 	Clouds
 	{
 		Height          45
-		Velocity        134.78
-		BumpHeight      2.8267
+		Velocity        135
+		BumpHeight      2.83
 		Hapke           0
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
 		ModulateBright  1
-		Opacity         0.56489
-		mainFreq        0.74916
+		Opacity         0.565
+		mainFreq        0.749
 		mainOctaves     0
-		Coverage        0.59542
-		stripeZones     1.0471
-		stripeTwist     0.079111
-        TempMapMaxTemp  60000
+		Coverage        0.595
+		stripeZones     1.05
+		stripeTwist     0.0791
 	}
 
 	NoLava          true
@@ -175,21 +173,26 @@ Moon	"Hec/Lercurnis B VII I"
 	{
 		Model          "Lercurnis Kond Pel Hec"
 		Height          250
-		Density         -1e+38
+		Density         17.1
 		Pressure        100
 		Greenhouse      900
 		Bright          7
 		Opacity         1
-		SkyLight        3.3333
+		SkyLight        3.33
 		Hue             0
 		Saturation      2
 
 		Composition
 		{
-			CO2       	99.59
-			SO2       	0.40988
-			Ar        	9.3092e-05
+			CO2       	99.6
+			SO2       	0.41
+			Ar        	9.31e-05
 		}
+	}
+
+	Climate
+	{
+		GlobalWindSpeed  5
 	}
 
 	Aurora
@@ -197,20 +200,20 @@ Moon	"Hec/Lercurnis B VII I"
 		Height         200
 		NorthLat       90
 		NorthLon       0
-		NorthRadius    978.18
-		NorthWidth     329.4
+		NorthRadius    978
+		NorthWidth     329
 		NorthRings     5
 		NorthBright    0.1
-		NorthFlashFreq 7.8186
+		NorthFlashFreq 7.82
 		NorthMoveSpeed 100
 		NorthParticles 100000
 		SouthLat       -90
 		SouthLon       180
-		SouthRadius    978.18
-		SouthWidth     329.4
+		SouthRadius    978
+		SouthWidth     329
 		SouthRings     5
 		SouthBright    0.1
-		SouthFlashFreq 4.6145
+		SouthFlashFreq 4.61
 		SouthMoveSpeed 100
 		SouthParticles 100000
 		TopColor    (1.000 0.000 0.000)
