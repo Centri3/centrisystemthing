@@ -130,24 +130,24 @@ Planet	"Chonk/Lercurnis B II"
 		Height         108
 		NorthLat       60
 		NorthLon       0
-		NorthRadius    5.23e+03
-		NorthWidth     1.44e+03
+		NorthRadius    8.05e+03
+		NorthWidth     8.05e+03
 		NorthRings     4
 		NorthBright    0.437
 		NorthFlashFreq 7.82
 		NorthMoveSpeed 100
-		NorthParticles 100000
+		NorthParticles 1000
 		SouthLat       -60
 		SouthLon       180
-		SouthRadius    5.16e+03
-		SouthWidth     1.54e+03
+		SouthRadius    8.05e+03
+		SouthWidth     8.05e+03
 		SouthRings     4
-		SouthBright    0.437
+		SouthBright    0.2
 		SouthFlashFreq 4.61
 		SouthMoveSpeed 100
-		SouthParticles 100000
-		TopColor    (1.000 1.000 1.000)
-		BottomColor (1.000 0.000 0.500)
+		SouthParticles 4000
+		TopColor    (0.914 0.772 0.528)
+		BottomColor (0.308 0.750 0.335)
 	}
 
 	NoRings         true
@@ -156,8 +156,8 @@ Planet	"Chonk/Lercurnis B II"
 
 	CometTail
 	{
-		MaxLength   0.013369
-		GasToDust   0.038168
+		MaxLength   0.0134
+		GasToDust   0.0382
 		Particles   10000
 		GasBright   0.001
 		DustBright  0.001

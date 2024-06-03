@@ -2,79 +2,80 @@ Planet	"Smol/Lercurnis B I"
 {
 	ParentBody     "Kond"
 	Class          "Ferria"
-	Mass            0.011934
-	Radius          1419.2
-	InertiaMoment   0.37174
-	Oblateness      0.0028152
+	Mass            0.0119
+	Radius          1.42e+03
+	InertiaMoment   0.372
+	Oblateness      0.00282
 	RotationOffset  85
 	Obliquity       3
-	EqAscendNode    120.9
+	EqAscendNode    121
 	TidalLocked     true
 
+	AbsMagn         -0.546
+	SlopeParam      6.28
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
 	Brightness      1
 	BrightnessReal  0.3
-    TempMapMaxTemp  52500
 
 	Surface
 	{
 		Preset         "lercurnis_kond_smol.cfg"
-		SurfStyle       0.08441
+		SurfStyle       0.0844
 		Randomize      (1.023, 1.053, 0.809)
-		colorDistMagn   0.04925
-		colorDistFreq   176.91
+		colorDistMagn   0.0492
+		colorDistFreq   177
 		detailScale     128
-		drivenDarkening -0.52672
-		seaLevel        -0.38168
+		drivenDarkening -0.527
+		seaLevel        -0.382
 		snowLevel       2
 		tropicLatitude  0
 		icecapLatitude  2
-		icecapHeight    0.46591
-		climatePole     0.4375
-		climateTropic   0.3125
-		climateEquator  0.6875
+		icecapHeight    0.466
+		climatePole     0.438
+		climateTropic   0.313
+		climateEquator  0.688
 		climateSteppeMin -1
 		climateSteppeMax -1
 		climateForestMin -1
 		climateForestMax -1
 		climateGrassMin  -1
 		climateGrassMax  -1
-		humidity        0.2041
+		humidity        0.204
 		heightTempGrad  0.625
-		beachWidth      0.0011032
+		beachWidth      0.0011
 		tropicWidth     0.07
-		mainFreq        1.374
+		mainFreq        1.37
 		venusFreq       2
-		venusMagn       1.145
+		venusMagn       1.14
 		mareFreq        1
-		mareDensity     0.35115
-		terraceProb     0.29964
+		mareDensity     0.351
+		terraceProb     0.3
 		erosion         0
 		montesMagn      0.1
 		montesFreq      5
 		montesSpiky     1
 		montesFraction  1
 		dunesMagn       0
-		dunesFreq       12.988
-		dunesFraction   0.57315
+		dunesFreq       13
+		dunesFraction   0.573
 		hillsMagn       1
 		hillsFreq       25
 		hillsFraction   1
 		hills2Fraction  1
 		riversMagn      0
-		riversFreq      3.0772
+		riversFreq      3.08
 		riversSin       6.77
 		riftsMagn       0
-		riftsFreq       2.493
-		riftsSin        6.3576
-		eqridgeMagn     0.35115
+		riftsFreq       2.49
+		riftsSin        6.36
+		eqridgeMagn     0.351
 		eqridgeWidth    1
 		eqridgeModMagn  2.5
-		eqridgeModFreq  2.7481
+		eqridgeModFreq  2.75
 		canyonsMagn     0
-		canyonsFreq     0.41814
-		canyonsFraction 0.74219
+		canyonsFreq     0.418
+		canyonsFraction 0.742
 		cracksMagn      0
 		cracksFreq      1
 		cracksOctaves   15
@@ -88,11 +89,11 @@ Planet	"Smol/Lercurnis B I"
 		volcanoDensity  1
 		volcanoOctaves  5
 		volcanoActivity 2
-		volcanoFlows    0.9771
+		volcanoFlows    0.977
 		volcanoRadius   1
-		volcanoTemp     2335.9
-		lavaCoverTidal  0.30534
-		lavaCoverSun    0.29771
+		volcanoTemp     2.34e+03
+		lavaCoverTidal  0.305
+		lavaCoverSun    0.298
 		lavaCoverYoung  0
 		BumpHeight      20
 		SpecBrightWater 0
@@ -105,7 +106,7 @@ Planet	"Smol/Lercurnis B I"
 		SpotBright      2.5
 		SpotWidth       0.05
 		DayAmbient      0.07
-		TempMapMaxTemp  52500
+		TempMapMaxTemp  5.25e+04
 	}
 
 	NoOcean         true
@@ -116,7 +117,35 @@ Planet	"Smol/Lercurnis B I"
 
 	NoAtmosphere    true
 
-	NoAurora        true
+	Climate
+	{
+		GlobalWindSpeed  0
+	}
+
+	Aurora
+	{
+		Height         108
+		NorthLat       60
+		NorthLon       0
+		NorthRadius    1.4e+03
+		NorthWidth     1.41e+03
+		NorthRings     4
+		NorthBright    0.437
+		NorthFlashFreq 2.87
+		NorthMoveSpeed 10
+		NorthParticles 10000
+		SouthLat       -60
+		SouthLon       180
+		SouthRadius    1.39e+03
+		SouthWidth     1.4e+03
+		SouthRings     4
+		SouthBright    0.15
+		SouthFlashFreq 3.03
+		SouthMoveSpeed 10
+		SouthParticles 100000
+		TopColor    (0.641 1.000 0.000)
+		BottomColor (1.000 0.000 0.000)
+	}
 
 	NoRings         true
 

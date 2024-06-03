@@ -1,3 +1,5 @@
+LogLevel	0
+
 Moon	"Luci/Lucernis I I"
 {
 	ParentBody     "Verna-Luci bar"

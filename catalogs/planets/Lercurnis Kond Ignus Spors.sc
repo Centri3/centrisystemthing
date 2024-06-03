@@ -1,89 +1,93 @@
-DwarfMoon	"Ignus I/Lercurnis B V I"
+DwarfMoon	"Spors/Lercurnis B V I"
 {
 	ParentBody     "Ignus"
 	Class          "Asteroid"
-	Mass            1.4106e-09
+	Mass            1.41e-09
 	Radius          8
-	InertiaMoment   0.39943
-	Oblateness      0.0012508
+	InertiaMoment   0.399
+	Oblateness      0.00125
 	Obliquity       172
-	EqAscendNode    -140.15
+	EqAscendNode    -140
 	TidalLocked     true
 
-	AbsMagn         10.698
-	SlopeParam      3.5321
-	AlbedoBond      0.3
-	AlbedoGeom      0.36
-	Brightness      2.25
+	AbsMagn         10.7
+	SlopeParam      3.53
+	AlbedoBond      0.6
+	AlbedoGeom      0.67
+	Brightness      0.5
 	BrightnessReal  1
 
 	Surface
 	{
-		Preset         "lercurnis_kond_ignus_i.cfg"
-		SurfStyle       0.26377
+		Preset         "lercurnis_kond_ignus_spors.cfg"
+		SurfStyle       0.264
 		Randomize      (-0.748, 1.298, 0.412)
-		colorDistMagn   0.74227
-		colorDistFreq   0.030116
+		colorDistMagn   0.742
+		colorDistFreq   0.0301
 		detailScale     16
 		drivenDarkening 0
+		seaLevel        0.832
 		snowLevel       2
-		tropicLatitude  0.0017453
+		tropicLatitude  0.00175
 		icecapLatitude  2
-		icecapHeight    0.52707
-		climatePole     0.4375
-		climateTropic   0.3125
-		climateEquator  0.6875
+		icecapHeight    0.527
+		climatePole     0.438
+		climateTropic   0.313
+		climateEquator  0.688
 		climateSteppeMin -1
 		climateSteppeMax -1
 		climateForestMin -1
 		climateForestMax -1
 		climateGrassMin  -1
 		climateGrassMax  -1
-		humidity        0.25706
+		humidity        0.257
 		heightTempGrad  0.625
-		beachWidth      0.0011397
+		beachWidth      0.00114
 		tropicWidth     0.07
-		mainFreq        0.72393
-		venusFreq       0.71756
-		venusMagn       0.38168
-		mareDensity     0
-		terraceProb     0.15923
+		mainFreq        0.573
+		venusFreq       0.366
+		venusMagn       0.42
+		mareFreq        1e+03
+		mareDensity     1
+		terraceProb     0.159
 		erosion         0
-		montesMagn      1
-		montesFreq      3
+		montesMagn      0
+		montesFreq      1e+03
 		montesSpiky     1
 		montesFraction  1
 		dunesFraction   0
-		hillsMagn       5
-		hillsFreq       1
+		hillsMagn       10
+		hillsFreq       50
 		hillsFraction   1
 		hills2Fraction  1
-		eqridgeMagn     0.28244
+		eqridgeMagn     1
 		eqridgeWidth    1
-		eqridgeModMagn  1.5267
-		eqridgeModFreq  0.8
+		eqridgeModMagn  2.5
+		eqridgeModFreq  0.2
 		canyonsFraction 0
-		craterMagn      0.1
-		craterFreq      1
+		craterMagn      0.2
+		craterFreq      0.2
 		craterDensity   1
-		craterOctaves   30
+		craterOctaves   11
 		volcanoActivity 0
 		volcanoFlows    0
-		volcanoRadius   0.55502
-		volcanoTemp     280.89
+		volcanoRadius   0.555
+		volcanoTemp     281
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
-		BumpHeight      7.8186
+		BumpHeight      7.82
 		SpecBrightWater 0
-		SpecBrightIce   0.03
-		RoughnessWater  0.35
-		RoughnessIce    0.45
-		SpecularScale   1
+		SpecBrightIce   0
+		RoughnessWater  0
+		RoughnessIce    0
+		SpecularScale   0
 		RoughnessBias   0.8
-		Hapke           1
-		SpotBright      2.5
-		SpotWidth       0.05
+		RoughnessScale  0
+		Gamma           5
+		Hapke           0.595
+		SpotBright      20
+		SpotWidth       0.0113
 		DayAmbient      0.07
 	}
 
@@ -95,6 +99,11 @@ DwarfMoon	"Ignus I/Lercurnis B V I"
 
 	NoAtmosphere    true
 
+	Climate
+	{
+		GlobalWindSpeed  0
+	}
+
 	NoAurora        true
 
 	NoRings         true
@@ -103,11 +112,11 @@ DwarfMoon	"Ignus I/Lercurnis B V I"
 
 	CometTail
 	{
-		MaxLength   1.5762e-05
+		MaxLength   1.33e-05
 		GasToDust   0
 		Particles   10000
 		GasBright   0.001
-		DustBright  0.001
+		DustBright  0.0254
 		GasColor   (0.000 0.000 0.000)
 		DustColor  (0.016 0.023 0.031)
 	}

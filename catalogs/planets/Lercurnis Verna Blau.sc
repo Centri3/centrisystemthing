@@ -1,3 +1,5 @@
+LogLevel	0
+
 DwarfMoon	"Blau/Lercurnis I II"
 {
 	ParentBody     "Verna-Luci bar"

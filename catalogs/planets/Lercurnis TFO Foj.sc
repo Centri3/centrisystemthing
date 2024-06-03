@@ -16,7 +16,6 @@ DwarfPlanet	"Foj/Lercurnis TFO.1"
 	Albedo          0.7
 	Brightness      1
 	BrightnessReal  1
-	Color          (1.000 0.997 0.996)
 
 	Surface
 	{
@@ -30,11 +29,11 @@ DwarfPlanet	"Foj/Lercurnis TFO.1"
 		seaLevel        -0.107
 		snowLevel       2
 		tropicLatitude  0.149
-		icecapLatitude  2
+		icecapLatitude  1
 		icecapHeight    0.0211
-		climatePole     0.938
-		climateTropic   0.313
-		climateEquator  0.688
+		climatePole     1
+		climateTropic   1
+		climateEquator  1
 		climateSteppeMin -1
 		climateSteppeMax -1
 		climateForestMin -1
@@ -47,19 +46,19 @@ DwarfPlanet	"Foj/Lercurnis TFO.1"
 		tropicWidth     0.07
 		mainFreq        1.11
 		venusFreq       1.12
-		venusMagn       0.267
+		venusMagn       0.191
 		mareFreq        5
 		mareDensity     0.107
 		terraceProb     0
 		erosion         0
-		montesMagn      0.03
+		montesMagn      0.1
 		montesFreq      25
 		montesSpiky     0.5
 		montesFraction  1
 		dunesMagn       0
 		dunesFreq       0
 		dunesFraction   0
-		hillsMagn       1
+		hillsMagn       1.5
 		hillsFreq       25
 		hillsFraction   1
 		hills2Fraction  1
@@ -69,12 +68,12 @@ DwarfPlanet	"Foj/Lercurnis TFO.1"
 		riftsMagn       1
 		riftsFreq       10
 		riftsSin        10
-		eqridgeMagn     0.168
+		eqridgeMagn     0.252
 		eqridgeWidth    1
 		eqridgeModMagn  1.66
 		eqridgeModFreq  10
 		canyonsMagn     0
-		canyonsFreq     0.216
+		canyonsFreq     0
 		canyonsFraction 0
 		cracksMagn      0.03
 		cracksFreq      1
@@ -95,7 +94,7 @@ DwarfPlanet	"Foj/Lercurnis TFO.1"
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
-		BumpHeight      20
+		BumpHeight      10
 		DiffMapAlpha   "Ice"
 		SpecBrightWater 0.03
 		SpecBrightIce   0.03
