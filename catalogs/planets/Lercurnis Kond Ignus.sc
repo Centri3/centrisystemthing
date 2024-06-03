@@ -215,7 +215,6 @@ Planet	"Ignus/Lercurnis B V"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          0.0855
 		SemiMajorAxis   0.0836349064
 		Eccentricity    0.0152671756
 		Inclination     0.1

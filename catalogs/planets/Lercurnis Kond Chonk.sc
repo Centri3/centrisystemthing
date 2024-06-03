@@ -168,7 +168,6 @@ Planet	"Chonk/Lercurnis B II"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          0.00616944948
 		SemiMajorAxis   0.0144942311
 		Eccentricity    0.0305343511
 		Inclination     1

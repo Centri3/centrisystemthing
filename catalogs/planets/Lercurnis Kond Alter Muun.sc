@@ -217,7 +217,6 @@ Planet	"Alter Muun/Lercurnis B XI"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          2.58824025
 		SemiMajorAxis   0.812268338
 		Eccentricity    0.167938931
 		Inclination     2.86854307

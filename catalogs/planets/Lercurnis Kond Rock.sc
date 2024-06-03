@@ -124,7 +124,6 @@ Planet	"Rock/Lercurnis B III"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          0.012338899
 		SemiMajorAxis   0.0230080876
 		Eccentricity    0.0763358779
 		Inclination     3

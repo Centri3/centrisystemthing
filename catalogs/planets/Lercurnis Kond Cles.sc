@@ -182,7 +182,6 @@ Planet	"Cles/Lercurnis B VIII"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          0.705375
 		SemiMajorAxis   0.34635328
 		Eccentricity    0.02
 		Inclination     0.410342822

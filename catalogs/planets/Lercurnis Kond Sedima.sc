@@ -195,7 +195,6 @@ Planet	"Sedima/Lercurnis B VI"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          0.12825
 		SemiMajorAxis   0.109581135
 		Eccentricity    0.244274809
 		Inclination     1

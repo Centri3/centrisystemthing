@@ -239,7 +239,6 @@ DwarfPlanet	"Rex/Lercurnis I LT.1"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          105.29563
 		SemiMajorAxis   20.7411429
 		Eccentricity    0.152671756
 		Inclination     -2

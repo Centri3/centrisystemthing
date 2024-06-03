@@ -9,7 +9,6 @@ Barycenter	"Verna-Luci bar/Lucernis I bar"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          105.29563
 		SemiMajorAxis   20.7411428
 		Eccentricity    0.0610687023
 		Inclination     3

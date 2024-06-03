@@ -156,7 +156,6 @@ Planet	"Smol/Lercurnis B I"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          0.00308472474
 		SemiMajorAxis   0.00913076653
 		Eccentricity    0.05
 		Inclination     3

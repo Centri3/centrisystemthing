@@ -132,7 +132,6 @@ DwarfPlanet	"Foj/Lercurnis TFO.1"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          552.802057
 		SemiMajorAxis   62.818188
 		Eccentricity    0.580152672
 		Inclination     15

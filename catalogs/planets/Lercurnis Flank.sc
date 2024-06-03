@@ -178,7 +178,6 @@ Planet	"Flank/Lercurnis III"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          552.802057
 		SemiMajorAxis   62.6518253
 		Eccentricity    0.0763358779
 		Inclination     2

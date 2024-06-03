@@ -212,7 +212,6 @@ Planet	"Pel/Lercurnis B VII"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          0.3526875
 		SemiMajorAxis   0.216139601
 		Eccentricity    0
 		Inclination     -0.152067873

@@ -202,7 +202,6 @@ Planet	"Mons/Lercurnis B IX"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          1.269675
 		SemiMajorAxis   0.505235547
 		Eccentricity    0
 		Inclination     0.408636783

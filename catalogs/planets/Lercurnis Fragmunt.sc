@@ -11,8 +11,7 @@ Star    "Fragmunt/Lercurnis A"
     Orbit
     {
         RefPlane        "Equator"
-        Period			20.7063094
-        SemiMajorAxis   0.7
+        SemiMajorAxis   1
         Inclination     0
         AscendingNode   0
         ArgOfPericenter	0

@@ -178,7 +178,6 @@ Planet	"Don/Lercurnis II"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          368.534705
 		SemiMajorAxis   47.8120182
 		Eccentricity    0.0610687023
 		Inclination     -2

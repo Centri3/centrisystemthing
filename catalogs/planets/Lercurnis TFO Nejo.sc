@@ -141,7 +141,6 @@ DwarfPlanet	"Nejo/Lercurnis TFO.2"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          1371.02259
 		SemiMajorAxis   115.098245
 		Eccentricity    0.290076336
 		Inclination     10

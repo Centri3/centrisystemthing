@@ -174,7 +174,6 @@ DwarfPlanet	"Ge/Lercurnis B IV"
 	Orbit
 	{
 		RefPlane        "Equator"
-		Period          0.057
 		SemiMajorAxis   0.0638184318
 		Eccentricity    0.35
 		Inclination     -8
