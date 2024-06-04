@@ -6,7 +6,7 @@
 //-----------------------------------------------------------------------------
 // 3D Perlin noise
 
-float   noise(vec3 p)
+float   _noise(vec3 p)
 {
     const float one = 1.0 / 256.0;
 
