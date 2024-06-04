@@ -15,7 +15,7 @@ DwarfMoon	"Blau/Lercurnis I II"
 	EndogenousHeating 1.32
 	AlbedoBond      0.26
 	AlbedoGeom      0.36
-	Brightness      2.25
+	Brightness      2
 	BrightnessReal  1
 
 	Surface
@@ -83,8 +83,8 @@ DwarfMoon	"Blau/Lercurnis I II"
 		RoughnessIce    0.45
 		SpecularScale   1
 		RoughnessBias   0.8
-		Gamma           0.9
-		Hapke           0.244
+		Gamma           1.25
+		Hapke           0.305
 		SpotBright      2.5
 		SpotWidth       0.05
 		DayAmbient      0.07

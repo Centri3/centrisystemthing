@@ -1,4 +1,4 @@
-Planet	"End/Lercurnis A I"
+Planet	"End/Lercurnis A II"
 {
 	ParentBody     "Fragmunt"
 	Class          "Aquaria"
@@ -24,7 +24,7 @@ Planet	"End/Lercurnis A I"
 		Randomize      (-0.968, 0.341, 0.495)
 		colorDistMagn   0.0454
 		colorDistFreq   932
-		detailScale     256
+		detailScale     64
 		drivenDarkening 1
 		seaLevel        0.511
 		snowLevel       2

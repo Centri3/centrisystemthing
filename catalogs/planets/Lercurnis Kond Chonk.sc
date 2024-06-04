@@ -95,6 +95,7 @@ Planet	"Chonk/Lercurnis B II"
 		stripeZones     5.65
 		stripeFluct     1.39
 		stripeTwist     5
+		TidalLocked     true
 	}
 
 	NoLava          true

@@ -1,3 +1,8 @@
+#auto_version
+#extension GL_EXT_texture_array: enable
+#auto_defines
+
+#include "libcst_shared.glh"
 #include "libcst.glh"
 
 #ifdef _FRAGMENT_

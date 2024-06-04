@@ -16,7 +16,6 @@ DwarfPlanet	"Nejo/Lercurnis TFO.2"
 	Albedo          0.6
 	Brightness      1
 	BrightnessReal  1
-	Color          (1.000 0.981 0.963)
 
 	Life
 	{
@@ -37,7 +36,7 @@ DwarfPlanet	"Nejo/Lercurnis TFO.2"
 		drivenDarkening 0
 		seaLevel        0.282
 		snowLevel       2
-		tropicLatitude  0.333
+		tropicLatitude  0.695
 		icecapLatitude  2
 		icecapHeight    0
 		climatePole     0.938
@@ -51,11 +50,11 @@ DwarfPlanet	"Nejo/Lercurnis TFO.2"
 		climateGrassMax  -1
 		humidity        0.12
 		heightTempGrad  0.625
-		beachWidth      0.00133
-		tropicWidth     0.07
-		mainFreq        1.92
-		venusFreq       2
-		venusMagn       0.611
+		beachWidth      0.000687
+		tropicWidth     0.679
+		mainFreq        0.382
+		venusFreq       1.27
+		venusMagn       0.878
 		mareFreq        1
 		mareDensity     0.145
 		terraceProb     0.464
@@ -74,8 +73,8 @@ DwarfPlanet	"Nejo/Lercurnis TFO.2"
 		riversMagn      0
 		riversFreq      2.74
 		riversSin       5.53
-		riftsMagn       15
-		riftsFreq       1.83
+		riftsMagn       100
+		riftsFreq       7.94
 		riftsSin        10
 		eqridgeMagn     0.573
 		eqridgeWidth    0.0308
@@ -85,10 +84,10 @@ DwarfPlanet	"Nejo/Lercurnis TFO.2"
 		canyonsFreq     0.25
 		canyonsFraction 0
 		cracksMagn      0.03
-		cracksFreq      0.2
+		cracksFreq      1
 		cracksOctaves   15
 		craterMagn      0.3
-		craterFreq      2
+		craterFreq      1
 		craterDensity   1
 		craterOctaves   30
 		craterRayedFactor 0
@@ -141,6 +140,7 @@ DwarfPlanet	"Nejo/Lercurnis TFO.2"
 	Orbit
 	{
 		RefPlane        "Equator"
+		Period          1338.42047
 		SemiMajorAxis   115.098245
 		Eccentricity    0.290076336
 		Inclination     10

@@ -4,7 +4,7 @@ Star    "Fragmunt/Lercurnis A"
     Class      "DQ8.1"
     MassSol     0.72
     Radius      9700
-    Temperature 2250
+    Teff        2250
     Age         4567.7
     Obliquity   1
 

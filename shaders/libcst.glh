@@ -1,7 +1,3 @@
-#auto_version
-#extension GL_EXT_texture_array: enable
-#auto_defines
-
 #ifdef _VERTEX_
 
 layout(location = 0) in vec4 in_vert_pos;
@@ -21,52 +17,6 @@ in vec4 out_tex_coord;
 #define in_tex_coord out_tex_coord
 
 layout(location = 0) out vec4 out_color;
-
-#define BIOME_BOTTOM 0
-#define BIOME_SHELF 1
-#define BIOME_BEACH 2
-#define BIOME_LOWLAND 3
-#define BIOME_UPLAND 4
-#define BIOME_ROCK 5
-#define BIOME_SNOW 6
-#define BIOME_ICE 7
-#define BIOME_LAVA 8
-#define BIOME_ORG_U_STEPPE 9
-#define BIOME_ORG_U_FOREST 10
-#define BIOME_ORG_U_GRASS 11
-#define BIOME_ORG_M_STEPPE 12
-#define BIOME_ORG_M_FOREST 13
-#define BIOME_ORG_M_GRASS 14
-#define BIOME_EXO_U_STEPPE 15
-#define BIOME_EXO_U_FOREST 16
-#define BIOME_EXO_U_GRASS 17
-#define BIOME_EXO_M_STEPPE 18
-#define BIOME_EXO_M_FOREST 19
-#define BIOME_EXO_M_GRASS 20
-
-#define BIOME_SURF_LAYERS 21
-#define BIOME_CLOUD_LAYERS 8
-#define BIOME_OCEAN_LAYERS 2
-
-#define DET_TEX_RES 1024
-#define DET_TEX_MAX_LEVEL 9
-#define UV_SHATTER (0.5 / float(DET_TEX_RES))
-#define NOISE_INV_RES (1.0 / 512.0)
-
-const float PI = 3.14159265358;
-const float TAU = PI * 2.0;
-const vec3 TO_GRAY = vec3(0.299, 0.587, 0.114);
-
-//#define IMPROVED_TEX_PERLIN
-#define NOISE_TEX_3D_SIZE 64.0
-
-#define NO_DATA -1e+38
-
-float unwrap_or(float option, float _default) {
-    bool is_no_data = abs(option - NO_DATA) > 0.01;
-
-    return option * float(is_no_data) + _default * float(!is_no_data);
-}
 
 #define sea_level mareParams.x
 #define snow_level lavaParams.y
@@ -164,11 +114,10 @@ float unwrap_or(float option, float _default) {
 #define color_gamma colorParams2.www
 
 #define sun_surf_temp lavaParams.z
-#define sun_flow_magn color_dist_magn
-#define sun_flow_freq color_dist_freq
-#define sun_flow_octaves crater_octaves
-#define sun_gran_magn vec2(hills_magn, cracks_magn)
-#define sun_gran_freq vec2(hills_freq, cracks_freq)
+#define sun_flow_magn vec2(color_dist_magn, crater_magn)
+#define sun_flow_freq vec2(color_dist_freq, crater_freq)
+#define sun_flow_octaves vec2(volcanoes_octaves, crater_octaves)
+#define sun_gran_freq hills_freq
 #define sun_gran_octaves cracks_octaves
 #define sun_gran_distort dunes_magn
 #define sun_gran_temp_distort canyons_magn
@@ -184,461 +133,33 @@ float unwrap_or(float option, float _default) {
 #define sun_spot_max_lat climate_pole
 #define sun_spot_min_lat climate_tropic
 
-#uniform_block
+const float NO_DATA = -1e+38;
+const vec3 STARS_RANDOMIZE = vec3(-0.4428662062, 0.6390675306, 0.3357337713);
 
-uniform sampler3D noise_3d;
-uniform sampler2D noise_2d_sampler;
-uniform sampler2D perm_sampler;
-uniform sampler1D perm_grad_sampler;
-uniform sampler2DArray height_map_array;
-uniform sampler2DArray normal_map_array;
-uniform sampler2DArray sample_may_array;
-uniform sampler2D biome_data_table;
-
-struct NoiseParams {
-    float lacunarity;
-    float octaves;
-    float h;
-    float offset;
-    float ridge_smooth;
-};
-
-#define saturate(x) clamp(x, 0.0, 1.0)
-
-float soft_poly_min(float a, float b, float k) {
-    float diff = b - a;
-    float h = saturate(0.5 + 0.5 * diff / k);
-    return b - h * (diff + k * (1.0f - h));
-}
-
-float soft_poly_max(float a, float b, float k) {
-    float diff = a - b;
-    float h = saturate(0.5 + 0.5 * diff / k);
-    return b + h * (diff + k * (1.0f - h));
-}
-
-#ifdef IMPROVED_TEX_PERLIN
-// Improved Perlin noise with derivatives
-// http://www.iquilezles.org/www/articles/morenoise/morenoise.htm
-//-----------------------------------------------------------------------------
-// 3D Perlin noise
-
-float   noise(vec3 p)
-{
-    const float one = 1.0 / 256.0;
-
-    // Find unit cube that contains point
-    // Find relative x,y,z of point in cube
-    vec3 P = mod(floor(p), 256.0) * one;
-    p -= floor(p);
-
-    // Compute fade curves for each of x,y,z
-    vec3 ff = p * p * p * (p * (p * 6.0 - 15.0) + 10.0);
-
-    // Hash coordinates of the 8 cube corners
-    vec4 AA = texture(PermSampler, P.xy) + P.z;
-
-    float a = dot(texture(PermGradSampler, AA.x      ).rgb,  p);
-    float b = dot(texture(PermGradSampler, AA.z      ).rgb,  p + vec3(-1,  0,  0));
-    float c = dot(texture(PermGradSampler, AA.y      ).rgb,  p + vec3( 0, -1,  0));
-    float d = dot(texture(PermGradSampler, AA.w      ).rgb,  p + vec3(-1, -1,  0));
-    float e = dot(texture(PermGradSampler, AA.x + one).rgb,  p + vec3( 0,  0, -1));
-    float f = dot(texture(PermGradSampler, AA.z + one).rgb,  p + vec3(-1,  0, -1));
-    float g = dot(texture(PermGradSampler, AA.y + one).rgb,  p + vec3( 0, -1, -1));
-    float h = dot(texture(PermGradSampler, AA.w + one).rgb,  p + vec3(-1, -1, -1));
-
-    float k0 =   a;
-    float k1 =   b - a;
-    float k2 =   c - a;
-    float k3 =   e - a;
-    float k4 =   a - b - c + d;
-    float k5 =   a - c - e + g;
-    float k6 =   a - b - e + f;
-    float k7 = - a + b + c - d + e - f - g + h;
-
-    return k0 + k1*ff.x + k2*ff.y + k3*ff.z + k4*ff.x*ff.y + k5*ff.y*ff.z + k6*ff.z*ff.x + k7*ff.x*ff.y*ff.z;
-}
-
-//-----------------------------------------------------------------------------
-// 3D Perlin noise with derivatives, returns vec4(xderiv, yderiv, zderiv, noise)
-
-vec4    NoiseDeriv(vec3 p)
-{
-    const float one = 1.0 / 256.0;
-
-    // Find unit cube that contains point
-    // Find relative x,y,z of point in cube
-    vec3 P = mod(floor(p), 256.0) * one;
-    p -= floor(p);
-
-    // Compute fade curves for each of x,y,z
-    vec3 df = 30.0 * p * p * (p * (p - 2.0) + 1.0);
-    vec3 ff = p * p * p * (p * (p * 6.0 - 15.0) + 10.0);
-
-    // Hash coordinates of the 8 cube corners
-    vec4 AA = texture(PermSampler, P.xy) + P.z;
-
-    float a = dot(texture(PermGradSampler, AA.x      ).rgb,  p);
-    float b = dot(texture(PermGradSampler, AA.z      ).rgb,  p + vec3(-1,  0,  0));
-    float c = dot(texture(PermGradSampler, AA.y      ).rgb,  p + vec3( 0, -1,  0));
-    float d = dot(texture(PermGradSampler, AA.w      ).rgb,  p + vec3(-1, -1,  0));
-    float e = dot(texture(PermGradSampler, AA.x + one).rgb,  p + vec3( 0,  0, -1));
-    float f = dot(texture(PermGradSampler, AA.z + one).rgb,  p + vec3(-1,  0, -1));
-    float g = dot(texture(PermGradSampler, AA.y + one).rgb,  p + vec3( 0, -1, -1));
-    float h = dot(texture(PermGradSampler, AA.w + one).rgb,  p + vec3(-1, -1, -1));
-
-    float k0 =   a;
-    float k1 =   b - a;
-    float k2 =   c - a;
-    float k3 =   e - a;
-    float k4 =   a - b - c + d;
-    float k5 =   a - c - e + g;
-    float k6 =   a - b - e + f;
-    float k7 = - a + b + c - d + e - f - g + h;
-
-    return vec4(df.x * (k1 + k4*ff.y + k6*ff.z + k7*ff.y*ff.z),
-                df.y * (k2 + k5*ff.z + k4*ff.x + k7*ff.z*ff.x),
-                df.z * (k3 + k6*ff.x + k5*ff.y + k7*ff.x*ff.y),
-                k0 + k1*ff.x + k2*ff.y + k3*ff.z + k4*ff.x*ff.y + k5*ff.y*ff.z + k6*ff.z*ff.x + k7*ff.x*ff.y*ff.z);
-}
-
-//-----------------------------------------------------------------------------
-#else
-//	Brian Sharpe
-//	brisharpe CIRCLE_A yahoo DOT com
-//	http://briansharpe.wordpress.com
-//	https://github.com/BrianSharpe
-//-----------------------------------------------------------------------------
-// Generates 3 random numbers for each of the 8 cell corners
-
-void FastHash3D(vec3 gridcell,
-                out vec4 lowz_hash_0,
-                out vec4 lowz_hash_1,
-                out vec4 lowz_hash_2,
-                out vec4 highz_hash_0,
-                out vec4 highz_hash_1,
-                out vec4 highz_hash_2)
-{
-    // gridcell is assumed to be an integer coordinate
-    const vec2  OFFSET = vec2(50.0, 161.0);
-    const float DOMAIN = 69.0;
-    const vec3  SOMELARGEFLOATS = vec3(635.298681, 682.357502, 668.926525);
-    const vec3  ZINC = vec3(48.500388, 65.294118, 63.934599);
-
-    //	truncate the domain
-    gridcell.xyz = gridcell.xyz - floor(gridcell.xyz * (1.0 / DOMAIN)) * DOMAIN;
-    vec3 gridcell_inc1 = mix(gridcell + vec3(1.0), vec3(0.0), greaterThan(gridcell, vec3(DOMAIN - 1.5)));
-
-    //	calculate the noise
-    vec4 P = vec4(gridcell.xy, gridcell_inc1.xy) + OFFSET.xyxy;
-    P *= P;
-    P = P.xzxz * P.yyww;
-    lowz_hash_2.xyzw = vec4(1.0) / (SOMELARGEFLOATS.xyzx + vec2(gridcell.z, gridcell_inc1.z).xxxy * ZINC.xyzx);
-    highz_hash_2.xy  = vec2(1.0) / (SOMELARGEFLOATS.yz + gridcell_inc1.zz * ZINC.yz);
-    lowz_hash_0  = fract(P *  lowz_hash_2.xxxx);
-    highz_hash_0 = fract(P *  lowz_hash_2.wwww);
-    lowz_hash_1  = fract(P *  lowz_hash_2.yyyy);
-    highz_hash_1 = fract(P * highz_hash_2.xxxx);
-    lowz_hash_2  = fract(P *  lowz_hash_2.zzzz);
-    highz_hash_2 = fract(P * highz_hash_2.yyyy);
-}
-
-//-----------------------------------------------------------------------------
-// Generates a random number for each of the 8 cell corners
-
-void FastHash3D(vec3 gridcell, out vec4 lowz_hash, out vec4 highz_hash)
-{
-	// gridcell is assumed to be an integer coordinate
-	const vec2 OFFSET = vec2(50.0, 161.0);
-	const float DOMAIN = 69.0;
-	const float SOMELARGEFLOAT = 635.298681;
-	const float ZINC = 48.500388;
-
-	//	truncate the domain
-	gridcell.xyz = gridcell.xyz - floor(gridcell.xyz * (1.0 / DOMAIN)) * DOMAIN;
-	vec3 gridcell_inc1 = step(gridcell, vec3(DOMAIN - 1.5)) * (gridcell + 1.0);
-
-	//	calculate the noise
-	vec4 P = vec4(gridcell.xy, gridcell_inc1.xy) + OFFSET.xyxy;
-	P *= P;
-	P = P.xzxz * P.yyww;
-	highz_hash.xy = vec2(1.0 / (SOMELARGEFLOAT + vec2(gridcell.z, gridcell_inc1.z) * ZINC));
-	lowz_hash  = fract(P * highz_hash.xxxx );
-	highz_hash = fract(P * highz_hash.yyyy );
-}
-
-//-----------------------------------------------------------------------------
-vec3 InterpC2(vec3 x) { return x * x * x * (x * (x * 6.0 - 15.0) + 10.0); }
-//-----------------------------------------------------------------------------
-// 3D Perlin noise without lookup textures
-
-float _noise(vec3 p)
-{
-    // Establish our grid cell and unit position
-    vec3 Pi = floor(p);
-    vec3 Pf = p - Pi;
-    vec3 Pf_min1 = Pf - 1.0;
-
-#if 1
-    // Classic noise. Requires 3 random values per point.
-    // With an efficent hash function will run faster than improved noise.
-
-    // Calculate the hash
-    vec4 hashx0, hashy0, hashz0, hashx1, hashy1, hashz1;
-    FastHash3D(Pi, hashx0, hashy0, hashz0, hashx1, hashy1, hashz1);
-
-    // Calculate the gradients
-    const vec4 C = vec4(0.49999);
-    vec4 grad_x0 = hashx0 - C;
-    vec4 grad_y0 = hashy0 - C;
-    vec4 grad_z0 = hashz0 - C;
-    vec4 grad_x1 = hashx1 - C;
-    vec4 grad_y1 = hashy1 - C;
-    vec4 grad_z1 = hashz1 - C;
-    vec4 grad_results_0 = inversesqrt(grad_x0 * grad_x0 + grad_y0 * grad_y0 + grad_z0 * grad_z0) * (vec2(Pf.x, Pf_min1.x).xyxy * grad_x0 + vec2(Pf.y, Pf_min1.y).xxyy * grad_y0 + Pf.zzzz * grad_z0);
-    vec4 grad_results_1 = inversesqrt(grad_x1 * grad_x1 + grad_y1 * grad_y1 + grad_z1 * grad_z1) * (vec2(Pf.x, Pf_min1.x).xyxy * grad_x1 + vec2(Pf.y, Pf_min1.y).xxyy * grad_y1 + Pf_min1.zzzz * grad_z1);
-
-    // Classic Perlin Interpolation
-    vec3 blend = InterpC2(Pf);
-    vec4 res0 = mix(grad_results_0, grad_results_1, blend.z);
-    vec2 res1 = mix(res0.xy, res0.zw, blend.y);
-    float final = mix(res1.x, res1.y, blend.x);
-    final *= 1.1547005383792515290182975610039; // (optionally) scale things to a strict -1.0->1.0 rang *= 1.0/sqrt(0.75)
-    return final;
-#else
-    // Improved noise. Requires 1 random value per point.
-    // Will run faster than classic noise if a slow hashing function is used.
-
-    // Calculate the hash
-    vec4 hash_lowz, hash_highz;
-    FastHash3D(Pi, hash_lowz, hash_highz);
-
-#if 0
-    // This will implement Ken Perlins "improved" classic noise using the 12 mid-edge gradient points.
-    // NOTE: mid-edge gradients give us a nice strict -1.0->1.0 range without additional scaling.
-    // [1,1,0] [-1,1,0] [1,-1,0] [-1,-1,0]
-    // [1,0,1] [-1,0,1] [1,0,-1] [-1,0,-1]
-    // [0,1,1] [0,-1,1] [0,1,-1] [0,-1,-1]
-    hash_lowz *= 3.0;
-    vec4 grad_results_0_0 = mix(vec2(Pf.y, Pf_min1.y).xxyy, vec2(Pf.x, Pf_min1.x).xyxy, lessThan(hash_lowz, vec4(2.0)));
-    vec4 grad_results_0_1 = mix(Pf.zzzz, vec2(Pf.y, Pf_min1.y).xxyy, lessThan(hash_lowz, vec4(1.0)));
-    hash_lowz = fract(hash_lowz) - 0.5;
-    vec4 grad_results_0 = grad_results_0_0 * sign(hash_lowz) + grad_results_0_1 * sign(abs(hash_lowz) - vec4(0.25));
-
-    hash_highz *= 3.0;
-    vec4 grad_results_1_0 = mix(vec2(Pf.y, Pf_min1.y).xxyy, vec2(Pf.x, Pf_min1.x).xyxy, lessThan(hash_highz, vec4(2.0)));
-    vec4 grad_results_1_1 = mix(Pf_min1.zzzz, vec2(Pf.y, Pf_min1.y).xxyy, lessThan(hash_highz, vec4(1.0)));
-    hash_highz = fract(hash_highz) - 0.5;
-    vec4 grad_results_1 = grad_results_1_0 * sign(hash_highz) + grad_results_1_1 * sign(abs(hash_highz) - vec4(0.25));
-
-    // Blend the gradients and return
-    vec3 blend = InterpC2(Pf);
-    vec4 res0 = mix(grad_results_0, grad_results_1, blend.z);
-    vec2 res1 = mix(res0.xy, res0.zw, blend.y);
-    return mix(res1.x, res1.y, blend.x);
-#else
-    // "Improved" noise using 8 corner gradients. Faster than the 12 mid-edge point method.
-    // Ken mentions using diagonals like this can cause "clumping", but we'll live with that.
-    // [1,1,1]  [-1,1,1]  [1,-1,1]  [-1,-1,1]
-    // [1,1,-1] [-1,1,-1] [1,-1,-1] [-1,-1,-1]
-    hash_lowz -= vec4(0.5);
-    vec4 grad_results_0_0 = vec2(Pf.x, Pf_min1.x).xyxy * sign(hash_lowz);
-    hash_lowz = abs(hash_lowz) - vec4(0.25);
-    vec4 grad_results_0_1 = vec2(Pf.y, Pf_min1.y).xxyy * sign(hash_lowz);
-    vec4 grad_results_0_2 = Pf.zzzz * sign(abs(hash_lowz) - vec4(0.125));
-    vec4 grad_results_0 = grad_results_0_0 + grad_results_0_1 + grad_results_0_2;
-
-    hash_highz -= vec4(0.5);
-    vec4 grad_results_1_0 = vec2(Pf.x, Pf_min1.x).xyxy * sign(hash_highz);
-    hash_highz = abs(hash_highz) - vec4(0.25);
-    vec4 grad_results_1_1 = vec2(Pf.y, Pf_min1.y).xxyy * sign(hash_highz);
-    vec4 grad_results_1_2 = Pf_min1.zzzz * sign(abs(hash_highz) - vec4(0.125));
-    vec4 grad_results_1 = grad_results_1_0 + grad_results_1_1 + grad_results_1_2;
-
-    // Blend the gradients and return
-    vec3 blend = InterpC2(Pf);
-    vec4 res0 = mix(grad_results_0, grad_results_1, blend.z);
-    vec2 res1 = mix(res0.xy, res0.zw, blend.y);
-    return mix(res1.x, res1.y, blend.x) * (2.0 / 3.0);   // (optionally) mult by (2.0/3.0)to scale to a strict -1.0->1.0 range
-#endif
-
-#endif
-}
-
-//-----------------------------------------------------------------------------
-// 3D Perlin noise with derivatives, returns vec4(xderiv, yderiv, zderiv, noise)
-
-vec4    NoiseDeriv(vec3 p)
-{
-    //	establish our grid cell and unit position
-    vec3 Pi = floor(p);
-    vec3 Pf = p - Pi;
-    vec3 Pf_min1 = Pf - 1.0;
-
-    //	calculate the hash
-    //	(various hashing methods listed in order of speed)
-    vec4 hashx0, hashy0, hashz0, hashx1, hashy1, hashz1;
-    FastHash3D(Pi, hashx0, hashy0, hashz0, hashx1, hashy1, hashz1);
-
-    //	calculate the gradients
-    const vec4 C = vec4(0.49999);
-    vec4 grad_x0 = hashx0 - C;
-    vec4 grad_y0 = hashy0 - C;
-    vec4 grad_z0 = hashz0 - C;
-    vec4 norm_0 = inversesqrt(grad_x0 * grad_x0 + grad_y0 * grad_y0 + grad_z0 * grad_z0);
-    grad_x0 *= norm_0;
-    grad_y0 *= norm_0;
-    grad_z0 *= norm_0;
-    vec4 grad_x1 = hashx1 - C;
-    vec4 grad_y1 = hashy1 - C;
-    vec4 grad_z1 = hashz1 - C;
-    vec4 norm_1 = inversesqrt(grad_x1 * grad_x1 + grad_y1 * grad_y1 + grad_z1 * grad_z1);
-    grad_x1 *= norm_1;
-    grad_y1 *= norm_1;
-    grad_z1 *= norm_1;
-    vec4 grad_results_0 = vec2(Pf.x, Pf_min1.x).xyxy * grad_x0 + vec2(Pf.y, Pf_min1.y).xxyy * grad_y0 + Pf.zzzz * grad_z0;
-    vec4 grad_results_1 = vec2(Pf.x, Pf_min1.x).xyxy * grad_x1 + vec2(Pf.y, Pf_min1.y).xxyy * grad_y1 + Pf_min1.zzzz * grad_z1;
-
-    //	get lengths in the x+y plane
-    vec3 Pf_sq = Pf*Pf;
-    vec3 Pf_min1_sq = Pf_min1*Pf_min1;
-    vec4 vecs_len_sq = vec2(Pf_sq.x, Pf_min1_sq.x).xyxy + vec2(Pf_sq.y, Pf_min1_sq.y).xxyy;
-
-    //	evaluate the surflet
-    vec4 m_0 = vecs_len_sq + Pf_sq.zzzz;
-    m_0 = max(1.0 - m_0, 0.0);
-    vec4 m2_0 = m_0 * m_0;
-    vec4 m3_0 = m_0 * m2_0;
-
-    vec4 m_1 = vecs_len_sq + Pf_min1_sq.zzzz;
-    m_1 = max(1.0 - m_1, 0.0);
-    vec4 m2_1 = m_1 * m_1;
-    vec4 m3_1 = m_1 * m2_1;
-
-    //	calculate the derivatives
-    vec4  temp_0 = -6.0 * m2_0 * grad_results_0;
-    float xderiv_0 = dot(temp_0, vec2(Pf.x, Pf_min1.x).xyxy) + dot(m3_0, grad_x0);
-    float yderiv_0 = dot(temp_0, vec2(Pf.y, Pf_min1.y).xxyy) + dot(m3_0, grad_y0);
-    float zderiv_0 = dot(temp_0, Pf.zzzz) + dot(m3_0, grad_z0);
-
-    vec4  temp_1 = -6.0 * m2_1 * grad_results_1;
-    float xderiv_1 = dot(temp_1, vec2(Pf.x, Pf_min1.x).xyxy) + dot(m3_1, grad_x1);
-    float yderiv_1 = dot(temp_1, vec2(Pf.y, Pf_min1.y).xxyy) + dot(m3_1, grad_y1);
-    float zderiv_1 = dot(temp_1, Pf_min1.zzzz) + dot(m3_1, grad_z1);
-
-    const float FINAL_NORMALIZATION = 2.3703703703703703703703703703704;	//	scales the final result to a strict (-1.0, 1.0) range
-    return  vec4(vec3(xderiv_0, yderiv_0, zderiv_0) + vec3(xderiv_1, yderiv_1, zderiv_1),
-                 dot(m3_0, grad_results_0) + dot(m3_1, grad_results_1)) * FINAL_NORMALIZATION;
-}
-
-#endif
-
-const vec3 vyd = vec3(3.33, 5.71, 1.96);
-const vec3 vzd = vec3(7.77, 2.65, 4.37);
-const vec3 vwd = vec3(1.13, 2.73, 6.37);
-
-#define noise_vec2(coords) vec2(_noise(coords), _noise(coords + vyd))
-#define noise_vec3(coords) vec3(_noise(coords), _noise(coords + vyd), _noise(coords + vzd))
-#define noise_vec4(coords) vec4(_noise(coords), _noise(coords + vyd), _noise(coords + vzd), _noise(coords + vwd))
-#define noise_u_float(coords) _noise(coords) * 0.5 + 0.5
-#define noise_u_vec3(coords) noise_vec3(coords) * 0.5 + vec3(0.5)
-#define noise_u_vec4(coords) noise_vec4(coords) * 0.5 + vec4(0.5)
-#define noise_nearest_u_float(coords) texture(noise_3d, coords).r
-#define noise_nearest_u_vec3(coords) texture(noise_3d, coords).rgb
-#define noise_nearest_u_vec4(coords) texture(noise_3d, coords)
-
-vec4 cell2_noise_sphere(vec3 p, float radius)
-{
-    p *= radius;
-    vec3  cell = floor(p);
-    vec3  offs = p - cell - vec3(0.5);
-    vec3  pos;
-    vec3  point = vec3(0.0);
-    vec3  rnd;
-    vec3  d;
-    float distMin = 1.0e38;
-    float dist;
-    for (d.z=-1.0; d.z<1.0; d.z+=1.0)
-    {
-        for (d.y=-1.0; d.y<1.0; d.y+=1.0)
-        {
-            for (d.x=-1.0; d.x<1.0; d.x+=1.0)
-            {
-                rnd = noise_nearest_u_vec4((cell + d) / NOISE_TEX_3D_SIZE).xyz + d;
-                pos = rnd - offs;
-                dist = dot(pos, pos);
-                if (distMin > dist)
-                {
-                    distMin = dist;
-                    point = rnd;
-                }
-            }
-        }
+vec2 unwrap_with_or(vec2 eq, vec2 option, vec2 _default) {
+    if (option == eq) {
+        return _default;
+    } else {
+        return option;
     }
-    point = normalize(point + cell + vec3(0.5));
-    return vec4(point, length(point * radius - p));
 }
 
-vec2 cell3_noise_vec2(vec3 p) {
-    vec3  cell = floor(p);
-    vec3  offs = p - cell;
-    vec3  pos;
-    vec3  rnd;
-    vec3  d;
-    float dist;
-    float distMin1 = 1.0e38;
-    float distMin2 = 1.0e38;
-    for (d.z=-1.0; d.z<2.0; d.z+=1.0)
-    {
-        for (d.y=-1.0; d.y<2.0; d.y+=1.0)
-        {
-            for (d.x=-1.0; d.x<2.0; d.x+=1.0)
-            {
-                rnd = noise_nearest_u_vec4((cell + d) / NOISE_TEX_3D_SIZE).xyz + d;
-                pos = rnd - offs;
-                dist = dot(pos, pos);
-                if (dist < distMin1)
-                {
-                    distMin2 = distMin1;
-                    distMin1 = dist;
-                }
-                else
-                    distMin2 = min(distMin2, dist);
-            }
-        }
+vec3 unwrap_with_or(vec3 eq, vec3 option, vec3 _default) {
+    if (option == eq) {
+        return _default;
+    } else {
+        return option;
     }
-    return sqrt(vec2(distMin1, distMin2));
 }
 
-float noise_fbm_float(vec3 coords, NoiseParams noise)
-{
-    float sum = 0.0f;
+float unwrap_with_or(float eq, float option, float _default) {
+    bool is_eq = abs(option - eq) > 0.01;
 
-	float ampl = 1.0f;
-	float gain = pow(noise.lacunarity, -noise.h);
-
-    for (int i = 0; i < noise.octaves; i++) {
-        sum += _noise(coords) * ampl;
-		ampl *= gain;
-        coords *= noise.lacunarity;
-    }
-
-    return sum;
+    return option * float(is_eq) + _default * float(!is_eq);
 }
 
-vec3 noise_fbm_vec3(vec3 coords, NoiseParams noise) {
-    vec3 sum = vec3(0.0f);
-	float ampl = 1.0f;
-	float gain = pow(noise.lacunarity, -noise.h);
-
-    for (int i = 0; i < noise.octaves; i++) {
-        sum += noise_vec3(coords) * ampl;
-		ampl *= gain;
-        coords *= noise.lacunarity;
-    }
-
-    return sum;
-}
+#define unwrap_or(option, _default) unwrap_with_or(NO_DATA, option, _default)
+#define unwrap_star_randomize_or(option, _default) unwrap_with_or(STARS_RANDOMIZE, option, _default)
 
 vec3 get_surface_point()
 {
@@ -674,92 +195,121 @@ float encode_temp(float temp) {
     return clamp(temp * (1000.0f / 65535.0f), 0.0f, 1.0f);
 }
 
-void get_sun_spots(vec3 coords, out float botMask, out float filMask, out float filaments, NoiseParams noise) {
+struct Sunspots {
+    float spot_mask;
+    float fila_mask;
+    float filas;
+};
+
+Sunspots get_sun_spots(vec3 coords, vec3 randomize, NoiseParams noise) {
     vec3 binormal = normalize(coords);
 
     float _lat = abs(coords.y);
 
     noise.octaves = 8;
 
-    botMask = 1.0;
-    filMask = 1.0;
-    filaments = 0.0;
+    Sunspots sunspots = Sunspots(1.0, 1.0, 0.0);
 
-    float filam, botmask, filmask;
     float fi, rnd, t;
-    vec4  cell;
-    float radFactor = 0.8 / sun_spot_density;
+    vec4 cell;
+    float rad_factor = 0.8 / sun_spot_density;
 
-    float radInner = unwrap_or(sun_spot_rad_inner, 0.1f) * 2.0f;
-    float radOuter = unwrap_or(sun_spot_rad_outer, 0.175f) * 4.0f;
+    float rad_inner = unwrap_or(sun_spot_rad_inner, 0.1f) * 2.0f;
+    float rad_outer = unwrap_or(sun_spot_rad_outer, 0.175f) * 4.0f;
 
     noise.h = 0.8;
 
-    vec3 dist = vec3(0.01f * noise_fbm_float(coords * 3.6 + randomize, noise) * dot(noise_u_float(coords + randomize), 120.0) + noise_fbm_float(coords + randomize, NoiseParams(8.8, 10, 0.8, 0.5, 0.0001)));
+    vec3 dist = vec3(0.01f * noise_fbm_float(coords * 3.6 + randomize, noise)
+        * dot(noise_u_float(coords + randomize), 120.0)
+        + noise_fbm_float(coords + randomize, NoiseParams(8.8, 10, 0.8, 0.5, 0.0001))
+    );
     coords += dist * 0.5;
 
     float lat = abs(coords.y);
 
     if (lat > sun_spot_max_lat * (1.0f + pow(0.1f, sun_spot_max_lat * 1.0)) || lat < sun_spot_min_lat) {
-        filMask = 0.0;
-        botMask = 1.0;
-
-        return;
+        sunspots.fila_mask = 0.0;
+        sunspots.spot_mask = 1.0;
     } else {
         cell = cell2_noise_sphere(coords, sun_spot_freq * 0.3 * sun_spot_density);
 
         fi = acos(dot(binormal, normalize(cell.xyz - coords))) / TAU;
 
-        t = saturate((cell.w * radFactor - radInner) / (radOuter - radInner));
-        botmask = smoothstep(0.0, 0.2, t);
-        filmask = (1.0 - smoothstep(0.0, 1.0, t)) * smoothstep(0.0, 0.0, t) * 0.85;
-        filam = noise_u_float(vec3(sun_spot_filament_freq * fi, rnd, rnd)) * t * 0.5;
-
-        filMask *= filmask;
-        botMask *= botmask;
-        filaments += filam;
-
-        radInner *= 0.60;
-        radOuter = 0.60;
+        t = saturate((cell.w * rad_factor - rad_inner) / (rad_outer - rad_inner));
+        sunspots.spot_mask *= smoothstep(0.0, 0.2, t);
+        sunspots.fila_mask *= (1.0 - smoothstep(0.0, 1.0, t)) * smoothstep(0.0, 0.0, t) * 0.85;
+        sunspots.filas += noise_u_float(vec3(sun_spot_filament_freq * fi, rnd, rnd)) * t * 0.5;
     }
+
+    return sunspots;
 }
 
 float get_sun_glow_map(vec3 coords) {
-    float sun_gran_magn_y = unwrap_or(sun_gran_magn.y, 0.0f);
-    float sun_gran_freq_y = unwrap_or(sun_gran_freq.y, 0.0f);
+    float sun_flow_magn_x = unwrap_with_or(0.0f, sun_flow_magn.x, 1.0f);
+    float sun_flow_freq_x = unwrap_with_or(0.0f, sun_flow_freq.x, sqrt(sun_gran_freq) / 3.0f);
+    float sun_flow_octaves_x = unwrap_or(sun_flow_octaves.x, 15);
+    float sun_flow_magn_y = unwrap_or(sun_flow_magn.y, 3.0f / sun_surf_temp);
+    float sun_flow_freq_y = unwrap_or(sun_flow_freq.y, 0.0f);
+    float sun_flow_octaves_y = unwrap_or(sun_flow_octaves.y, 15);
 
-    NoiseParams noise = NoiseParams(2.218281828459, sun_gran_octaves, 0.5, 0.8, 0.0001);
+    vec3 randomize = unwrap_star_randomize_or(
+        randomize,
+        hash3(vec2(sun_surf_temp, sun_surf_temp))
+    );
 
-    // Flows
-    vec3  p = coords * vec3(1.0) + randomize;
-    vec3  dist = 2.5 * noise_fbm_vec3(p * 0.5, noise);
+    NoiseParams noise = NoiseParams(
+        2.218281828459,
+        sun_gran_octaves,
+        0.5,
+        0.8,
+        0.0001
+    );
 
-    noise.octaves = 3;
+    vec3 point = coords * vec3(1.0) + randomize;
+    vec3 dist = 2.5 * noise_fbm_vec3(point * 0.5, noise);
 
-    float flows = sun_gran_magn_y * 0.1 * noise_fbm_float(p * 7.5 + dist * pow(sun_gran_freq_y, 2.0f), noise);
+    noise.h = 0.0;
+    noise.octaves = sun_flow_octaves_x;
 
-    p = coords * sun_gran_freq.x + randomize;
-    dist = vec3(sun_gran_temp_distort * noise_fbm_float(p * 0.2, noise));
-    vec2 cell = cell3_noise_vec2(p + dist);
+    float flows_small = sun_flow_magn_x * 0.1
+        * noise_fbm_float(point * pow(sun_flow_freq_x, 2.0f) + dist, noise);
+
+    noise.octaves = sun_flow_octaves_y;
+
+    float flows_large = sun_flow_magn_y * 0.1
+        * noise_fbm_float(point * pow(sun_flow_freq_y, 2.0f) + dist, noise);
+
+    noise.octaves = 2;
+
+    point = coords * sun_gran_freq / 3.0f + randomize;
+    dist = vec3(sun_gran_temp_distort * noise_fbm_float(point * 0.2, noise));
+
+    vec2 cell = cell3_noise_vec2(point + dist);
     float gran = smoothstep(0.1, 1.0, sqrt(abs(cell.y - cell.x)));
 
-    // Solar spots
-    float botMask   = 1.0;
-    float filMask   = 0.0;
-    float filaments = 0.0;
+    Sunspots sunspots = Sunspots(1.0, 0.0, 0.0);
 
-    if (sun_spot_density > 0.01)
-    {
+    if (sun_spot_density > 0.01) {
         noise.octaves = 5;
 
-        get_sun_spots(coords, botMask, filMask, filaments, noise);
+        sunspots = get_sun_spots(coords, randomize, noise);
     }
 
-    float surfTemp = 1.0;
-    float filTemp  = unwrap_or(sun_spot_filament_temp, sun_gran_top_temp * 0.8);
-    float spotTemp = unwrap_or(sun_spot_temp, sun_gran_bot_temp * 0.7);
+    float fila_temp = unwrap_or(sun_spot_filament_temp, sun_gran_top_temp * 0.8);
+    float spot_temp = unwrap_or(sun_spot_temp, sun_gran_bot_temp * 0.7);
 
-    return (flows + mix(sun_gran_bot_temp, sun_gran_top_temp, gran * min(botMask + 0.04f, 1.0f))) * mix(spotTemp, surfTemp, botMask) * (1.0 - filMask) + filMask * mix(spotTemp * 0.85, filTemp, filaments);
+    return (
+        flows_large + flows_small
+            + mix(
+                sun_gran_bot_temp,
+                sun_gran_top_temp,
+                gran * min(sunspots.spot_mask + 0.04f, 1.0f)
+            )
+        )
+        * mix(spot_temp, 1.0f, sunspots.spot_mask)
+        * (1.0f - sunspots.fila_mask)
+        + sunspots.fila_mask
+        * mix(spot_temp * 0.85f, fila_temp, sunspots.filas);
 }
 
 float get_sun_height_map(vec3 coords) {

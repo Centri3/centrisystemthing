@@ -3,7 +3,7 @@
 Star    "Kond/Lercurnis B"
 {
     ParentBody     "Fragmunt-Kond bar"
-    Class          "A9VI"
+    Class          "A4VI"
 
     // Assuming mass loss plays a factor in the evolution of these late M stars, these properties
     // should be decently accurate. The evolutionary models (in the paper cited below) do not factor
@@ -18,7 +18,7 @@ Star    "Kond/Lercurnis B"
 
     MassSol         0.12
     RadSol          0.233
-    Temperature     8460
+    Teff            8460
     Lum             0.25
     LumBol          0.25
 
@@ -30,8 +30,6 @@ Star    "Kond/Lercurnis B"
 
     Surface
     {
-        colorDistMagn   1
-        colorDistFreq   5
 		climatePole     1
 		climateTropic   0
     	climateSteppeMin 0.0992
@@ -44,7 +42,9 @@ Star    "Kond/Lercurnis B"
         dunesMagn       0.5
 		hillsMagn       0.1
 		hillsFreq       50
-        canyonsMagn     0.274
+        canyonsMagn     1
+        cracksMagn      1
+        cracksFreq      0
         cracksOctaves   5
 		TempMapMaxTemp  85000
     }
