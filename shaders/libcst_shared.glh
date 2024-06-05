@@ -64,7 +64,6 @@
 
 const float PI = 3.14159265358;
 const float TAU = PI * 2.0;
-const vec3 TO_GRAY = vec3(0.299, 0.587, 0.114);
 
 //#define IMPROVED_TEX_PERLIN
 #define NOISE_TEX_3D_SIZE 64.0

@@ -79,9 +79,8 @@ void main(void)
         + pow(in_pix_pos.z, 2.0f)
     );
 
-    vec3 color = vec3(rays);
-    color += mix(
-        1.0f - color.rgb,
+    vec3 color = mix(
+        1.0f - vec3(rays),
         vec3(0.95f),
         bright.spot_brightness - 2000.0 * r / (shape.ray_curvature * bright.brightness)
     ) * 1.8f;
@@ -94,8 +93,26 @@ void main(void)
 
     r0 = sqrt(dot(uv0, uv0));
     r = sqrt(dot(uv, uv));
-    x = dot(uvn, vec2(0.5, 0.0)) - eye.anim_time * 1.1111f;
-    y = dot(uvn, vec2(0.0, 0.5)) - eye.anim_time * 1.1111f;
+    x = dot(uvn, vec2(0.5, 0.0)) - eye.anim_time * 3.0f;
+    y = dot(uvn, vec2(0.0, 0.5)) - eye.anim_time * 3.0f;
+
+    float surface = noise_fbm_float(
+        vec3(
+            (r + x) / 60.0 * shape.ray_density,
+            (r + y) / 60.0 * shape.ray_density,
+            0.0
+        ),
+        NoiseParams(4.9f, 8.0f, 0.0f, 0.0f, 0.0001, 0.13, 0.85)
+    );
+
+    surface = smoothstep(bright.gamma, bright.gamma + bright.ray_brightness, surface);
+    surface = sqrt(surface);
+
+    color += saturate(mix(
+        1.0f - vec3(surface),
+        vec3(1.15f),
+        bright.spot_brightness - 3000.0 * r / (36.0f * bright.brightness)
+    ) * 10.8f * _color);
 
     float prominences = noise_fbm_float(
         vec3(
@@ -109,27 +126,27 @@ void main(void)
     // Doing this 3 times allows prominences to be brighter near the middle. There's probably a
     // better way to do this, but I'm inexperienced.
 
-    color.rgb += saturate(
+    color += saturate(
         mix(
             1.0f - vec3(prominences),
-            vec3(0.5f),
+            vec3(0.55f),
             bright.spot_brightness - 2000.0 / (36.0f * bright.brightness)
         ) * _color
     ) * 0.2f;
-    color.rgb += saturate(
+    color += saturate(
         mix(
             1.0f - vec3(prominences),
-            vec3(0.67f),
+            vec3(0.6f),
             bright.spot_brightness - 2000.0 / (36.0f * bright.brightness)
         ) * _color
-    ) * 1.3f;
-    color.rgb += saturate(
+    ) * 3.0f;
+    color += saturate(
         mix(
             1.0f - vec3(prominences),
-            vec3(0.73f),
+            vec3(0.65f),
             bright.spot_brightness - 2000.0 / (36.0f * bright.brightness)
         ) * _color
-    ) * 9.3f;
+    ) * 7.0f;
 
     vec3 ray = in_pix_pos + eye.pos;
     float dist = length(ray);
