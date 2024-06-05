@@ -57,11 +57,11 @@ Star    "Kond/Lercurnis B"
 
 	Corona
 	{
-		Radius      1.1e+06
-		Period      0.032615
-		Brightness  0.6
-		RayDensity  4.8643
-		RayCurv     10.728
+		Radius      1e+06
+		Period      0.0326
+		Brightness  0.5
+		RayDensity  5
+		RayCurv     2
 	}
 
     Orbit

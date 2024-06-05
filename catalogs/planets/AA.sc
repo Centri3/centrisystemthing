@@ -66,11 +66,11 @@ Star    "AA"
 
 	Corona
 	{
-		Radius      2.72e+05
+		Radius      2.65e+05
 		Period      0.014
 		Brightness  6
-		RayDensity  3.94
-		RayCurv     20.2
+		RayDensity  8
+		RayCurv     5
 	}
 
     Orbit
