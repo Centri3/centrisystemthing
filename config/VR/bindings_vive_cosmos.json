@@ -1,0 +1,241 @@
+{
+   "action_manifest_version" : 1,
+   "alias_info" : {},
+   "app_key" : "steam.app.314650",
+   "bindings" : {
+      "/actions/camera" : {
+         "sources" : [
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/camera/in/camgotoobject"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/x"
+            },
+            {
+               "inputs" : {
+                  "pull" : {
+                     "output" : "/actions/camera/in/cammoveforwardanalog"
+                  }
+               },
+               "mode" : "trigger",
+               "path" : "/user/hand/left/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/camera/in/camresetstereobase"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/y"
+            },
+            {
+               "inputs" : {
+                  "north" : {
+                     "output" : "/actions/camera/in/camincspeed"
+                  },
+                  "south" : {
+                     "output" : "/actions/camera/in/camdecspeed"
+                  }
+               },
+               "mode" : "dpad",
+               "parameters" : {
+                  "sub_mode" : "touch"
+               },
+               "path" : "/user/hand/left/input/joystick"
+            }
+         ]
+      },
+      "/actions/chart" : {
+         "sources" : [
+            {
+               "inputs" : {
+                  "east" : {
+                     "output" : "/actions/chart/in/chartmoveright"
+                  },
+                  "north" : {
+                     "output" : "/actions/chart/in/chartmoveup"
+                  },
+                  "south" : {
+                     "output" : "/actions/chart/in/chartmovedown"
+                  },
+                  "west" : {
+                     "output" : "/actions/chart/in/chartmoveleft"
+                  }
+               },
+               "mode" : "dpad",
+               "parameters" : {
+                  "overlap_pct" : "15",
+                  "sub_mode" : "touch"
+               },
+               "path" : "/user/hand/left/input/joystick"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/chart/in/mapchartcenterobject"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/x"
+            },
+            {
+               "inputs" : {
+                  "pull" : {
+                     "output" : "/actions/chart/in/chartmoveforwardanalog"
+                  }
+               },
+               "mode" : "trigger",
+               "path" : "/user/hand/left/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/chart/in/chartmodenext"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/y"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/chart/in/maptoggleexploration"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/y"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/chart/in/chartmoveback"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/joystick"
+            },
+            {
+               "inputs" : {
+                  "east" : {
+                     "output" : "/actions/chart/in/chartturnleft"
+                  },
+                  "north" : {
+                     "output" : "/actions/chart/in/chartturndown"
+                  },
+                  "south" : {
+                     "output" : "/actions/chart/in/chartturnup"
+                  },
+                  "west" : {
+                     "output" : "/actions/chart/in/chartturnright"
+                  }
+               },
+               "mode" : "dpad",
+               "parameters" : {
+                  "overlap_pct" : "15",
+                  "sub_mode" : "touch"
+               },
+               "path" : "/user/hand/left/input/joystick"
+            }
+         ]
+      },
+      "/actions/general" : {
+         "sources" : [
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/general/in/toggletoolbars"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/b"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/general/in/solarsysbrowsersel"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/a"
+            },
+            {
+               "inputs" : {
+                  "east" : {
+                     "output" : "/actions/general/in/inctimescale"
+                  },
+                  "north" : {
+                     "output" : "/actions/general/in/negtimescale"
+                  },
+                  "south" : {
+                     "output" : "/actions/general/in/resettimescale"
+                  },
+                  "west" : {
+                     "output" : "/actions/general/in/dectimescale"
+                  }
+               },
+               "mode" : "dpad",
+               "parameters" : {
+                  "overlap_pct" : "15",
+                  "sub_mode" : "touch"
+               },
+               "path" : "/user/hand/right/input/joystick"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/general/in/pausetime"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/joystick"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/general/in/dragcontr"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/grip"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/general/in/zoomcontr"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/grip"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/general/in/interfaceclick"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/general/in/selectobject"
+                  }
+               },
+               "mode" : "trigger",
+               "path" : "/user/hand/right/input/trigger"
+            }
+         ]
+      }
+   },
+   "category" : "steamvr_input",
+   "controller_type" : "vive_cosmos_controller",
+   "description" : "Default Vive Cosmos Controller bindings for SpaceEngine",
+   "name" : "SpaceEngine - Vive Cosmos",
+   "options" : {},
+   "simulated_actions" : []
+}

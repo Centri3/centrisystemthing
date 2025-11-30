@@ -2,14 +2,13 @@ DwarfMoon	"Bors IV/Lercurnis B VII B-IV"
 {
 	ParentBody     "Pel"
 	Class          "Terra"
-	Mass            4e-05
-	Radius          237.13
-	InertiaMoment   0.39865
+	Mass            3.9999999e-05
+	Radius          237.130005
+	InertiaMoment   0.398649991
 	Oblateness     (0.347, 0.531, 0.000)
 	Obliquity       1
-	EqAscendNode    -206.11
+	EqAscendNode    -206.10687
 	TidalLocked     true
-    Age             0.0027
 
 	AlbedoBond      0.3
 	AlbedoGeom      0.36
@@ -19,81 +18,81 @@ DwarfMoon	"Bors IV/Lercurnis B VII B-IV"
 	Surface
 	{
 		Preset         "lercurnis_kond_pel_bors_iv.cfg"
-		SurfStyle       0.65231
+		SurfStyle       0.652
 		Randomize      (0.738, 0.467, -0.459)
-		colorDistMagn   0.092647
-		colorDistFreq   28.785
+		colorDistMagn   0.0926
+		colorDistFreq   28.8
 		detailScale     128
-		drivenDarkening 0.17557
-		seaLevel        0.093984
+		drivenDarkening 0.176
+		seaLevel        0.094
 		snowLevel       2
-		tropicLatitude  0.00017453
+		tropicLatitude  0.000175
 		icecapLatitude  2
-		icecapHeight    0.58036
-		climatePole     0.4375
-		climateTropic   0.3125
-		climateEquator  0.6875
+		icecapHeight    0.58
+		climatePole     0.438
+		climateTropic   0.313
+		climateEquator  0.688
 		climateSteppeMin -1
 		climateSteppeMax -1
 		climateForestMin -1
 		climateForestMax -1
 		climateGrassMin  -1
 		climateGrassMax  -1
-		humidity        0.31964
+		humidity        0.32
 		heightTempGrad  0.625
-		beachWidth      0.00099101
+		beachWidth      0.000991
 		tropicWidth     0.07
-		mainFreq        1.2214
-		venusFreq       0.82443
-		venusMagn       2.7481
+		mainFreq        0.534
+		venusFreq       0.824
+		venusMagn       1.76
 		mareFreq        0
-		mareDensity     0.16847
-		terraceProb     0.36472
+		mareDensity     0.168
+		terraceProb     0.365
 		erosion         0
 		montesMagn      0.07
 		montesFreq      25
 		montesSpiky     1
 		montesFraction  1
-		dunesMagn       0.026928
-		dunesFreq       1.7535
-		dunesFraction   0.9944
-		hillsMagn       1
+		dunesMagn       0.0269
+		dunesFreq       1.75
+		dunesFraction   0.994
+		hillsMagn       0.3
 		hillsFreq       25
 		hillsFraction   1
 		hills2Fraction  1
-		riversMagn      59.441
-		riversFreq      3.0384
-		riversSin       7.2297
-		riftsMagn       40.459
-		riftsFreq       2.5363
-		riftsSin        5.9375
-		eqridgeMagn     0.31298
+		riversMagn      59.4
+		riversFreq      3.04
+		riversSin       7.23
+		riftsMagn       40.5
+		riftsFreq       2.54
+		riftsSin        5.94
+		eqridgeMagn     0.313
 		eqridgeWidth    1
 		eqridgeModMagn  2.5
-		eqridgeModFreq  2.4427
-		canyonsMagn     0.36531
-		canyonsFreq     0.070916
-		canyonsFraction 0.99262
-		cracksMagn      0.061004
-		cracksFreq      0.12542
+		eqridgeModFreq  2.44
+		canyonsMagn     0.365
+		canyonsFreq     0.0709
+		canyonsFraction 0.993
+		cracksMagn      0.061
+		cracksFreq      0.125
 		cracksOctaves   0
-		craterMagn      0.5
+		craterMagn      0.1
 		craterFreq      2
 		craterDensity   1
 		craterOctaves   30
-		craterRayedFactor 0.32824
+		craterRayedFactor 0.13
 		volcanoMagn     0
 		volcanoFreq     2
 		volcanoDensity  1
 		volcanoOctaves  5
 		volcanoActivity 2
 		volcanoFlows    1
-		volcanoRadius   0.55725
-		volcanoTemp     3000
-		lavaCoverTidal  0.12446
+		volcanoRadius   0.557
+		volcanoTemp     3e+03
+		lavaCoverTidal  0.124
 		lavaCoverSun    0
 		lavaCoverYoung  0
-		BumpHeight      11.857
+		BumpHeight      88.4
 		SpecBrightWater 0
 		SpecBrightIce   0.03
 		RoughnessWater  0.35
@@ -113,6 +112,11 @@ DwarfMoon	"Bors IV/Lercurnis B VII B-IV"
 	NoLava          true
 
 	NoAtmosphere    true
+
+	Climate
+	{
+		GlobalWindSpeed  0
+	}
 
 	NoAurora        true
 

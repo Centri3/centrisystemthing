@@ -1,0 +1,2141 @@
+{
+"version": 1,
+"minimum_required_version": 1,
+
+"default_bindings": [
+  {
+    "controller_type": "oculus_touch",
+    "binding_url" : "bindings_oculus_touch.json"
+  },
+  {
+    "controller_type": "vive_controller",
+    "binding_url" : "bindings_vive_controller.json"
+  }, 
+  {
+    "controller_type": "knuckles_ev1",
+    "binding_url" : "bindings_knuckles_ev1.json"
+  },
+  {
+    "controller_type": "knuckles",
+    "binding_url" : "bindings_knuckles.json"
+  },
+  {
+    "controller_type": "holographic_controller",
+    "binding_url" : "bindings_holographic.json"
+  },
+  {
+    "controller_type": "vive_cosmos_controller",
+    "binding_url" : "bindings_cosmos.json"
+  }
+],
+
+"actions": [
+  {
+    "name": "/actions/general/in/mainmenu",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/toggletoolbars",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/videocapturedialog",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/videorecording",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/screenshotnogui",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/screenshotwithgui",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/console",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/fullscreen",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/changedisplay",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/minimizewindow",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/togglestereo3d",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/resetvrpose",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/closeprogram",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/interfaceclick",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/selectobject",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/orbitobject",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/dragcontr",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/zoomcontr",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/journeylog",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/universemapsel",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/universemapcur",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/chartmode",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/solarsysbrowserroot",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/solarsysbrowsersel",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/solarsysbrowsercur",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/findobject",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/starsbrowser",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/spacecraftmanager",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/locations",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/wiki",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/settings",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/playersettings",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/visualsettings",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/camerasettings",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/filtersettings",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/graphsettings",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/displaysettings",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/soundsettings",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/controlssettings",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/musicplayer",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/objecteditor",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/patheditor",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/addpathpoint",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/debugmode",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/selectprevobject",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/selecthomeobject",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/freeobject",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/followobject",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/syncrotobject",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/negtimescale",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/dectimescale",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/inctimescale",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/pausetime",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/resettimescale",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/currenttime",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/timingmode",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/loadermode",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/pausescript",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/breakscript",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/zoomout",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/zoomin",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/resetzoom",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/movemodefree",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/movemodespacecraft",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/movemodeaircraft",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/movemodegame",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/togglecamautohorizon",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/togglegalaxies",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/togglenebulae",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/toggleclusters",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/togglestars",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/toggleplanets",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/toggleatmospheres",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/toggleaurora",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/toggleclouds",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/togglewater",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/togglecomettails",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/toggleaccrdisks",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/toggleaccrjets",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/toggleselfemission",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/toggleorbitmarks",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/toggleorbits",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/togglevectors",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/toggleselpointer",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/togglevelvector",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/togglecelgrids",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/togglegeogrids",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/togglelabels",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/togglemarkers",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/toggleeclipsemask",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/toggleconstellations",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/toggleconstlines",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/toggleconstboundaries",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/toggleconstlabels",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/toggleconstdrawings",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/toggleinterface",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/togglelensflares",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/togglelensghosts",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/togglepseudoflares",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/togglebloom",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/switchphotomode",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/toggledithering",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/toggleantialiasing",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/toggleplanetshine",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/toggleeclipses",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/toggleskyringsshadows",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/incplanetlod",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/decplanetlod",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/resetallmagncoef",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/incallmagncoef",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/decallmagncoef",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/incgalmagncoef",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/decgalmagncoef",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/incstarmagncoef",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/decstarmagncoef",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/incplanmagncoef",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/decplanmagncoef",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/incexposure",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/decexposure",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/resetexposure",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/incambient",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/decambient",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/incglowmagncoef",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/decglowmagncoef",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/debugscreenmode",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/updatestdshaders",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/updateprocshaders",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/updateunivtree",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/reloadobject",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/togglecullface",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/togglewireframe",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/togglefreezecamera",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/viewimpostors",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/toggleimpostors",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/toggleskyboxes",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/togglecatstaroctree",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/togglestaroctree",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/togglecatgaloctree",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/togglegaloctree",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/togglegalsysoctree",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/togglegalmodelboxes",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/toggleclusoctree",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/togglenebmodelboxes",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/togglelandoctree",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/starhistogramcoll",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/incstarlimlevel",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/decstarlimlevel",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/incgallimlevel",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/decgallimlevel",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/incplanlimlevel",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/decplanlimlevel",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/inclayersmask",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/declayersmask",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/incstarsaturation",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/decstarsaturation",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/incstarcolorshift",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/decstarcolorshift",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/trigger1",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/trigger2",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/trigger3",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/general/in/trigger4",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camlookback",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camlookleft",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camlookright",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camlookup",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camlookdown",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camhorizonobject",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camcenterobject",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camgotoobject",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camlandobject",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camgotocenterobject",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camtrackobject",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camstoprotation",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camstopmotion",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camnextvelocity",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camprevvelocity",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camnextstereobase",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camprevstereobase",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camresetstereobase",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shiplookback",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shiplookleft",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shiplookright",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shiplookup",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shiplookdown",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipoffhud",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shiphorizonhud",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shiporbitalhud",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipwarphud",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipdockinghud",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipprograde",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipretrograde",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipradial",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipantiradial",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipnormalup",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipnormaldown",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shiphorrot",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipholdalt",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipflightassist",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipstoprotation",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipstopengines",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipstopwarpdrive",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipsyncvelocity",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipflyto",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipwarpto",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipgoto",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shiprotateto",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipselectrefbody",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipselecttarget",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipvieworbit",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipcenter",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/chart/in/chartselectobject",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/chart/in/chartmodescheme",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/chart/in/chartmodesize",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/chart/in/chartmodemass",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/chart/in/chartmodedensity",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/chart/in/chartmodetemperature",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/chart/in/chartmodenext",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/chart/in/chartmodeprev",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/chart/in/maptoggleexploration",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/chart/in/maptoggleprocedural",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/chart/in/mapchartcenterobject",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/chart/in/mapchartgotoobject",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/cammoveforward",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/cammoveback",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/cammoveleft",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/cammoveright",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/cammoveup",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/cammovedown",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camturnleft",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camturnright",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camturnup",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camturndown",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camturncw",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camturnccw",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camincspeed",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camdecspeed",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camincstereobase",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camdecstereobase",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/caminctimescale",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camdectimescale",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camincexposure",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camdecexposure",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camscrollup",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/camscrolldown",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipmoveforward",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipmoveback",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipmoveleft",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipmoveright",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipmoveup",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipmovedown",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipturnleft",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipturnright",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipturnup",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipturndown",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipturncw",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipturnccw",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shiprudderplus",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shiprudderminus",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipelevatorplus",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipelevatorminus",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipaileronsplus",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipaileronsminus",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipflapsplus",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipflapsminus",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipmainengineplus",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipmainengineminus",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipretroengineplus",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipretroengineminus",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shiphoverengineplus",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shiphoverengineminus",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipwarpdriveplus",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/ship/in/shipwarpdriveminus",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/chart/in/chartmoveforward",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/chart/in/chartmoveback",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/chart/in/chartmoveleft",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/chart/in/chartmoveright",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/chart/in/chartmoveup",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/chart/in/chartmovedown",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/chart/in/chartturnleft",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/chart/in/chartturnright",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/chart/in/chartturnup",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/chart/in/chartturndown",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/chart/in/chartturncw",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/chart/in/chartturnccw",
+    "requirement" : "optional",
+    "type" : "boolean"
+  },
+  {
+    "name": "/actions/camera/in/cammoveforwardanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/camera/in/cammovebackanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/camera/in/cammoveleftanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/camera/in/cammoverightanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/camera/in/cammoveupanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/camera/in/cammovedownanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/camera/in/camturnleftanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/camera/in/camturnrightanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/camera/in/camturnupanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/camera/in/camturndownanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/camera/in/camturncwanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/camera/in/camturnccwanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/camera/in/camincspeedanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/camera/in/camdecspeedanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/camera/in/camincstereobaseanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/camera/in/camdecstereobaseanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/camera/in/caminctimescaleanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/camera/in/camdectimescaleanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/camera/in/camincexposureanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/camera/in/camdecexposureanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/camera/in/camscrollupanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/camera/in/camscrolldownanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/ship/in/shipmoveforwardanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/ship/in/shipmovebackanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/ship/in/shipmoveleftanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/ship/in/shipmoverightanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/ship/in/shipmoveupanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/ship/in/shipmovedownanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/ship/in/shipturnleftanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/ship/in/shipturnrightanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/ship/in/shipturnupanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/ship/in/shipturndownanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/ship/in/shipturncwanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/ship/in/shipturnccwanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/ship/in/shiprudderplusanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/ship/in/shiprudderminusanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/ship/in/shipelevatorplusanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/ship/in/shipelevatorminusanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/ship/in/shipaileronsplusanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/ship/in/shipaileronsminusanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/ship/in/shipflapsplusanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/ship/in/shipflapsminusanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/ship/in/shipmainengineplusanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/ship/in/shipmainengineminusanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/ship/in/shipretroengineplusanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/ship/in/shipretroengineminusanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/ship/in/shiphoverengineplusanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/ship/in/shiphoverengineminusanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/ship/in/shipwarpdriveplusanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/ship/in/shipwarpdriveminusanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/chart/in/chartmoveforwardanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/chart/in/chartmovebackanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/chart/in/chartmoveleftanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/chart/in/chartmoverightanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/chart/in/chartmoveupanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/chart/in/chartmovedownanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/chart/in/chartturnleftanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/chart/in/chartturnrightanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/chart/in/chartturnupanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/chart/in/chartturndownanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/chart/in/chartturncwanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  },
+  {
+    "name": "/actions/chart/in/chartturnccwanalog",
+    "requirement" : "optional",
+    "type" : "vector1"
+  }
+],
+
+"action_sets": [
+  {
+    "name": "/actions/general",
+    "usage": "leftright"
+  },
+  {
+    "name": "/actions/camera",
+    "usage": "leftright"
+  },
+  {
+    "name": "/actions/ship",
+    "usage": "leftright"
+  },
+  {
+    "name": "/actions/chart",
+    "usage": "leftright"
+  }
+],
+
+"localization" : [
+{
+  "language_tag" : "en_us",
+
+  "/actions/general" : "General",
+  "/actions/camera" : "Camera",
+  "/actions/ship" : "Ship",
+  "/actions/chart" : "Chart",
+
+  "/actions/general/in/mainmenu" : "Main menu",
+  "/actions/general/in/toggletoolbars" : "Toggle toolbars",
+  "/actions/general/in/videocapturedialog" : "Video capture settings",
+  "/actions/general/in/videorecording" : "Video capture",
+  "/actions/general/in/screenshotnogui" : "Screenshot without GUI",
+  "/actions/general/in/screenshotwithgui" : "Screenshot with GUI",
+  "/actions/general/in/console" : "Console",
+  "/actions/general/in/fullscreen" : "Switch to fullscreen",
+  "/actions/general/in/changedisplay" : "Switch to next display",
+  "/actions/general/in/minimizewindow" : "Minimize window",
+  "/actions/general/in/togglestereo3d" : "Stereoscopic 3D",
+  "/actions/general/in/resetvrpose" : "Reset pose in VR",
+  "/actions/general/in/closeprogram" : "Exit to desktop",
+  "/actions/general/in/interfaceclick" : "Interface interaction",
+  "/actions/general/in/selectobject" : "Select object",
+  "/actions/general/in/orbitobject" : "Orbit object",
+  "/actions/general/in/dragcontr" : "Drag with VR controller",
+  "/actions/general/in/zoomcontr" : "Zoom with VR controller",
+  "/actions/general/in/journeylog" : "Journey log",
+  "/actions/general/in/universemapsel" : "Universe map (selection)",
+  "/actions/general/in/universemapcur" : "Universe map (current position)",
+  "/actions/general/in/chartmode" : "Solar system chart",
+  "/actions/general/in/solarsysbrowserroot" : "Solar system browser (selection root)",
+  "/actions/general/in/solarsysbrowsersel" : "Solar system browser (selection level)",
+  "/actions/general/in/solarsysbrowsercur" : "Solar system browser (current position)",
+  "/actions/general/in/findobject" : "Find object",
+  "/actions/general/in/starsbrowser" : "Star browser",
+  "/actions/general/in/spacecraftmanager" : "Spacecraft manager",
+  "/actions/general/in/locations" : "Locations",
+  "/actions/general/in/wiki" : "Wiki",
+  "/actions/general/in/settings" : "Settings",
+  "/actions/general/in/playersettings" : "Player",
+  "/actions/general/in/visualsettings" : "Visual style",
+  "/actions/general/in/camerasettings" : "Camera settings",
+  "/actions/general/in/filtersettings" : "Filter objects",
+  "/actions/general/in/graphsettings" : "Graphics",
+  "/actions/general/in/displaysettings" : "Display",
+  "/actions/general/in/soundsettings" : "Sound",
+  "/actions/general/in/controlssettings" : "Controls",
+  "/actions/general/in/musicplayer" : "Music player",
+  "/actions/general/in/objecteditor" : "Editor",
+  "/actions/general/in/patheditor" : "Camera path editor",
+  "/actions/general/in/addpathpoint" : "Add point",
+  "/actions/general/in/debugmode" : "Debug mode",
+  "/actions/general/in/selectprevobject" : "Select previous object",
+  "/actions/general/in/selecthomeobject" : "Select home object",
+  "/actions/general/in/freeobject" : "Free binding to object",
+  "/actions/general/in/followobject" : "Follow object",
+  "/actions/general/in/syncrotobject" : "Rotate with object",
+  "/actions/general/in/negtimescale" : "Reverse time speed",
+  "/actions/general/in/dectimescale" : "Next time speed",
+  "/actions/general/in/inctimescale" : "Previous time speed",
+  "/actions/general/in/pausetime" : "Pause time",
+  "/actions/general/in/resettimescale" : "Set normal time speed",
+  "/actions/general/in/currenttime" : "Set current time",
+  "/actions/general/in/timingmode" : "Frame timing mode",
+  "/actions/general/in/loadermode" : "Loader mode",
+  "/actions/general/in/pausescript" : "Pause scenario",
+  "/actions/general/in/breakscript" : "Cancel scenario",
+  "/actions/general/in/zoomout" : "Zoom out",
+  "/actions/general/in/zoomin" : "Zoom in",
+  "/actions/general/in/resetzoom" : "Reset zoom",
+  "/actions/general/in/movemodefree" : "Free mode",
+  "/actions/general/in/movemodespacecraft" : "Spacecraft mode",
+  "/actions/general/in/movemodeaircraft" : "Aircraft mode",
+  "/actions/general/in/movemodegame" : "Take control of spacecraft",
+  "/actions/general/in/togglecamautohorizon" : "Toggle auto horizon",
+  "/actions/general/in/togglegalaxies" : "Galaxies",
+  "/actions/general/in/togglenebulae" : "Nebulae",
+  "/actions/general/in/toggleclusters" : "Clusters",
+  "/actions/general/in/togglestars" : "Stars",
+  "/actions/general/in/toggleplanets" : "Planets",
+  "/actions/general/in/toggleatmospheres" : "Atmospheres",
+  "/actions/general/in/toggleaurora" : "Aurora",
+  "/actions/general/in/toggleclouds" : "Clouds",
+  "/actions/general/in/togglewater" : "Water",
+  "/actions/general/in/togglecomettails" : "Comet tails",
+  "/actions/general/in/toggleaccrdisks" : "Accretion disks",
+  "/actions/general/in/toggleaccrjets" : "Jets",
+  "/actions/general/in/toggleselfemission" : "Self-emission",
+  "/actions/general/in/toggleorbitmarks" : "Orbit marks",
+  "/actions/general/in/toggleorbits" : "Orbits",
+  "/actions/general/in/togglevectors" : "Vectors",
+  "/actions/general/in/toggleselpointer" : "Selection pointer",
+  "/actions/general/in/togglevelvector" : "Velocity vector",
+  "/actions/general/in/togglecelgrids" : "Celestial grids",
+  "/actions/general/in/togglegeogrids" : "Geographic grid",
+  "/actions/general/in/togglelabels" : "Labels",
+  "/actions/general/in/togglemarkers" : "Markers",
+  "/actions/general/in/toggleeclipsemask" : "Eclipse totality mask",
+  "/actions/general/in/toggleconstellations" : "Constellations",
+  "/actions/general/in/toggleconstlines" : "Constellation lines",
+  "/actions/general/in/toggleconstboundaries" : "Constellation boundaries",
+  "/actions/general/in/toggleconstlabels" : "Constellation names",
+  "/actions/general/in/toggleconstdrawings" : "Constellation art",
+  "/actions/general/in/toggleinterface" : "Interface",
+  "/actions/general/in/togglelensflares" : "Diffraction spikes",
+  "/actions/general/in/togglelensghosts" : "Lens flares",
+  "/actions/general/in/togglepseudoflares" : "Glare",
+  "/actions/general/in/togglebloom" : "Bloom",
+  "/actions/general/in/switchphotomode" : "Photo mode",
+  "/actions/general/in/toggledithering" : "Dithering",
+  "/actions/general/in/toggleantialiasing" : "FXAA antialiasing",
+  "/actions/general/in/toggleplanetshine" : "Planet shine",
+  "/actions/general/in/toggleeclipses" : "Eclipse shadows",
+  "/actions/general/in/toggleskyringsshadows" : "Ring shadows on sky",
+  "/actions/general/in/incplanetlod" : "Increase landscape LOD",
+  "/actions/general/in/decplanetlod" : "Decrease landscape LOD",
+  "/actions/general/in/resetallmagncoef" : "Reset magnitude limit",
+  "/actions/general/in/incallmagncoef" : "Increase magnitude limit",
+  "/actions/general/in/decallmagncoef" : "Decrease magnitude limit",
+  "/actions/general/in/incgalmagncoef" : "Increase galaxies mag limit",
+  "/actions/general/in/decgalmagncoef" : "Decrease galaxies mag limit",
+  "/actions/general/in/incstarmagncoef" : "Increase stars mag limit",
+  "/actions/general/in/decstarmagncoef" : "Decrease stars mag limit",
+  "/actions/general/in/incplanmagncoef" : "Increase planets mag limit",
+  "/actions/general/in/decplanmagncoef" : "Decrease planets mag limit",
+  "/actions/general/in/incexposure" : "Increase exposure compensation",
+  "/actions/general/in/decexposure" : "Decrease exposure compensation",
+  "/actions/general/in/resetexposure" : "Reset exposure compensation",
+  "/actions/general/in/incambient" : "Increase ambient light",
+  "/actions/general/in/decambient" : "Decrease ambient light",
+  "/actions/general/in/incglowmagncoef" : "Increase galaxies brightness",
+  "/actions/general/in/decglowmagncoef" : "Decrease galaxies brightness",
+  "/actions/general/in/debugscreenmode" : "Debug screen mode",
+  "/actions/general/in/updatestdshaders" : "UpdateStdShaders",
+  "/actions/general/in/updateprocshaders" : "UpdateProcShaders",
+  "/actions/general/in/updateunivtree" : "UpdateUnivTree",
+  "/actions/general/in/reloadobject" : "ReloadObject",
+  "/actions/general/in/togglecullface" : "Cullface",
+  "/actions/general/in/togglewireframe" : "Wireframe",
+  "/actions/general/in/togglefreezecamera" : "Freeze camera",
+  "/actions/general/in/viewimpostors" : "ViewImpostors",
+  "/actions/general/in/toggleimpostors" : "ToggleImpostors",
+  "/actions/general/in/toggleskyboxes" : "ToggleSkyboxes",
+  "/actions/general/in/togglecatstaroctree" : "ToggleCatStarOctree",
+  "/actions/general/in/togglestaroctree" : "ToggleStarOctree",
+  "/actions/general/in/togglecatgaloctree" : "ToggleCatGalOctree",
+  "/actions/general/in/togglegaloctree" : "ToggleGalOctree",
+  "/actions/general/in/togglegalsysoctree" : "ToggleGalSysOctree",
+  "/actions/general/in/togglegalmodelboxes" : "ToggleGalModelBoxes",
+  "/actions/general/in/toggleclusoctree" : "ToggleClusOctree",
+  "/actions/general/in/togglenebmodelboxes" : "ToggleNebModelBoxes",
+  "/actions/general/in/togglelandoctree" : "ToggleLandOctree",
+  "/actions/general/in/starhistogramcoll" : "StarHistogramColl",
+  "/actions/general/in/incstarlimlevel" : "IncStarLimLevel",
+  "/actions/general/in/decstarlimlevel" : "DecStarLimLevel",
+  "/actions/general/in/incgallimlevel" : "IncGalLimLevel",
+  "/actions/general/in/decgallimlevel" : "DecGalLimLevel",
+  "/actions/general/in/incplanlimlevel" : "IncPlanLimLevel",
+  "/actions/general/in/decplanlimlevel" : "DecPlanLimLevel",
+  "/actions/general/in/inclayersmask" : "IncLayersMask",
+  "/actions/general/in/declayersmask" : "DecLayersMask",
+  "/actions/general/in/incstarsaturation" : "IncStarSaturation",
+  "/actions/general/in/decstarsaturation" : "DecStarSaturation",
+  "/actions/general/in/incstarcolorshift" : "IncStarColorShift",
+  "/actions/general/in/decstarcolorshift" : "DecStarColorShift",
+  "/actions/general/in/trigger1" : "Trigger1",
+  "/actions/general/in/trigger2" : "Trigger2",
+  "/actions/general/in/trigger3" : "Trigger3",
+  "/actions/general/in/trigger4" : "Trigger4",
+  "/actions/camera/in/camlookback" : "Look back",
+  "/actions/camera/in/camlookleft" : "Look left",
+  "/actions/camera/in/camlookright" : "Look right",
+  "/actions/camera/in/camlookup" : "Look up",
+  "/actions/camera/in/camlookdown" : "Look down",
+  "/actions/camera/in/camhorizonobject" : "Horizon object",
+  "/actions/camera/in/camcenterobject" : "Center object",
+  "/actions/camera/in/camgotoobject" : "Go to object",
+  "/actions/camera/in/camlandobject" : "Land on object",
+  "/actions/camera/in/camgotocenterobject" : "Go to object's center",
+  "/actions/camera/in/camtrackobject" : "Track object",
+  "/actions/camera/in/camstoprotation" : "Stop rotation",
+  "/actions/camera/in/camstopmotion" : "Stop motion",
+  "/actions/camera/in/camnextvelocity" : "Next velocity",
+  "/actions/camera/in/camprevvelocity" : "Previous velocity",
+  "/actions/camera/in/camnextstereobase" : "Next stereobase",
+  "/actions/camera/in/camprevstereobase" : "Previous stereobase",
+  "/actions/camera/in/camresetstereobase" : "Reset stereobase",
+  "/actions/ship/in/shiplookback" : "Look back",
+  "/actions/ship/in/shiplookleft" : "Look left",
+  "/actions/ship/in/shiplookright" : "Look right",
+  "/actions/ship/in/shiplookup" : "Look up",
+  "/actions/ship/in/shiplookdown" : "Look down",
+  "/actions/ship/in/shipoffhud" : "Off HUD",
+  "/actions/ship/in/shiphorizonhud" : "Horizontal HUD",
+  "/actions/ship/in/shiporbitalhud" : "Orbital HUD",
+  "/actions/ship/in/shipwarphud" : "Warp HUD",
+  "/actions/ship/in/shipdockinghud" : "Docking HUD",
+  "/actions/ship/in/shipprograde" : "Prograde",
+  "/actions/ship/in/shipretrograde" : "Retrograde",
+  "/actions/ship/in/shipradial" : "Radial",
+  "/actions/ship/in/shipantiradial" : "Antiradial",
+  "/actions/ship/in/shipnormalup" : "Normal Up",
+  "/actions/ship/in/shipnormaldown" : "Normal Down",
+  "/actions/ship/in/shiphorrot" : "Horizon",
+  "/actions/ship/in/shipholdalt" : "Hold altitude",
+  "/actions/ship/in/shipflightassist" : "Flight assist",
+  "/actions/ship/in/shipstoprotation" : "Kill rotation",
+  "/actions/ship/in/shipstopengines" : "Stop engines",
+  "/actions/ship/in/shipstopwarpdrive" : "Stop hyperdrive",
+  "/actions/ship/in/shipsyncvelocity" : "Sync velocity",
+  "/actions/ship/in/shipflyto" : "Fly to target",
+  "/actions/ship/in/shipwarpto" : "Warp to target",
+  "/actions/ship/in/shipgoto" : "Fly or warp to target",
+  "/actions/ship/in/shiprotateto" : "Rotate to target",
+  "/actions/ship/in/shipselectrefbody" : "Reference body",
+  "/actions/ship/in/shipselecttarget" : "Target",
+  "/actions/ship/in/shipvieworbit" : "View ship trajectory",
+  "/actions/ship/in/shipcenter" : "Center on ship",
+  "/actions/chart/in/chartselectobject" : "Select object",
+  "/actions/chart/in/chartmodescheme" : "System architecture",
+  "/actions/chart/in/chartmodesize" : "Size",
+  "/actions/chart/in/chartmodemass" : "Mass",
+  "/actions/chart/in/chartmodedensity" : "Density",
+  "/actions/chart/in/chartmodetemperature" : "Temperature",
+  "/actions/chart/in/chartmodenext" : "Next mode",
+  "/actions/chart/in/chartmodeprev" : "Previous mode",
+  "/actions/chart/in/maptoggleexploration" : "Exploration mode",
+  "/actions/chart/in/maptoggleprocedural" : "Procedural objects",
+  "/actions/chart/in/mapchartcenterobject" : "Center object",
+  "/actions/chart/in/mapchartgotoobject" : "Go to object",
+  "/actions/camera/in/cammoveforward" : "Move forward",
+  "/actions/camera/in/cammoveback" : "Move back",
+  "/actions/camera/in/cammoveleft" : "Move left",
+  "/actions/camera/in/cammoveright" : "Move right",
+  "/actions/camera/in/cammoveup" : "Move up",
+  "/actions/camera/in/cammovedown" : "Move down",
+  "/actions/camera/in/camturnleft" : "Turn left",
+  "/actions/camera/in/camturnright" : "Turn right",
+  "/actions/camera/in/camturnup" : "Turn up",
+  "/actions/camera/in/camturndown" : "Turn down",
+  "/actions/camera/in/camturncw" : "Turn clockwise",
+  "/actions/camera/in/camturnccw" : "Turn counterclockwise",
+  "/actions/camera/in/camincspeed" : "Increase velocity",
+  "/actions/camera/in/camdecspeed" : "Decrease velocity",
+  "/actions/camera/in/camincstereobase" : "Increase stereobase",
+  "/actions/camera/in/camdecstereobase" : "Decrease stereobase",
+  "/actions/camera/in/caminctimescale" : "Accelerate time speed",
+  "/actions/camera/in/camdectimescale" : "Decelerate time speed",
+  "/actions/camera/in/camincexposure" : "Increase exposure compensation",
+  "/actions/camera/in/camdecexposure" : "Decrease exposure compensation",
+  "/actions/camera/in/camscrollup" : "Interface scroll up",
+  "/actions/camera/in/camscrolldown" : "Interface scroll down",
+  "/actions/ship/in/shipmoveforward" : "Move forward",
+  "/actions/ship/in/shipmoveback" : "Move back",
+  "/actions/ship/in/shipmoveleft" : "Move left",
+  "/actions/ship/in/shipmoveright" : "Move right",
+  "/actions/ship/in/shipmoveup" : "Move up",
+  "/actions/ship/in/shipmovedown" : "Move down",
+  "/actions/ship/in/shipturnleft" : "Turn left",
+  "/actions/ship/in/shipturnright" : "Turn right",
+  "/actions/ship/in/shipturnup" : "Turn up",
+  "/actions/ship/in/shipturndown" : "Turn down",
+  "/actions/ship/in/shipturncw" : "Turn clockwise",
+  "/actions/ship/in/shipturnccw" : "Turn counterclockwise",
+  "/actions/ship/in/shiprudderplus" : "Rudder +",
+  "/actions/ship/in/shiprudderminus" : "Rudder -",
+  "/actions/ship/in/shipelevatorplus" : "Elevator +",
+  "/actions/ship/in/shipelevatorminus" : "Elevator -",
+  "/actions/ship/in/shipaileronsplus" : "Ailerons +",
+  "/actions/ship/in/shipaileronsminus" : "Ailerons -",
+  "/actions/ship/in/shipflapsplus" : "Flaps +",
+  "/actions/ship/in/shipflapsminus" : "Flaps -",
+  "/actions/ship/in/shipmainengineplus" : "Main engines +",
+  "/actions/ship/in/shipmainengineminus" : "Main engines -",
+  "/actions/ship/in/shipretroengineplus" : "Retro engines +",
+  "/actions/ship/in/shipretroengineminus" : "Retro engines -",
+  "/actions/ship/in/shiphoverengineplus" : "Hover engines +",
+  "/actions/ship/in/shiphoverengineminus" : "Hover engines -",
+  "/actions/ship/in/shipwarpdriveplus" : "Warp drive +",
+  "/actions/ship/in/shipwarpdriveminus" : "Warp drive -",
+  "/actions/chart/in/chartmoveforward" : "Move forward",
+  "/actions/chart/in/chartmoveback" : "Move back",
+  "/actions/chart/in/chartmoveleft" : "Move left",
+  "/actions/chart/in/chartmoveright" : "Move right",
+  "/actions/chart/in/chartmoveup" : "Move up",
+  "/actions/chart/in/chartmovedown" : "Move down",
+  "/actions/chart/in/chartturnleft" : "Turn left",
+  "/actions/chart/in/chartturnright" : "Turn right",
+  "/actions/chart/in/chartturnup" : "Turn up",
+  "/actions/chart/in/chartturndown" : "Turn down",
+  "/actions/chart/in/chartturncw" : "Turn clockwise",
+  "/actions/chart/in/chartturnccw" : "Turn counterclockwise",
+  "/actions/camera/in/cammoveforwardanalog" : "Move forward",
+  "/actions/camera/in/cammovebackanalog" : "Move back",
+  "/actions/camera/in/cammoveleftanalog" : "Move left",
+  "/actions/camera/in/cammoverightanalog" : "Move right",
+  "/actions/camera/in/cammoveupanalog" : "Move up",
+  "/actions/camera/in/cammovedownanalog" : "Move down",
+  "/actions/camera/in/camturnleftanalog" : "Turn left",
+  "/actions/camera/in/camturnrightanalog" : "Turn right",
+  "/actions/camera/in/camturnupanalog" : "Turn up",
+  "/actions/camera/in/camturndownanalog" : "Turn down",
+  "/actions/camera/in/camturncwanalog" : "Turn clockwise",
+  "/actions/camera/in/camturnccwanalog" : "Turn counterclockwise",
+  "/actions/camera/in/camincspeedanalog" : "Increase velocity",
+  "/actions/camera/in/camdecspeedanalog" : "Decrease velocity",
+  "/actions/camera/in/camincstereobaseanalog" : "Increase stereobase",
+  "/actions/camera/in/camdecstereobaseanalog" : "Decrease stereobase",
+  "/actions/camera/in/caminctimescaleanalog" : "Accelerate time speed",
+  "/actions/camera/in/camdectimescaleanalog" : "Decelerate time speed",
+  "/actions/camera/in/camincexposureanalog" : "Increase exposure compensation",
+  "/actions/camera/in/camdecexposureanalog" : "Decrease exposure compensation",
+  "/actions/camera/in/camscrollupanalog" : "Interface scroll up",
+  "/actions/camera/in/camscrolldownanalog" : "Interface scroll down",
+  "/actions/ship/in/shipmoveforwardanalog" : "Move forward",
+  "/actions/ship/in/shipmovebackanalog" : "Move back",
+  "/actions/ship/in/shipmoveleftanalog" : "Move left",
+  "/actions/ship/in/shipmoverightanalog" : "Move right",
+  "/actions/ship/in/shipmoveupanalog" : "Move up",
+  "/actions/ship/in/shipmovedownanalog" : "Move down",
+  "/actions/ship/in/shipturnleftanalog" : "Turn left",
+  "/actions/ship/in/shipturnrightanalog" : "Turn right",
+  "/actions/ship/in/shipturnupanalog" : "Turn up",
+  "/actions/ship/in/shipturndownanalog" : "Turn down",
+  "/actions/ship/in/shipturncwanalog" : "Turn clockwise",
+  "/actions/ship/in/shipturnccwanalog" : "Turn counterclockwise",
+  "/actions/ship/in/shiprudderplusanalog" : "Rudder +",
+  "/actions/ship/in/shiprudderminusanalog" : "Rudder -",
+  "/actions/ship/in/shipelevatorplusanalog" : "Elevator +",
+  "/actions/ship/in/shipelevatorminusanalog" : "Elevator -",
+  "/actions/ship/in/shipaileronsplusanalog" : "Ailerons +",
+  "/actions/ship/in/shipaileronsminusanalog" : "Ailerons -",
+  "/actions/ship/in/shipflapsplusanalog" : "Flaps +",
+  "/actions/ship/in/shipflapsminusanalog" : "Flaps -",
+  "/actions/ship/in/shipmainengineplusanalog" : "Main engines +",
+  "/actions/ship/in/shipmainengineminusanalog" : "Main engines -",
+  "/actions/ship/in/shipretroengineplusanalog" : "Retro engines +",
+  "/actions/ship/in/shipretroengineminusanalog" : "Retro engines -",
+  "/actions/ship/in/shiphoverengineplusanalog" : "Hover engines +",
+  "/actions/ship/in/shiphoverengineminusanalog" : "Hover engines -",
+  "/actions/ship/in/shipwarpdriveplusanalog" : "Warp drive +",
+  "/actions/ship/in/shipwarpdriveminusanalog" : "Warp drive -",
+  "/actions/chart/in/chartmoveforwardanalog" : "Move forward",
+  "/actions/chart/in/chartmovebackanalog" : "Move back",
+  "/actions/chart/in/chartmoveleftanalog" : "Move left",
+  "/actions/chart/in/chartmoverightanalog" : "Move right",
+  "/actions/chart/in/chartmoveupanalog" : "Move up",
+  "/actions/chart/in/chartmovedownanalog" : "Move down",
+  "/actions/chart/in/chartturnleftanalog" : "Turn left",
+  "/actions/chart/in/chartturnrightanalog" : "Turn right",
+  "/actions/chart/in/chartturnupanalog" : "Turn up",
+  "/actions/chart/in/chartturndownanalog" : "Turn down",
+  "/actions/chart/in/chartturncwanalog" : "Turn clockwise",
+  "/actions/chart/in/chartturnccwanalog" : "Turn counterclockwise"
+  }
+]
+}

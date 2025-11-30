@@ -2,11 +2,11 @@ Planet	"Ignus/Lercurnis B V"
 {
 	ParentBody     "Kond"
 	Class          "Ferria"
-	Mass            8.7
-	Radius          1.15e+04
+	Mass            8.69999981
+	Radius          11500
 	InertiaMoment   0.331
 	Obliquity       0.1
-	EqAscendNode    -68.7
+	EqAscendNode    -68.7022901
 	TidalLocked     true
 
 	AbsMagn         -5.08
@@ -23,10 +23,10 @@ Planet	"Ignus/Lercurnis B V"
 		Randomize      (0.443, 0.565, 0.015)
 		colorDistMagn   0.0833
 		colorDistFreq   1.01e+03
-		detailScale     1.83e+08
+		detailScale     128
 		drivenDarkening 0
 		seaLevel        0.00763
-		snowLevel       0.763
+		snowLevel       2
 		tropicLatitude  0
 		icecapLatitude  2
 		icecapHeight    0
@@ -121,7 +121,7 @@ Planet	"Ignus/Lercurnis B V"
 		ModulateBright  1
 		mainFreq        1.42
 		mainOctaves     0
-		Coverage        0.641
+		Coverage        0.481
 		stripeZones     1
 		stripeTwist     3.5
 	}
@@ -137,10 +137,10 @@ Planet	"Ignus/Lercurnis B V"
 		SpotWidth       0.03
 		DayAmbient      0.07
 		ModulateBright  1
-		Opacity         0.641
+		Opacity         0.733
 		mainFreq        1.42
 		mainOctaves     0
-		Coverage        0.641
+		Coverage        0.481
 		stripeZones     1
 		stripeTwist     3.5
 	}
@@ -159,7 +159,7 @@ Planet	"Ignus/Lercurnis B V"
 		Opacity         0.504
 		mainFreq        1.42
 		mainOctaves     0
-		Coverage        0.641
+		Coverage        0.481
 		stripeZones     1
 		stripeTwist     3.5
 	}
@@ -210,20 +210,12 @@ Planet	"Ignus/Lercurnis B V"
 
 	NoAccretionDisk true
 
-	CometTail
-	{
-		MaxLength   0.011326
-		GasToDust   0
-		Particles   10000
-		GasBright   0.001
-		DustBright  0.02
-		GasColor   (0.000 0.000 0.000)
-		DustColor  (0.016 0.023 0.031)
-	}
+	NoCometTail     true
 
 	Orbit
 	{
 		RefPlane        "Equator"
+		Period          0.0698142569
 		SemiMajorAxis   0.0836349064
 		Eccentricity    0.0152671756
 		Inclination     0.1

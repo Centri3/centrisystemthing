@@ -2,11 +2,11 @@ Planet	"Rock/Lercurnis B III"
 {
 	ParentBody     "Kond"
 	Class          "Terra"
-	Mass            0.0070733
+	Mass            0.00707329996
 	Radius          1300
-	InertiaMoment   0.38017
+	InertiaMoment   0.380169988
 	Obliquity       3
-	EqAscendNode    -140.15
+	EqAscendNode    -140.152672
 	TidalLocked     true
 
 	AlbedoBond      0.3
@@ -17,61 +17,61 @@ Planet	"Rock/Lercurnis B III"
 	Surface
 	{
 		Preset         "lercurnis_kond_rock.cfg"
-		SurfStyle       0.2559
+		SurfStyle       0.256
 		Randomize      (-0.580, 0.533, -0.025)
-		colorDistMagn   0.058321
-		colorDistFreq   189.18
+		colorDistMagn   0.0583
+		colorDistFreq   189
 		detailScale     128
 		drivenDarkening 0
-		seaLevel        -0.12977
+		seaLevel        -0.13
 		snowLevel       2
 		tropicLatitude  0
-		icecapLatitude  1.3588
-		icecapHeight    0.53673
-		climatePole     0.4375
-		climateTropic   0.3125
-		climateEquator  0.6875
+		icecapLatitude  1.36
+		icecapHeight    0.537
+		climatePole     0.438
+		climateTropic   0.313
+		climateEquator  0.688
 		climateSteppeMin -1
 		climateSteppeMax -1
 		climateForestMin -1
 		climateForestMax -1
 		climateGrassMin  -1
 		climateGrassMax  -1
-		humidity        0.28432
+		humidity        0.284
 		heightTempGrad  0.625
-		beachWidth      0.001169
+		beachWidth      0.00117
 		tropicWidth     0.07
-		mainFreq        1.9996
-		venusFreq       1.3748
+		mainFreq        2
+		venusFreq       1.37
 		venusMagn       0
-		mareFreq        0.040169
-		mareDensity     0.10536
-		terraceProb     0.35113
+		mareFreq        0.0402
+		mareDensity     0.105
+		terraceProb     0.351
 		erosion         0
 		montesMagn      0.05
 		montesFreq      25
 		montesSpiky     1
 		montesFraction  1
-		dunesMagn       0.0039411
-		dunesFreq       7.8783
-		dunesFraction   0.74625
-		hillsMagn       1.0687
+		dunesMagn       0.00394
+		dunesFreq       7.88
+		dunesFraction   0.746
+		hillsMagn       1.07
 		hillsFreq       25
 		hillsFraction   1
 		hills2Fraction  1
-		riversMagn      4.2315
-		riversFreq      3.884
-		riversSin       7.1753
-		riftsMagn       4.2096
-		riftsFreq       4.1046
-		riftsSin        5.0904
-		eqridgeMagn     0.51908
+		riversMagn      4.23
+		riversFreq      3.88
+		riversSin       7.18
+		riftsMagn       4.21
+		riftsFreq       4.1
+		riftsSin        5.09
+		eqridgeMagn     0.519
 		eqridgeWidth    1
 		eqridgeModMagn  2.5
-		eqridgeModFreq  1.8321
-		canyonsMagn     0.050567
-		canyonsFreq     0.40976
-		canyonsFraction 0.58772
+		eqridgeModFreq  1.83
+		canyonsMagn     0.0506
+		canyonsFreq     0.41
+		canyonsFraction 0.588
 		cracksMagn      0
 		cracksFreq      15
 		cracksOctaves   15
@@ -79,19 +79,19 @@ Planet	"Rock/Lercurnis B III"
 		craterFreq      2
 		craterDensity   1
 		craterOctaves   30
-		craterRayedFactor 0.81679
+		craterRayedFactor 0.817
 		volcanoMagn     0
-		volcanoFreq     0.32061
-		volcanoDensity  0.17557
+		volcanoFreq     0.321
+		volcanoDensity  0.176
 		volcanoOctaves  5
 		volcanoActivity 2
 		volcanoFlows    1
 		volcanoRadius   1
-		volcanoTemp     1374
+		volcanoTemp     1.37e+03
 		lavaCoverTidal  0
 		lavaCoverSun    0.04
 		lavaCoverYoung  0
-		BumpHeight      27.717
+		BumpHeight      27.7
 		SpecBrightWater 0
 		SpecBrightIce   0.03
 		RoughnessWater  0.35
@@ -113,6 +113,11 @@ Planet	"Rock/Lercurnis B III"
 
 	NoAtmosphere    true
 
+	Climate
+	{
+		GlobalWindSpeed  0
+	}
+
 	NoAurora        true
 
 	NoRings         true
@@ -124,6 +129,7 @@ Planet	"Rock/Lercurnis B III"
 	Orbit
 	{
 		RefPlane        "Equator"
+		Period          0.0100746688
 		SemiMajorAxis   0.0230080876
 		Eccentricity    0.0763358779
 		Inclination     3

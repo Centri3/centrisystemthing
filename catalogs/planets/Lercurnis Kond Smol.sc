@@ -2,13 +2,13 @@ Planet	"Smol/Lercurnis B I"
 {
 	ParentBody     "Kond"
 	Class          "Ferria"
-	Mass            0.0119
-	Radius          1.42e+03
-	InertiaMoment   0.372
-	Oblateness      0.00282
+	Mass            0.0119000003
+	Radius          1420
+	InertiaMoment   0.372000009
+	Oblateness      0.00282000005
 	RotationOffset  85
 	Obliquity       3
-	EqAscendNode    121
+	EqAscendNode    120.900786
 	TidalLocked     true
 
 	AbsMagn         -0.546
@@ -25,7 +25,7 @@ Planet	"Smol/Lercurnis B I"
 		Randomize      (1.023, 1.053, 0.809)
 		colorDistMagn   0.0492
 		colorDistFreq   177
-		detailScale     128
+		detailScale     32
 		drivenDarkening -0.527
 		seaLevel        -0.382
 		snowLevel       2
@@ -156,6 +156,7 @@ Planet	"Smol/Lercurnis B I"
 	Orbit
 	{
 		RefPlane        "Equator"
+		Period          0.0025186675
 		SemiMajorAxis   0.00913076653
 		Eccentricity    0.05
 		Inclination     3

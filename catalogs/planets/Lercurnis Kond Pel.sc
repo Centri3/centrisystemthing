@@ -3,10 +3,10 @@ Planet	"Pel/Lercurnis B VII"
 	ParentBody     "Kond"
 	Class          "Jupiter"
 	Mass            391
-	Radius          7.47e+04
-	InertiaMoment   0.249
-	Obliquity       -0.152
-	EqAscendNode    164
+	Radius          74700
+	InertiaMoment   0.248999998
+	Obliquity       -0.152067873
+	EqAscendNode    164.055176
 	TidalLocked     true
 
 	AlbedoBond      0.3
@@ -18,7 +18,7 @@ Planet	"Pel/Lercurnis B VII"
 	{
 		Preset         "lercurnis_kond_pel.cfg"
 		SurfStyle       0.225
-		Randomize      (-0.595, 1.176, -1.511)
+		Randomize      (0.015, -0.779, 0.534)
 		detailScale     256
 		tropicLatitude  0
 		icecapLatitude  0.9
@@ -34,13 +34,13 @@ Planet	"Pel/Lercurnis B VII"
 		lavaCoverTidal  0
 		lavaCoverSun    0
 		lavaCoverYoung  0
-		stripeZones     6.49
-		stripeFluct     1.13
+		stripeZones     2.98
+		stripeFluct     0.427
 		stripeTwist     3
 		cycloneMagn     1.53
 		cycloneFreq     0.55
 		cycloneDensity  0.458
-		cycloneOctaves  10
+		cycloneOctaves  0
 		cycloneMagn2     0
 		cycloneFreq2     0
 		cycloneLatitude2 0
@@ -63,20 +63,20 @@ Planet	"Pel/Lercurnis B VII"
 	{
 		Height          0.102
 		Velocity        -27
-		BumpHeight      4.42
+		BumpHeight      348
 		Gamma           0.6
-		Hapke           0.634
+		Hapke           1
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
 		RingsWinter     0
 		ModulateBright  1
-		Opacity         0.198
-		mainFreq        2.4
-		mainOctaves     20
+		Opacity         0.0916
+		mainFreq        1.03
+		mainOctaves     15
 		Coverage        0.237
-		stripeZones     6.49
-		stripeFluct     1.13
+		stripeZones     2.98
+		stripeFluct     0.427
 		stripeTwist     3
 	}
 
@@ -84,19 +84,19 @@ Planet	"Pel/Lercurnis B VII"
 	{
 		Height          0.102
 		Velocity        -366
-		BumpHeight      4.42
+		BumpHeight      185
 		Hapke           0.611
 		SpotBright      2
 		SpotWidth       0.03
 		DayAmbient      0.07
 		RingsWinter     0
 		ModulateBright  1
-		Opacity         0.443
-		mainFreq        2.4
-		mainOctaves     20
+		Opacity         0.0153
+		mainFreq        1.03
+		mainOctaves     15
 		Coverage        0.237
-		stripeZones     6.49
-		stripeFluct     1.13
+		stripeZones     2.98
+		stripeFluct     0.427
 		stripeTwist     3
 	}
 
@@ -105,12 +105,12 @@ Planet	"Pel/Lercurnis B VII"
 	Atmosphere
 	{
 		Model          "Lercurnis Kond Pel"
-		Height          500
-		Density         1e+04
-		Pressure        1e+06
+		Height          2500
+		Density         10000
+		Pressure        1000000
 		Bright          2
 		Opacity         0.2
-		SkyLight        1
+		SkyLight        0
 		Hue             0
 		Saturation      1
 
@@ -175,7 +175,7 @@ Planet	"Pel/Lercurnis B VII"
 		InnerRadius     1.26e+05
 		OuterRadius     5.12e+05
 		EdgeRadius      5.12e+05
-		MeanRadius      2.54e+05
+		MeanRadius      2.55e+05
 		Thickness       7.04
 		RocksMaxSize    0.179
 		RocksSpacing    29.2
@@ -212,6 +212,7 @@ Planet	"Pel/Lercurnis B VII"
 	Orbit
 	{
 		RefPlane        "Equator"
+		Period          0.288666779
 		SemiMajorAxis   0.216139601
 		Eccentricity    0
 		Inclination     -0.152067873
